@@ -2,11 +2,11 @@
 
 > Source: Troubleshooting_数据表.csv · Records: 13
 
-## 1. 卫星地图 — 地图丢失
+## 1. 卫星地图 — 地图丢失 mapping lost
 
 **Primary Symptom:** 卫星地图
 
-**Secondary Symptom:** 地图丢失
+**Secondary Symptom:** change
 
 **Solution:**
 
@@ -19,9 +19,6 @@
 
 **Query Page:** —
 
-
-
-abcd
 ## 2. 卫星地图 — 卫星地图偏差
 
 **Primary Symptom:** 卫星地图
