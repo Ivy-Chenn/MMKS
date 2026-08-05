@@ -1,507 +1,612 @@
-# Positioning
+#Positioning Troubleshooting
 
-> Source: Troubleshooting_数据表.csv · Records: 29
+##Positioning Issue - Poor Positioning, Environmental Issue
 
-## 1. 定位问题 — 定位状态差，环境问题
+**Error Code:**
 
-**Primary Symptom:** 定位问题
-
-**Secondary Symptom:** 定位状态差，环境问题
-
-**Solution:**
-
-1. 检查RTK基站是否正常开机上电，如RTK基站异常尝试补发
-1. 判断用户所在区域，如在欧洲/英国考虑升级固件和手动升级RTK
-
-**Remarks:** 1300定位状态差
-1303/1304
-
-**Applicable Models:** luba1, luba2, luba mini, luba mini LiDAR
-
-**Query Page:** —
-
-## 2. 定位问题 — 定位校准失败
-
-**Primary Symptom:** 定位问题
-
-**Secondary Symptom:** 定位校准失败
+- 1300 Poor positioning status
+- 1303/1304
 
 **Solution:**
 
-1. 检查报错是否只出现在边界附件
-1. 控车离开边界，到开阔作业区域位置
-1. 检查app中是否伴随其他报错
+1. Check whether the RTK base station is properly powered on; if the RTK base station is abnormal, try to send a replacement.
+2. Determine the user's region. For users in Europe / the UK, consider upgrading the firmware and manually upgrading the RTK.
 
-**Remarks:** 1300定位状态差
-1314定位精度差
+**Query Page:**
 
-**Applicable Models:** luba1, luba mini, luba mini LiDAR
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**Query Page:** —
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-## 3. 定位问题 — app车位置偏移
+**If not sloved:**
+ `Needs FAE Upgrade`
 
-**Primary Symptom:** 定位问题
+---
 
-**Secondary Symptom:** app车位置偏移
+##Positioning Issue - Positioning Calibration Failed
 
-**Solution:**
+**Error Code:**
 
-1. 检查app和固件是否为最新版本
-
-**Remarks:** —
-
-**Applicable Models:** —
-
-**Query Page:** —
-
-## 4. 定位问题 — 定位报错/充电桩定位偏移/POS非Good状态
-
-**Primary Symptom:** 定位问题
-
-**Secondary Symptom:** 定位报错/充电桩定位偏移/POS非Good状态
+- 1300 Poor positioning status
+- 1314 Poor positioning accuracy
 
 **Solution:**
 
-1. 确认是否绑定了RTK基站
-1. 确认固件是否为最新版本，以及RTK是否正常上电
-1. 检查割草机和RTK的link mode一致
-1. 确保app中RTK lora number和RTK机身上的标签带有的一致
-1. 若以上没问题但仍无法解决，更换RTK
+1. Check whether the error only occurs near the boundary.
+2. Manually drive the mower away from the boundary to an open working area.
+3. Check whether there are any other errors in the app.
 
-**Remarks:** —
+**Query Page:**
 
-**Applicable Models:** luba2
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**Query Page:** —
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-## 5. 充电桩问题 — 无法出桩自动作业
+**If not sloved:**
+ `Needs FAE Upgrade`
 
-**Primary Symptom:** 充电桩问题
+---
 
-**Secondary Symptom:** 无法出桩自动作业
-
-**Solution:**
-
-1. 检查充电桩是否位于开阔位置
-1. 检查RTK基站是否正常上电，如不正常则更换基站后重新测试
-
-**Remarks:** —
-
-**Applicable Models:** luba1, luba2
-
-**Query Page:** —
-
-## 6. 充电桩问题 — app提示设备不在工作区域内但实际在充电
-
-**Primary Symptom:** 充电桩问题
-
-**Secondary Symptom:** app提示设备不在工作区域内但实际在充电
+##Positioning Issue - App Vehicle Position Offset
 
 **Solution:**
 
-1. 检查充电桩所谓位置的周围环境是否有树/墙/建筑等遮挡物，应该将其安装在空旷的位置
-1. 核实适用的定位模式，如果是RTK则需要检查RTK基站安装的位置是否有遮挡物
+1. Check whether the app and the firmware are the latest versions.
 
-**Remarks:** —
+**Query Page:**
 
-**Applicable Models:** luba mini, luba mini LiDAR
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**Query Page:** —
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-## 7. 充电桩问题 — 下桩后停在桩前不动
+**If not sloved:**
+ `Needs FAE Upgrade`
 
-**Primary Symptom:** 充电桩问题
+---
 
-**Secondary Symptom:** 下桩后停在桩前不动
-
-**Solution:**
-
-1. 检查充电桩所谓位置的周围环境是否有树/墙/建筑等遮挡物，应该将其安装在空旷的位置
-1. 核实适用的定位模式，如果是RTK则需要检查RTK基站安装的位置是否有遮挡物
-
-**Remarks:** 1105下桩后停在桩前不动
-
-**Applicable Models:** luba mini, luba mini LiDAR
-
-**Query Page:** —
-
-## 8. RTK — RTK基站断开连接
-
-**Primary Symptom:** RTK
-
-**Secondary Symptom:** RTK基站断开连接
+##Positioning Issue - Positioning Error / Station Position Offset / POS Not Good
 
 **Solution:**
 
-1. 核实机器人和RTK基站定位模式是否一致
-1. 核实机器人和RTK的lora号是否一致，不同则改为一致
-1. 核实机器人和RTK是否都有搜星数，若机器人搜星数为0则尝试多次重启设备，若RTK基站搜星数为0则检查RTK基站指示灯状态
-1. 若RTK基站指示灯异常，检查充电桩后面的电源线接口，若正常则更换RTK适配器，若故障则进行不良品回收
+1. Confirm whether the RTK base station is bound.
+2. Confirm whether the firmware is the latest version, and whether the RTK is properly powered on.
+3. Check that the link mode of the mower and the RTK are consistent.
+4. Ensure that the RTK LoRa number in the app matches the one on the RTK body label.
+5. If the above checks pass but the issue persists, replace the RTK.
 
-**Remarks:** 1551 RTK断连报警
+**Query Page:**
 
-**Applicable Models:** —
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**Query Page:** —
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-## 9. RTK — RTK指示灯不正常
+**If not sloved:**
+ `Needs FAE Upgrade`
 
-**Primary Symptom:** RTK
+---
 
-**Secondary Symptom:** RTK指示灯不正常
-
-**Solution:**
-
-1. 检查是否只是夜间不亮灯，升级后为正常现象
-1. 如非夜间也不亮灯，则尝试其他供电方案（充电桩/RTK适配器）
-1. RTK适配器供电正常，则检查充电桩连接基站接口是否损坏
-1. 充电桩供电正常，则补发RTK适配器
-1. 若都不正常，补发RTK
-
-**Remarks:** —
-
-**Applicable Models:** luba1, luba2, luba3, luba2x
-
-**Query Page:** —
-
-## 10. RTK — RTK一直亮红灯/闪红灯
-
-**Primary Symptom:** RTK
-
-**Secondary Symptom:** RTK一直亮红灯/闪红灯
+##Docking Issue - Cannot Exit Station to Auto-Work
 
 **Solution:**
 
-1. 检查RTK重新上电后是否正常
-1. 若仍然异常则补发新基站
+1. Check whether the charging station is located in an open area.
+2. Check whether the RTK base station is properly powered on; if not, replace the base station and re-test.
 
-**Remarks:** —
+**Query Page:**
 
-**Applicable Models:** luba1, luba2
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**Query Page:** —
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-## 11. RTK — RTK灯灭无卫星信号，需重启才能再次工作
+**If not sloved:**
+ `Needs Repair`
 
-**Primary Symptom:** RTK
+---
 
-**Secondary Symptom:** RTK灯灭无卫星信号，需重启才能再次工作
-
-**Solution:**
-
-1. 检查割草机和RTK固件是否为最新
-
-**Remarks:** —
-
-**Applicable Models:** luba2
-
-**Query Page:** —
-
-## 12. RTK — RTK-LoRa模式切换后连接不上
-
-**Primary Symptom:** RTK
-
-**Secondary Symptom:** RTK-LoRa模式切换后连接不上
+##Docking Issue - App Shows Device Not in Work Zone but Actually Charging
 
 **Solution:**
 
-1. 检查RTK是否可以手动添加，如未绑定则重新添加
-1. 检查割草机和RTK的link mode是否一致，需设置为相同
+1. Check the surroundings of the charging station's location for any obstructions such as trees / walls / buildings; it should be installed in an open area.
+2. Verify the applicable positioning mode. If it is RTK, check whether the RTK base station installation position has any obstructions.
 
-**Remarks:** —
+**If not sloved:**
+ `Needs FAE Upgrade`
 
-**Applicable Models:** luba2
+---
 
-**Query Page:** —
+##Docking Issue - Stops in Front of Station After Exiting
 
-## 13. RTK — App连不上RTK/RTK连不上WiFi
+**Error Code:**
 
-**Primary Symptom:** RTK
-
-**Secondary Symptom:** App连不上RTK/RTK连不上WiFi
-
-**Solution:**
-
-1. 检查WiFi是否为2.4GHz或者2.4/5GHz网络及热点，如果不是则需切换至
-1. 检查WiFi路由器是否设置了加密等级限制或者IP接入点不够分配
-
-**Remarks:** —
-
-**Applicable Models:** luba2, luba3, luba2x
-
-**Query Page:** —
-
-## 14. RTK — App连不上RTK/蓝牙连接失败
-
-**Primary Symptom:** RTK
-
-**Secondary Symptom:** App连不上RTK/蓝牙连接失败
+- 1105 Mower stops in front of the dock after leaving it
 
 **Solution:**
 
-1. 检查RTK指示灯，并且排查WiFi/蓝牙/4G问题
-1. 可以尝试用其他手机通过蓝牙连接RTK，安卓手机用自带功能搜索蓝牙，苹果手机可以通过BLE scanner或者其他蓝牙扫描app进行扫描
+1. Check the surroundings of the charging station's location for any obstructions such as trees / walls / buildings; it should be installed in an open area.
+2. Verify the applicable positioning mode. If it is RTK, check whether the RTK base station installation position has any obstructions.
 
-**Remarks:** —
+**Query Page:**
 
-**Applicable Models:** luba3, luba2x
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**Query Page:** —
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-## 15. RTK适配器 — RTK电源适配器指示灯异常
+**If not sloved:**
+ `Needs FAE Upgrade`
 
-**Primary Symptom:** RTK适配器
+---
 
-**Secondary Symptom:** RTK电源适配器指示灯异常
+##RTK - RTK Base Station Disconnected
 
-**Solution:**
+**Error Code:**
 
-1.确认插座供电正常 2.交叉验证：RTK基站支持RTK适配器和充电桩供电口供电 3.确认灯语
-
-**Remarks:** —
-
-**Applicable Models:** luba3, luba2x
-
-**Query Page:** —
-
-## 16. RTK适配器 — RTK电源适配器电压异常
-
-**Primary Symptom:** RTK适配器
-
-**Secondary Symptom:** RTK电源适配器电压异常
+- 1551 RTK disconnection alarm
 
 **Solution:**
 
-1. 判断/测试RTK电源适配器电压是否为正常12V左右
+1. Verify that the positioning modes of the robot and the RTK base station are consistent.
+2. Verify that the LoRa numbers of the robot and the RTK are consistent; if they differ, change them to be consistent.
+3. Verify that both the robot and the RTK have a satellite count. If the robot's satellite count is 0, try restarting the device multiple times. If the RTK base station's satellite count is 0, check the RTK base station indicator status.
+4. If the RTK base station indicator is abnormal, check the power cable interface on the back of the charging station. If the interface is normal, replace the RTK adapter; if the interface is faulty, perform a defective product return.
 
-**Remarks:** —
+**If not sloved:**
+ `Needs Repair`
 
-**Applicable Models:** luba3, luba2x
+---
 
-**Query Page:** —
-
-## 17. iNavi — 定位无响应
-
-**Primary Symptom:** iNavi
-
-**Secondary Symptom:** 定位无响应
+##RTK - RTK Indicator Light Abnormal
 
 **Solution:**
 
-1. 检查是否为最新固件版本，若不是则需要更新
+1. Check whether the indicator is off only at night. After the upgrade, this is normal.
+2. If the indicator is also off during the daytime, try other power supply options (charging station / RTK adapter).
+3. If the RTK adapter power supply works normally, check whether the interface on the charging station that connects to the base station is damaged.
+4. If the charging station power supply works normally, send a replacement RTK adapter.
+5. If neither option works normally, send a replacement RTK.
 
-**Remarks:** 1000020 定位无响应
+**If not sloved:**
+ `Needs Repair`
 
-**Applicable Models:** luba3, luba2x
+---
 
-**Query Page:** —
-
-## 18. iNavi — 定位失败
-
-**Primary Symptom:** iNavi
-
-**Secondary Symptom:** 定位失败
-
-**Solution:**
-
-1. 确认是否在区域外建图时报错，需要开到区域内或充电桩上才能开始建图
-1. 需要升级最近固件版本
-
-**Remarks:** 1000019 定位失败
-
-**Applicable Models:** luba3, luba2x
-
-**Query Page:** —
-
-## 19. iNavi — 车在狭窄通道或狭窄区丢失定位
-
-**Primary Symptom:** iNavi
-
-**Secondary Symptom:** 车在狭窄通道或狭窄区丢失定位
+##RTK - RTK Solid Red / Flashing Red Light
 
 **Solution:**
 
-1. 检查是否为最新固件版本，若不是则需要更新
+1. Check whether the RTK works normally after being powered on again.
+2. If the issue persists, send a replacement base station.
 
-**Remarks:** 1314定位精度差
-1300工作环境中遮挡
+**If not sloved:**
+ `Needs Repair`
 
-**Applicable Models:** luba3, luba2x
+---
 
-**Query Page:** —
-
-## 20. iNavi — iNavi定位信号差
-
-**Primary Symptom:** iNavi
-
-**Secondary Symptom:** iNavi定位信号差
+##RTK - RTK Light Off, No Satellite Signal, Needs Restart
 
 **Solution:**
 
-1. 确认iNavi所用的模式时WiFi还是4G（可同时使用但iNavi优先）
-1. 两者切换交叉验证
+1. Check whether both the mower and the RTK firmware are the latest versions.
 
-**Remarks:** 1314定位精度差
-1554 WiFi网络不稳定
-1556 4G网络不稳定
+**If not sloved:**
+ `Needs Repair`
 
-**Applicable Models:** luba3, luba2x
+---
 
-**Query Page:** —
-
-## 21. iNavi — 定位超时/地图变形/定位无响应
-
-**Primary Symptom:** iNavi
-
-**Secondary Symptom:** 定位超时/地图变形/定位无响应
+##RTK - Cannot Connect After RTK-LoRa Mode Switch
 
 **Solution:**
 
-1. 检查是否为最新固件版本，若不是则需要更新
+1. Check whether the RTK can be added manually; if it is not bound, add it again.
+2. Check that the link mode of the mower and the RTK are consistent; they need to be set to the same mode.
 
-**Remarks:** 1418定位超时
+**If not sloved:**
+ `Needs Repair`
 
-**Applicable Models:** luba3, luba2x
+---
 
-**Query Page:** —
-
-## 22. iNavi — 卫星地图偏差
-
-**Primary Symptom:** iNavi
-
-**Secondary Symptom:** 卫星地图偏差
+##RTK - App Cannot Connect to RTK / RTK Cannot Connect to WiFi
 
 **Solution:**
 
-1. 检查是否为最新固件版本，若不是则需要更新
+1. Check whether the Wi-Fi is a 2.4GHz or 2.4/5GHz network/hotspot. If not, switch to one of these bands.
+2. Check whether the Wi-Fi router has encryption-level restrictions or insufficient IP address pool.
 
-**Remarks:** —
+**If not sloved:**
+ `Needs Repair`
 
-**Applicable Models:** luba3, luba2x
+---
 
-**Query Page:** —
-
-## 23. iNavi — iNavi网络不稳定/4G或WiFi连接异常
-
-**Primary Symptom:** iNavi
-
-**Secondary Symptom:** iNavi网络不稳定/4G或WiFi连接异常
+##RTK - App Cannot Connect to RTK / Bluetooth Connection Failed
 
 **Solution:**
 
-1.检查WiFi和4G网络，若信号差可尝试连接其他网络或者手机热点
+1. Check the RTK indicator and troubleshoot any Wi-Fi / Bluetooth / 4G issues.
+2. You can try connecting to the RTK via Bluetooth from another phone. Android phones can use the built-in Bluetooth search function; iPhones can use a BLE scanner or another Bluetooth-scanning app to scan.
 
-**Remarks:** 1554 网络报错
-1556 iNavi联网异常
+**If not sloved:**
+ `Needs Repair`
 
-**Applicable Models:** luba3, luba2x
+---
 
-**Query Page:** —
-
-## 24. iNavi — POS状态为Single
-
-**Primary Symptom:** iNavi
-
-**Secondary Symptom:** POS状态为Single
+##RTK Adapter - RTK Power Adapter Indicator Light Abnormal
 
 **Solution:**
 
-1. 检查app和固件是否为最新版本
-1. 检查网络信号，考虑切换到4G或其他WiFi网络，再尝试重启设备，重新尝试连接iNavi
-1. 如果不是网络问题，则将link mode切换到其他，然后切回iNavi，再重启设备
+1. Confirm that the power socket is supplying power normally.
+2. Cross-verify: the RTK base station supports power supply from the RTK adapter and from the charging station's power port.
+3. Confirm the indicator status.
 
-**Remarks:** —
+**If not sloved:**
+ `Needs Repair`
 
-**Applicable Models:** luba3, luba2x
+---
 
-**Query Page:** —
-
-## 25. 定位问题 — 地图变形/偏移/通道消失/充电桩位置偏移
-
-**Primary Symptom:** 定位问题
-
-**Secondary Symptom:** 地图变形/偏移/通道消失/充电桩位置偏移
+##RTK Adapter - RTK Power Adapter Voltage Abnormal
 
 **Solution:**
 
-1. 提供充电桩位置照片和周围环境照片
+1. Check / test that the voltage of the RTK power adapter is approximately the normal 12V.
 
-**Remarks:** 1300/1000019
+**If not sloved:**
+ `Needs Repair`
 
-**Applicable Models:** —
+---
 
-**Query Page:** —
+##iNavi - Positioning No Response
 
-## 26. 定位问题 — 定位无响应
+**Error Code:**
 
-**Primary Symptom:** 定位问题
-
-**Secondary Symptom:** 定位无响应
-
-**Solution:**
-
-1. 提供现场及周围环境
-1. 提供app报错截图
-1. 更新固件和app至最新版本
-1. 尝试重启设备，如果重启未解决，则删除地图重新画或者回复出厂设置（同时提醒用户该操作需要重新绑定和配置设备）
-
-**Remarks:** 1000020定位无响应
-
-**Applicable Models:** —
-
-**Query Page:** —
-
-## 27. 定位问题 — 定位丢失/地图绘制失败
-
-**Primary Symptom:** 定位问题
-
-**Secondary Symptom:** 定位丢失/地图绘制失败
+- 1000020 No response from positioning
 
 **Solution:**
 
-1. 收集摄像头状态+现场环境+app报错+固件版本信息检查+重启
-1. 检查是否忘记撕掉镜头膜
+1. Check whether the firmware is the latest version; if not, it needs to be updated.
 
-**Remarks:** 1315 因定位丢失导致地图绘制/建图失败
+**Query Page:**
 
-**Applicable Models:** —
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**Query Page:** —
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-## 28. 定位问题 — 检测到充电桩位置变动
+**If not sloved:**
+ `Needs FAE Upgrade`
 
-**Primary Symptom:** 定位问题
+---
 
-**Secondary Symptom:** 检测到充电桩位置变动
+##iNavi - Positioning Failed
 
-**Solution:**
+**Error Code:**
 
-1. 检查现场环境，app报错，确认充电桩附近的障碍物/物体是否移动过
-1. 如有物体移动，则重新定位充电桩的位置
-
-**Remarks:** 1132 检测到充电桩位置变动
-
-**Applicable Models:** —
-
-**Query Page:** —
-
-## 29. 定位问题 — 定位超时/地图变形/定位无响应
-
-**Primary Symptom:** 定位问题
-
-**Secondary Symptom:** 定位超时/地图变形/定位无响应
+- 1000019 Positioning failed
 
 **Solution:**
 
-1. 提供现场及周围环境
-1. 提供app报错截图
-1. 更新固件和app至最新版本
-1. 尝试重启设备，如果重启未解决，则删除地图重新画或者回复出厂设置（同时提醒用户该操作需要重新绑定和配置设备）
+1. Confirm whether the error is reported when mapping outside the zone; mapping can only be started inside the zone or on the charging station.
+2. The firmware needs to be upgraded to the latest version.
 
-**Remarks:** 1418 定位超时
+**Query Page:**
 
-**Applicable Models:** —
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**Query Page:** —
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+**If not sloved:**
+ `Needs FAE Upgrade`
+
+---
+
+##iNavi - Vehicle Lost Positioning in Narrow Path/Zone
+
+**Error Code:**
+
+- 1314 Poor positioning accuracy
+- 1300 Obstruction in working environment
+
+**Solution:**
+
+1. Check whether the firmware is the latest version; if not, it needs to be updated.
+
+**Query Page:**
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+**If not sloved:**
+ `Needs FAE Upgrade`
+
+---
+
+##iNavi - iNavi Positioning Signal Weak
+
+**Error Code:**
+
+- 1314 Poor positioning accuracy
+- 1554 Unstable Wi-Fi network
+- 1556 Unstable 4G network
+
+**Solution:**
+
+1. Confirm whether the iNavi connection mode is Wi-Fi or 4G (both can be used at the same time, but iNavi takes priority).
+2. Cross-verify by switching between the two.
+
+**Query Page:**
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+**If not sloved:**
+ `Needs FAE Upgrade`
+
+---
+
+##iNavi - Positioning Timeout / Map Distorted / No Response
+
+**Error Code:**
+
+- 1418 Positioning timeout
+
+**Solution:**
+
+1. Check whether the firmware is the latest version; if not, it needs to be updated.
+
+**Query Page:**
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+**If not sloved:**
+ `Needs FAE Upgrade`
+
+---
+
+##iNavi - Satellite Map Offset
+
+**Solution:**
+
+1. Check whether the firmware is the latest version; if not, it needs to be updated.
+
+**Query Page:**
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+**If not sloved:**
+ `Needs FAE Upgrade`
+
+---
+
+##iNavi - iNavi Network Unstable / 4G or WiFi Connection Abnormal
+
+**Error Code:**
+
+- 1554 Network error
+- 1556 iNavi network connection abnormal
+
+**Solution:**
+
+1. Check the Wi-Fi and 4G network. If the signal is poor, try connecting to another network or use the phone's hotspot.
+
+**Query Page:**
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+**If not sloved:**
+ `Needs FAE Upgrade`
+
+---
+
+##iNavi - POS Status Single
+
+**Solution:**
+
+1. Check whether the app and the firmware are the latest versions.
+2. Check the network signal. Consider switching to 4G or another Wi-Fi network, then try restarting the device and re-connecting to iNavi.
+3. If the issue is not network-related, switch the link mode to another option, then switch back to iNavi, and restart the device.
+
+**Query Page:**
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+**If not sloved:**
+ `Needs FAE Upgrade`
+
+---
+
+##Positioning Issue - Map Distorted / Offset / Path Missing / Station Position Offset
+
+**Error Code:**
+
+- 1300/1000019
+
+**Solution:**
+
+1. Provide photos of the charging station's location and the surrounding environment.
+
+**Query Page:**
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+**If not sloved:**
+ `Needs FAE Upgrade`
+
+---
+
+##Positioning Issue - Positioning No Response
+
+**Error Code:**
+
+- 1000020 No response from positioning
+
+**Solution:**
+
+1. Provide photos of the on-site and surrounding environment.
+2. Provide a screenshot of the error in the app.
+3. Update the firmware and the app to the latest versions.
+4. Try restarting the device. If restarting does not resolve the issue, delete the map and re-draw it, or restore factory settings (and remind the user that this requires re-binding and reconfiguring the device).
+
+**Query Page:**
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+**If not sloved:**
+ `Needs FAE Upgrade`
+
+---
+
+##Positioning Issue - Positioning Lost / Map Drawing Failed
+
+**Error Code:**
+
+- 1315 Mapping failed due to positioning loss
+
+**Solution:**
+
+1. Collect the camera status, on-site environment, app error, firmware version, and restart information for troubleshooting.
+2. Check whether the protective film on the lens was forgotten to be removed.
+
+**Query Page:**
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+**If not sloved:**
+ `Needs FAE Upgrade`
+
+---
+
+##Positioning Issue - Charging Station Position Change Detected
+
+**Error Code:**
+
+- 1132 Charging station position change detected
+
+**Solution:**
+
+1. Check the on-site environment and the app error, and confirm whether any obstacles or objects near the charging station have been moved.
+2. If any object has been moved, re-position the charging station.
+
+**Query Page:**
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+**If not sloved:**
+ `Needs FAE Upgrade`
+
+---
+
+##Positioning Issue - Positioning Timeout / Map Distorted / No Response
+
+**Error Code:**
+
+- 1418 Positioning timeout
+
+**Solution:**
+
+1. Provide photos of the on-site and surrounding environment.
+2. Provide a screenshot of the error in the app.
+3. Update the firmware and the app to the latest versions.
+4. Try restarting the device. If restarting does not resolve the issue, delete the map and re-draw it, or restore factory settings (and remind the user that this requires re-binding and reconfiguring the device).
+
+**Query Page:**
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+
+**If not sloved:**
+ `Needs FAE Upgrade`
+
+---
 

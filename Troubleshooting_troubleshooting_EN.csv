@@ -1,0 +1,598 @@
+﻿Functional Module,Primary Symptom,Secondary Symptom,Solution,Related Error Code,Query Page,Applicable Models,If not solved,Level,父记录
+Mapping,Satellite Map,Map Lost,"1. If the RTK base station position changes significantly, the map may be lost and needs to be recreated.
+2. The map may have been manually deleted by mistake.",,,"luba1, luba2, luba2x, yuka 2024",Needs FAE Upgrade,,
+Mapping,Satellite Map,Satellite Map Offset,"1. A certain deviation is normal.
+2. The user can enter the Satellite Map to manually correct the deviation.",,,"luba1, luba2, luba2x, yuka 2024",Needs FAE Upgrade,,
+Mapping,Satellite Map,Satellite Map Background Turns Black,"1. Confirm that both the firmware and the app are the latest versions.
+2. Confirm that the network connection is normal, and check for any issues caused by weak Wi-Fi or 4G signals.",,,luba2x,Needs FAE Upgrade,,
+Mapping,Docking Issue,Cannot Reset Charging Station Position,"1. Check whether the mower's positioning at the dock is ""Good"". If not ""Good"", move the charging station to an open area.
+2. Check whether the charging station is functioning normally.",,,"luba1, luba2, yuka 2024",Needs FAE Upgrade,,
+Mapping,Docking Issue,No Station but App Shows RTK Position Drift,"1. Verify whether the RTK has been reinstalled.
+2. Guide the user to re-position the RTK and re-draw the lawn.
+3. Check whether the RTK is securely installed.",,,"luba2, yuka 2024",Needs FAE Upgrade,,
+Mapping,Docking Issue,No Charging Station but App Prompts Relocation,"1. Return the mower to the charging station and use the ""Relocate Charging Station"" function in the app.
+2. Guide the user to place the charging station in a position with at least 90° of open sky view of the lawn.",1301 Charging station position has been changed,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba2, yuka 2024",Needs FAE Upgrade,,
+Mapping,Path Connection Issue,"App Shows No Path, Customer Gets Error Drawing Path","1. Confirm that both the firmware and the app are the latest versions.
+2. Try to re-position the charging station and redraw the path.",1114 Connection path already exists,,"luba2x, luba mini, luba mini LiDAR, yuka 2025",Needs FAE Upgrade,,
+Mapping,Path Connection Issue,Failed to Add Path Between Zones,"1. Create the starting point from an existing zone, manually drive the mower to the zone to be created, then set the ending point.
+2. Do not lift the mower during manual control; face it toward the open environment throughout.",1188 Data processing error,,"yuka mini2, yuka mini Vision, yuka mini LiDAR",Needs FAE Upgrade,,
+Mapping,Mapping Issue,Cannot Exit Station to Map / Positioning Error During Mapping,"1. Confirm whether the firmware is the latest version.
+2. Remove any possible obstacles in front of the charging station.",,1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.,"yuka mini2, yuka mini Vision, yuka mini LiDAR",Needs FAE Upgrade,,
+Mapping,Mapping Issue,Charging Station to Work Zone Path Exceeds Limit,"1. Try to drive the mower in a straight line, avoiding frequent U-turns and reversing.
+2. A buffer zone can be created in between.",,,"yuka mini2, yuka mini Vision, yuka mini LiDAR",Needs FAE Upgrade,,
+Mapping,Mapping Issue,Auto Mapping Failed,"1. Check that the charging station is installed with no obstructions within 1.5m in the front/left/right directions.
+2. Check whether the on-site environment is complex.
+3. Recommend trying to manually create a map.","1223 Unclear boundary
+1188 Recorded data processing error
+1315 Positioning lost",,"yuka mini2, yuka mini Vision, yuka mini LiDAR",Needs FAE Upgrade,,
+Mapping,Mapping Issue,Manual Mapping Failed,"1. When manually driving the mower, try to avoid excessive speed / frequent turns / U-turns / reversing.","1223 Unclear boundary
+1188 Recorded data processing error
+1315 Positioning lost",,"yuka mini2, yuka mini Vision, yuka mini LiDAR",Needs FAE Upgrade,,
+Mapping,Mapping Issue,Failed to Create Isolated Island Zone,"1. Confirm whether the firmware has been updated to the latest version.
+2. Guide the user to keep the mower level when carrying it / keep the front facing forward / do not block the vision module / do not move too fast / keep the path distance within 200m.
+3. If the path distance cannot be kept within 200m, consider using the dropmow mode for the corresponding scenario.",1188 Data processing error,,"yuka mini2, yuka mini Vision, yuka mini LiDAR",Needs FAE Upgrade,,
+Mapping,Mapping Issue,Map Recording Failed / Map Storage Abnormal,/,"1188 Map recording failed
+1199 Map storage abnormal",,,Needs FAE Upgrade,,
+Positioning,Positioning Issue,"Poor Positioning, Environmental Issue","1. Check whether the RTK base station is properly powered on; if the RTK base station is abnormal, try to send a replacement.
+2. Determine the user's region. For users in Europe / the UK, consider upgrading the firmware and manually upgrading the RTK.","1300 Poor positioning status
+1303/1304","1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba1, luba2, luba mini, luba mini LiDAR",Needs FAE Upgrade,,
+Positioning,Positioning Issue,Positioning Calibration Failed,"1. Check whether the error only occurs near the boundary.
+2. Manually drive the mower away from the boundary to an open working area.
+3. Check whether there are any other errors in the app.","1300 Poor positioning status
+1314 Poor positioning accuracy","1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba1, luba mini, luba mini LiDAR",Needs FAE Upgrade,,
+Positioning,Positioning Issue,App Vehicle Position Offset,1. Check whether the app and the firmware are the latest versions.,,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Positioning,Positioning Issue,Positioning Error / Station Position Offset / POS Not Good,"1. Confirm whether the RTK base station is bound.
+2. Confirm whether the firmware is the latest version, and whether the RTK is properly powered on.
+3. Check that the link mode of the mower and the RTK are consistent.
+4. Ensure that the RTK LoRa number in the app matches the one on the RTK body label.
+5. If the above checks pass but the issue persists, replace the RTK.",,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",luba2,Needs FAE Upgrade,,
+Positioning,Docking Issue,Cannot Exit Station to Auto-Work,"1. Check whether the charging station is located in an open area.
+2. Check whether the RTK base station is properly powered on; if not, replace the base station and re-test.",,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba1, luba2",Needs Repair,,
+Positioning,Docking Issue,App Shows Device Not in Work Zone but Actually Charging,"1. Check the surroundings of the charging station's location for any obstructions such as trees / walls / buildings; it should be installed in an open area.
+2. Verify the applicable positioning mode. If it is RTK, check whether the RTK base station installation position has any obstructions.",,,"luba mini, luba mini LiDAR",Needs FAE Upgrade,,
+Positioning,Docking Issue,Stops in Front of Station After Exiting,"1. Check the surroundings of the charging station's location for any obstructions such as trees / walls / buildings; it should be installed in an open area.
+2. Verify the applicable positioning mode. If it is RTK, check whether the RTK base station installation position has any obstructions.",1105 Mower stops in front of the dock after leaving it,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba mini, luba mini LiDAR",Needs FAE Upgrade,,
+Positioning,RTK,RTK Base Station Disconnected,"1. Verify that the positioning modes of the robot and the RTK base station are consistent.
+2. Verify that the LoRa numbers of the robot and the RTK are consistent; if they differ, change them to be consistent.
+3. Verify that both the robot and the RTK have a satellite count. If the robot's satellite count is 0, try restarting the device multiple times. If the RTK base station's satellite count is 0, check the RTK base station indicator status.
+4. If the RTK base station indicator is abnormal, check the power cable interface on the back of the charging station. If the interface is normal, replace the RTK adapter; if the interface is faulty, perform a defective product return.",1551 RTK disconnection alarm,,,Needs Repair,,
+Positioning,RTK,RTK Indicator Light Abnormal,"1. Check whether the indicator is off only at night. After the upgrade, this is normal.
+2. If the indicator is also off during the daytime, try other power supply options (charging station / RTK adapter).
+3. If the RTK adapter power supply works normally, check whether the interface on the charging station that connects to the base station is damaged.
+4. If the charging station power supply works normally, send a replacement RTK adapter.
+5. If neither option works normally, send a replacement RTK.",,,"luba1, luba2, luba3, luba2x",Needs Repair,,
+Positioning,RTK,RTK Solid Red / Flashing Red Light,"1. Check whether the RTK works normally after being powered on again.
+2. If the issue persists, send a replacement base station.",,,"luba1, luba2",Needs Repair,,
+Positioning,RTK,"RTK Light Off, No Satellite Signal, Needs Restart",1. Check whether both the mower and the RTK firmware are the latest versions.,,,luba2,Needs Repair,,
+Positioning,RTK,Cannot Connect After RTK-LoRa Mode Switch,"1. Check whether the RTK can be added manually; if it is not bound, add it again.
+2. Check that the link mode of the mower and the RTK are consistent; they need to be set to the same mode.",,,luba2,Needs Repair,,
+Positioning,RTK,App Cannot Connect to RTK / RTK Cannot Connect to WiFi,"1. Check whether the Wi-Fi is a 2.4GHz or 2.4/5GHz network/hotspot. If not, switch to one of these bands.
+2. Check whether the Wi-Fi router has encryption-level restrictions or insufficient IP address pool.",,,"luba2, luba3, luba2x",Needs Repair,,
+Positioning,RTK,App Cannot Connect to RTK / Bluetooth Connection Failed,"1. Check the RTK indicator and troubleshoot any Wi-Fi / Bluetooth / 4G issues.
+2. You can try connecting to the RTK via Bluetooth from another phone. Android phones can use the built-in Bluetooth search function; iPhones can use a BLE scanner or another Bluetooth-scanning app to scan.",,,"luba3, luba2x",Needs Repair,,
+Positioning,RTK Adapter,RTK Power Adapter Indicator Light Abnormal,"1. Confirm that the power socket is supplying power normally.
+2. Cross-verify: the RTK base station supports power supply from the RTK adapter and from the charging station's power port.
+3. Confirm the indicator status.",,,"luba3, luba2x",Needs Repair,,
+Positioning,RTK Adapter,RTK Power Adapter Voltage Abnormal,1. Check / test that the voltage of the RTK power adapter is approximately the normal 12V.,,,"luba3, luba2x",Needs Repair,,
+Positioning,iNavi,Positioning No Response,"1. Check whether the firmware is the latest version; if not, it needs to be updated.",1000020 No response from positioning,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba3, luba2x",Needs FAE Upgrade,,
+Positioning,iNavi,Positioning Failed,"1. Confirm whether the error is reported when mapping outside the zone; mapping can only be started inside the zone or on the charging station.
+2. The firmware needs to be upgraded to the latest version.",1000019 Positioning failed,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba3, luba2x",Needs FAE Upgrade,,
+Positioning,iNavi,Vehicle Lost Positioning in Narrow Path/Zone,"1. Check whether the firmware is the latest version; if not, it needs to be updated.","1314 Poor positioning accuracy
+1300 Obstruction in working environment","1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba3, luba2x",Needs FAE Upgrade,,
+Positioning,iNavi,iNavi Positioning Signal Weak,"1. Confirm whether the iNavi connection mode is Wi-Fi or 4G (both can be used at the same time, but iNavi takes priority).
+2. Cross-verify by switching between the two.","1314 Poor positioning accuracy
+1554 Unstable Wi-Fi network
+1556 Unstable 4G network","1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba3, luba2x",Needs FAE Upgrade,,
+Positioning,iNavi,Positioning Timeout / Map Distorted / No Response,"1. Check whether the firmware is the latest version; if not, it needs to be updated.",1418 Positioning timeout,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba3, luba2x",Needs FAE Upgrade,,
+Positioning,iNavi,Satellite Map Offset,"1. Check whether the firmware is the latest version; if not, it needs to be updated.",,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba3, luba2x",Needs FAE Upgrade,,
+Positioning,iNavi,iNavi Network Unstable / 4G or WiFi Connection Abnormal,"1. Check the Wi-Fi and 4G network. If the signal is poor, try connecting to another network or use the phone's hotspot.","1554 Network error
+1556 iNavi network connection abnormal","1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba3, luba2x",Needs FAE Upgrade,,
+Positioning,iNavi,POS Status Single,"1. Check whether the app and the firmware are the latest versions.
+2. Check the network signal. Consider switching to 4G or another Wi-Fi network, then try restarting the device and re-connecting to iNavi.
+3. If the issue is not network-related, switch the link mode to another option, then switch back to iNavi, and restart the device.",,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba3, luba2x",Needs FAE Upgrade,,
+Positioning,Positioning Issue,Map Distorted / Offset / Path Missing / Station Position Offset,1. Provide photos of the charging station's location and the surrounding environment.,1300/1000019,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Positioning,Positioning Issue,Positioning No Response,"1. Provide photos of the on-site and surrounding environment.
+2. Provide a screenshot of the error in the app.
+3. Update the firmware and the app to the latest versions.
+4. Try restarting the device. If restarting does not resolve the issue, delete the map and re-draw it, or restore factory settings (and remind the user that this requires re-binding and reconfiguring the device).",1000020 No response from positioning,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Positioning,Positioning Issue,Positioning Lost / Map Drawing Failed,"1. Collect the camera status, on-site environment, app error, firmware version, and restart information for troubleshooting.
+2. Check whether the protective film on the lens was forgotten to be removed.",1315 Mapping failed due to positioning loss,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Positioning,Positioning Issue,Charging Station Position Change Detected,"1. Check the on-site environment and the app error, and confirm whether any obstacles or objects near the charging station have been moved.
+2. If any object has been moved, re-position the charging station.",1132 Charging station position change detected,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Positioning,Positioning Issue,Positioning Timeout / Map Distorted / No Response,"1. Provide photos of the on-site and surrounding environment.
+2. Provide a screenshot of the error in the app.
+3. Update the firmware and the app to the latest versions.
+4. Try restarting the device. If restarting does not resolve the issue, delete the map and re-draw it, or restore factory settings (and remind the user that this requires re-binding and reconfiguring the device).",1418 Positioning timeout,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Navigation & Motion Control,Cross-Zone Recharge Issue,Path Blocked / Work Stuck,"1. Check whether the path at the stuck location is too close to obstacles.
+2. Consider moving the obstacles away or redrawing the path to avoid the obstacles.",1214 Path blocked,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Navigation & Motion Control,Cross-Zone Recharge Issue,Cross-Zone Recharge Failed,"1. Check whether the error code includes a path-blocked error.
+2. Move the path obstacles away or redraw the path to avoid the obstacles.",1203 Return-to-dock failed,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Navigation & Motion Control,Auto-Recharge Issue,Recharge Failed,"1. Check whether the charging station is placed on a level surface.
+2. Place the mower about 1m in front of the dock and manually trigger return-to-dock to check whether it works abnormally.
+3. Clear obstacles in the charging station area, ensuring no obstacles within a 2x2m range.
+4. Use an Android phone to check the charging station's IR signal. If there is no signal, send a replacement charging station.",1200 Return-to-dock failed,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Navigation & Motion Control,Auto-Recharge Issue,Recharge Failed,1. Check whether there are any wheel hub motor / cutter motor errors in the app.,,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Navigation & Motion Control,Entered No-Go Zone,"Entered No-Go Zone During Mowing, No Positioning Signal Issue",/,,,,Needs FAE Upgrade,,
+Navigation & Motion Control,Crossed Virtual Wall,Device Crossed Virtual Wall Set on Map,/,,,,Needs FAE Upgrade,,
+Navigation & Motion Control,Task Interrupted,Lawn Damaged During Mowing,"1. Check whether there are any motor-related errors in the app.
+2. Restart the mower and check whether operation is normal.
+3. Check whether the lawn is too wet. If so, consider not mowing the slippery area for the time being.",,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Navigation & Motion Control,Task Interrupted,Spinning / Grinding Lawn,1. Check whether there are any motor-related errors in the app.,,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Navigation & Motion Control,Task Interrupted,Slipped During Work / Out of Boundary / Entered No-Go Zone and Stopped,"1. Check whether there is terrain on the boundary or in the no-go zone that is slippery or has a steep slope.
+2. Adjust the map or the no-go zone boundary accordingly.",,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Navigation & Motion Control,Robot Stuck,Robot Got Stuck During Work,"1. Check whether there is terrain on the boundary or in the no-go zone that is slippery or has a steep slope.
+2. Check whether the issue is improved after enabling the obstacle-avoidance mode.",1201 Stuck,"1. Check Basic Info to confirm the current positioning mode of the robot.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Navigation & Motion Control,Missed Mowing,Grass Not Mowed / Missed Mowing / Grass Left in Middle,1. Change the settings to cover missed grass strips. Set checkerboard mowing and set the cross pattern to a diamond. Adjust the path spacing to 20-15cm.,,,,Needs Repair,,
+Navigation & Motion Control,Missed Mowing,No-Go Zone Edge Missed,1. Confirm whether the no-go zone boundary-patrol function is enabled.,,,,Needs FAE Upgrade,,
+Navigation & Motion Control,Missed Mowing,Mowing Zone Edge Missed,"1. Check whether there are stuck-detection or other errors. Prioritize troubleshooting as a stuck issue.
+2. Confirm whether the mowing zone boundary-patrol function is enabled.",,,,Needs FAE Upgrade,,
+Navigation & Motion Control,Mowing Path Not Straight,Mowing Path Not Straight on Flat Lawn,/,,,,Needs FAE Upgrade,,
+Navigation & Motion Control,Device Dropped,Device Fell into Pond / Water Area,1. Verify the environment and location of the falling-into-water incident.,,,,Needs FAE Upgrade,,
+Navigation & Motion Control,Device Dropped,Device Fell Off Cliff,"1. Check whether the current firmware is the latest version. An upgrade is required if not.
+2. Set a virtual wall at the cliff location, and move the boundary inward. Test whether the issue is resolved.",,,,Needs FAE Upgrade,,
+Battery & Charging,Auto-Recharge Issue,"Vehicle Bumps Station and Exits After Returning, No Charge / Docking Abnormal","1. Check that the charging station is installed on the ground and that the device's contacts are fully in contact with the charging station's contacts.
+2. Check whether the charging contact strips on the rear of the mower and the charging station's probes are dirty or corroded; clean them if necessary.
+3. Check whether the connection port between the charging station's power cable and the adapter is loose; re-plug it if necessary.
+4. Test the voltage of the charging station contacts and the adapter. If abnormal, send a replacement adapter.","1200 Repeatedly entering/leaving dock / bumping dock
+2729 Adapter voltage low","1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Battery & Charging,Auto-Recharge Issue,Spins Before Station Trying to Dock / Cannot Return to Station,"1. Clean the IR lenses on both the mower and the charging station.
+2. Use an Android phone to check whether there are 4 IR emitters on the charging station. If the number is abnormal, send a replacement charging station.","1200 IR module fault (charging station)
+1000011 Return-to-dock failed","1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Battery & Charging,Auto-Recharge Issue,"Powers Off Suddenly During Recharge, Shows 0% After Connecting Station",/,,"1. Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.
+2. Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Battery & Charging,Auto-Recharge Issue,"Reaches Low Battery Without Recharging, Stops on Lawn",/,,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Battery & Charging,Auto-Recharge Issue,Powers Off During Return to Station,"1. Check whether the 2829 low-temperature error is also reported. If so, move the charging station indoors to warm up, and try charging again after the temperature rises.
+2. Try replacing the battery to see whether the issue is resolved.","360 Left wheel hub voltage low
+392 Right wheel hub voltage low","1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Battery & Charging,Battery Issue,Cannot Charge,"1. For a new device, activate the device first, then dock/undock it on the charging station a few times, confirm that the battery can be charged to 30%, and check that the firmware has been upgraded.
+2. If it is not a new device, first clean the charging contact strips on both the mower and the charging station, and check the indicator status of the charging station and the adapter.
+3. Check that the charging station is installed on the ground and that the device's contacts are fully in contact with the charging station's contacts.
+4. Test the voltage of the charging station contacts and the adapter. If abnormal, send a replacement adapter.
+5. After the inspection, try placing the mower on the charging station again to see whether it powers on normally.",2729 Adapter voltage low,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Battery & Charging,Battery Issue,Powers Off Immediately After Exiting Station,"1. Battery over-discharge / unable to charge, which may be caused by a drive board fault.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Battery & Charging,Battery Issue,Battery Cannot Be Fully Charged,"1. Confirm that the firmware is the latest version, and check that the charging contact strips are clean and fully in contact.
+2. Confirm that the adapter voltage is approximately the normal 25V.
+3. If the measured value is abnormal, replace the adapter with a new one.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Battery & Charging,Battery Issue,Battery Drains Fast / Single Charge Work Time Shortened / Mowing Efficiency Low,"1. Check whether the cutter disk is clogged with grass.
+2. Check whether the grass is currently thick / the mowing height is set too low.
+3. Try setting the mowing height in stages from high / medium / low.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Battery & Charging,Battery Issue,Battery Temperature Too High,"1. Check whether the ambient temperature is too high. If it is above 35°C, it is recommended to wait for the temperature to drop before mowing.
+2. Check whether the subsequent error disappears.","2171 Battery temperature too high
+2719 Battery temperature too high","1. Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.
+2. Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Battery & Charging,Battery Issue,Battery Temperature Too Low,1. Check whether the ambient temperature is below -10°C. Try to avoid operating the mower in excessively low temperatures.,"2718 Battery temperature too low
+2829 Low-temperature protection, not charging","1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Battery & Charging,Battery Issue,Battery Gauge Abnormal,1. The battery cannot be fully charged. This is caused by an error in the battery SOC table.,,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Battery & Charging,Battery Issue,Battery Shows 0%,"1. Restart the device and check whether the firmware has been upgraded to the latest version.
+2. Reconnect the battery (YUKA series, mini series) and swap the two batteries to perform a cross-test, troubleshooting each battery individually.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Battery & Charging,Battery Issue,"New Device Shows 0% Battery at Startup, Can Dock but Cannot Charge","1. New devices are pre-charged at the factory. Confirm that the device can power on normally.
+2. Manually secure the charging station and confirm whether it can charge normally.
+3. Check whether the charging surface is level and the charging contact strips are normal.
+4. Confirm that the battery can be charged above 30%.
+5. The firmware needs to be upgraded to the latest version.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Battery & Charging,Battery Issue,Sudden / Abnormal Shutdown,"1. Check whether the device was in a stationary state for some time before powering off, which may have caused it to enter low-power mode.
+2. Check for any related errors before the device stopped, and troubleshoot according to the corresponding errors.
+3. Check whether the FPV function works normally (LUBA 1 does not have the FPV function).",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Battery & Charging,Docking Issue,Repeatedly Shows 'Start Charging' During Charging,"1. Check that the charging station is installed on a level surface and that the device's contacts are fully in contact with the charging station's contacts.
+2. Check whether the charging contact strips on the rear of the mower and the charging station's probes are dirty or corroded; clean them if necessary.
+3. Check whether the connection port between the charging station's power cable and the adapter is loose; re-plug it if necessary.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Battery & Charging,Docking Issue,Not Charging at Station,"1. Disconnect the adapter from the charging station and further confirm the status of the adapter indicator. If there is a problem, the charging station adapter may need to be replaced.
+2. If the adapter status is normal, check the charging station indicator. If there is a problem, the charging station may need to be replaced.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Battery & Charging,Data Center,Cannot Charge but Data Backend Shows No Abnormality,"1. Check whether the charging station / adapter indicators are normal before and after docking.
+2. Check whether the side indicator on the rear of the device is on / slowly flashing after docking.
+3. Check whether the device is properly docked. Clean the contact strips on the device / charging station and re-dock for testing.
+4. If the issue is resolved, this indicates that a thorough cleaning of the contact strips is required.",Adapter fault / probe contact not lit / contact strip corrosion / charging station fault,,,To Be Discussed,L4 - FAE,
+Battery & Charging,Data Center,Cannot Charge but Data Center Shows BMSNONE,1. This may be a battery fault / drive board abnormality.,,,,To Be Discussed,L4 - FAE,
+Battery & Charging,Auto-Recharge Issue,Does Not Recharge Within Mowing Zone,"1. Check for obstacles around the area. Clear any obstacles to ensure the path is wide enough (LUBA 3: minimum path width is 70cm).
+2. If there are no obstacles or clearing them does not help, check whether the LiDAR / vision module is dirty. Clean it and keep it regularly cleaned.
+3. If there is no dirt or cleaning does not help, check whether there is a virtual wall / no-go zone blocking the path in the app map.
+4. If there is no virtual wall or re-trying does not help, check whether a connecting path is missing between the target zone and other zones. If so, create the path.","1201 Stuck
+1203 Return-to-dock failed
+1214 Path blocked by obstacle","1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Battery & Charging,Battery Issue,Battery Level Jumps,1. Collect the time of the incident and a screenshot of the battery-level jump.,,,,Needs FAE Upgrade,,
+Battery & Charging,Docking Issue,Charging Station Adapter Indicator Light Abnormal,"1. Confirm whether the device is docked and whether the adapter indicator is normal.
+2. Check whether the adapter voltage is normal.
+3. Confirm whether the device can power on normally.",,,,Needs Repair,,
+Battery & Charging,Docking Issue,Charging Station Indicator Light Off / Abnormal,"1. Confirm whether the device is docked and whether the adapter indicator is normal.
+2. Check whether the adapter voltage is normal.
+3. Confirm whether the device can power on normally.",,,,Needs Repair,,
+Battery & Charging,Docking Issue,Powers Off While on Charging Station,"1. Check the on-site environment and whether the charging contacts are clean, free of corrosion, and not worn. If dirty, clean them.
+2. Manually place the device on the charging station and confirm that the charging station is on firm, level ground. Check whether the issue is resolved when the device is on firm, level ground.",,,,Needs Repair,,
+Battery & Charging,Docking Issue,Powers Off While Leaving Station During Charging,1. Check whether the charging station is installed level.,,,,Needs FAE Upgrade,,
+Battery & Charging,Battery Issue,Cannot Power On,"1. Measure the voltage of the charging station contact strips when the mower is on the dock / not on the dock, and check whether the charging station adapter voltage is normal (approximately 27V). If it is abnormal, consider replacing the charging station or the adapter.
+2. If measurement is not possible, both the charging station and the adapter need to be sent in for repair.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+WiFi & Bluetooth & 4G,Bluetooth Issue,App Cannot Find Device Bluetooth,"1. Check whether the firmware is the latest version; if not, it needs to be updated.
+2. Reconnect the vision module (LUBA 2, LUBA 2X, LUBA mini, LUBA mini 2 1000).",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+WiFi & Bluetooth & 4G,Bluetooth Issue,Can Find but Cannot Connect / Continuously Loading,"1. Check whether the firmware is the latest version; if not, it needs to be updated.
+2. Reconnect the camera (LUBA 2, LUBA 2X, LUBA mini, LUBA mini 2 1000).",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+WiFi & Bluetooth & 4G,Bluetooth Issue,Bluetooth Signal Weak / Lag / Frequent Disconnection,"1. Check whether the firmware is the latest version; if not, it needs to be updated.
+2. Reconnect the vision module (LUBA 2, LUBA 2X, LUBA mini, LUBA mini 2 1000).",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+WiFi & Bluetooth & 4G,Wi-Fi Issue,App Cannot Find Wi-Fi,"1. Reconnect the vision module (LUBA 2, LUBA 2X, LUBA mini, LUBA mini 2 1000).
+2. Wait 2-3 minutes after powering on before configuring the network.
+3. Try connecting to the phone's hotspot. If the connection succeeds, the Wi-Fi is incompatible.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+WiFi & Bluetooth & 4G,Wi-Fi Issue,Can Find but Cannot Connect,"1. Reconnect the vision module (LUBA 2, LUBA 2X, LUBA mini, LUBA mini 2 1000).
+2. Wait 2-3 minutes after powering on before configuring the network.
+3. Try connecting to the phone's hotspot. If the connection succeeds, the Wi-Fi is incompatible.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+WiFi & Bluetooth & 4G,Wi-Fi Issue,Wi-Fi Signal Weak / Exclamation Mark / Frequent Disconnection,"1. Try connecting to the phone's hotspot. If the connection succeeds, the Wi-Fi is incompatible.",,"1. Check Basic Info to confirm the Wi-Fi signal strength.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+WiFi & Bluetooth & 4G,Wi-Fi Issue,Connection Error / Binding Failed,"1. Try connecting to the phone's hotspot. If the connection succeeds, the Wi-Fi is incompatible.",,"1. Check Basic Info to confirm the Wi-Fi signal strength.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+WiFi & Bluetooth & 4G,4G/SIM Issue,4G Icon Gray / Cannot Get IP,"1. Check whether the 4G function has been enabled in the app.
+2. Restart the device and wait 2-3 minutes.",,"1. Check Basic Info to confirm the Wi-Fi signal strength.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Check Sim Info to confirm the 4G SIM activation status.",,Needs FAE Upgrade,,
+WiFi & Bluetooth & 4G,4G/SIM Issue,Red Exclamation / Cannot Register / Status Not Displayed,"1. Reconnect the 4G module (YUKA mini, YUKA mini 2).
+2. Restart the device and wait 2-3 minutes.",,"1. Check Basic Info to confirm the Wi-Fi signal strength.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Check Sim Info to confirm the 4G SIM activation status.",,Needs FAE Upgrade,,
+WiFi & Bluetooth & 4G,4G/SIM Issue,4G Unusable / Plan Inactive / Data Exhausted,"1. Check the data plan, data usage, and SIM activation/renewal status.
+2. Restart the device and wait 2-3 minutes.",,"1. Check Basic Info to confirm the Wi-Fi signal strength.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Check Sim Info to confirm the 4G SIM activation status.",,Needs FAE Upgrade,,
+WiFi & Bluetooth & 4G,4G/SIM Issue,4G Signal Weak / Remote Connection Unstable,"1. Check the data plan, data usage, and SIM activation/renewal status.
+2. Restart the device and wait 2-3 minutes; confirm that the area where the device is located has stable cellular network coverage.",,"1. Check Basic Info to confirm the Wi-Fi signal strength.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Check Sim Info to confirm the 4G SIM activation status.",,Needs FAE Upgrade,,
+WiFi & Bluetooth & 4G,4G/SIM Issue,SIM Card Not Recognized / Incompatible / Module Not Installed,"1. Reconnect the 4G module (YUKA mini, YUKA mini 2).
+2. Restart the device and wait 2-3 minutes.",,"1. Check Basic Info to confirm the Wi-Fi signal strength.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Check Sim Info to confirm the 4G SIM activation status.",,Needs FAE Upgrade,,
+WiFi & Bluetooth & 4G,Device Offline,User Network Causes Offline,"1. Check whether the firmware is the latest version; if not, it needs to be updated.
+2. Confirm whether the robot is powered on when offline.
+3. Check the current Wi-Fi signal and network status.",,"1. Check Basic Info to confirm the network signal strength.
+2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+WiFi & Bluetooth & 4G,Device Offline,IoT / Platform or Other Reasons Cause Offline,/,,,,To Be Discussed,L4 - FAE,
+Hardware,Drive Board Linkage Issue,Upgrade Failed / Wheels Not Powered / Powers Off After Exit / Battery Not Displayed or 0% / Battery Info Update Failed,"1. Check for the following conditions: the wheels are not powered and have no resistance / the device powers off after leaving the dock / the battery level is not displayed or shows 0 / battery information update failed.
+2. Check for error code 1505. If present, the device needs to be sent in for repair.",1015 Battery information update failed,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Hub Motor,Hub Motor / Hall Sensor Error,"1. Confirm whether the device is actually stuck or trapped on an obstacle. If it is not stuck, or the obstacle has been cleared but the error persists, the issue may be a wheel hub motor Hall sensor error / sensor abnormality.
+2. Confirm the actual error code and check whether restarting resolves the issue.","136/146 Left/right rear wheel hub motor sensor fault
+134/144 Left/right rear wheel hub motor stopped
+133/143 Left/right rear wheel hub motor overcurrent
+135/145 Left/right rear wheel Hall sensor error","1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Hub Motor,Wheel Noise,1. Verify the situation and confirm the abnormal wheel noise.,,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Hub Motor,Hub Motor Abnormal,"1. Clean any foreign objects tangled on the wheel axle, then power off and restart the device several times.
+2. Manually drive the mower in the app, and check whether the device can move forward, reverse, and turn left / right normally. If it works normally, then the issue only occurs during automatic operation, not during manual control.","542/574/144/134 Wheel hub motor stall
+543/549/575/581/113/389/383/357/351 Wheel hub motor overload
+558/590/398/366/141/131/121/111 Wheel hub motor temperature too high
+142/132/122/112 Wheel hub motor temperature too low
+561/592/593/400/401/369 Wheel hub motor MOS temperature too low
+546/547/578/579/387/386/355/354/145/135/125/115 Wheel hub motor Hall sensor abnormal
+551/552/583/584/392/391/360/359 Wheel hub motor voltage abnormal
+559/591/399/367 Wheel hub motor
+560/368 Wheel hub motor MOS temperature abnormal / too high
+2821/2826 Wheel hub motor controller communication timeout","1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Hub Motor,Hub Motor Overcurrent,"1. Determine whether there is grass tangled in the wheel hub. If so, clean the chassis.
+2. Try powering off the device and reconnecting the safety key (up to three times).",363/395 Left/right wheel hub overcurrent,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Cutter Motor,Cutter Motor Overload Error,"1. Check whether the cutter disk has foreign objects stuck in it or is severely entangled with grass. If so, clean it.
+2. If not, but the error persists, the device needs to be sent in for repair.","312/322 Left/right cutter motor overload
+313/323 Left/right cutter motor overload
+314/324 Left/right cutter motor stuck
+315/325 Left/right cutter motor startup failed
+316/326 Left/right cutter motor overheat
+317/327 Left/right cutter motor temperature too low
+318/328 Left/right cutter motor sensor abnormality
+424/456 Left/right cutter motor voltage too low","1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Cutter Motor,Cutter Motor Abnormal,"1. Clean the cutter disk and any grass clippings tangled on the cutter motor shaft.
+2. After restarting the device, in manual mode, long-press the forward direction to drive the mower (starting the cutter motor) and check whether the cutter motor can rotate normally.
+3. Observe whether error 1202 (cutter motor stuck) is reported during operation.
+4. Confirm that the cutter disk adapter bracket nut is tightened.","468/436/326/316 Cutter motor temperature too high / abnormal
+467/435 Cutter motor startup timeout
+325/315 Cutter motor startup failed
+461/429/323/322/313/312 Cutter motor overload
+426/458 Cutter motor overcurrent
+469/437 Cutter motor MOS temperature abnormal
+456/424 Cutter motor voltage too low
+317/327 Cutter motor temperature too low
+2822 Cutter motor controller communication timeout","1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Cutter Motor,Cutter Disc Stuck,"1. Check whether the cutter disk is clogged or stuck. Clean any weeds / foreign objects / branches under the cutter disk.
+2. After cleaning, place the device on a level surface and restart it for testing.
+3. If the issue persists after cleaning, manually rotate the cutter disk to check whether it rotates smoothly.",1202 Cutter disk stuck,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Cutter Motor,Cutter Motor Abnormal Noise,"1. Check whether the cutter disk is stuck with foreign objects / weeds, and clean it.
+2. Remove the cutter disk and start the machine to check whether the cutter motor makes abnormal noise.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Cutter Motor,Cutter Disc Fuse Blown,1. Check whether any blade has fallen off / check whether the protective cover is loose / check whether any screws are missing.,,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Cutter Motor,Cutter Disc Edge Grinding,"1. Confirm the on-site grass conditions and whether the map boundary is on the same plane as the lawn. Provide photos of the chassis (cutter disk, blades) to verify whether the cutter disk is scraping against the boundary (riding on the boundary).
+2. If it is riding on the boundary, raise the cutter disk height and modify the map boundary to prevent the cutter disk from scraping. Then re-test.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Cutter Motor,Cutter Disc Baffle Uneven,"1. Provide the condition of the cutter disk guard and confirm whether it is deformed / uneven.
+2. If deformed / uneven, arrange to send the device in for repair.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Lift Motor,Lift Motor Angle Position Sensor Abnormal,"1. Restart the mower and check whether the lifting abnormality persists.
+2. Check whether the cutter motor is stuck with foreign objects and clean it if necessary.","2748 Lift motor angle position sensor disconnected
+617 Lift motor response timeout","1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Lift Motor,Lift Motor Overcurrent,"1. Check whether the cutter motor is clogged or stuck. Clean any weeds / foreign objects / branches under the cutter disk.
+2. After cleaning, restart the device, adjust the cutter height in the app, and start a new mowing task to check whether the error still occurs.",619 Lift motor overcurrent,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Lift Motor,Lift Motor Abnormal,"1. Power off the device and clean any grass clippings or other objects tangled on the cutter disk and cutter motor shaft.
+2. In manual mode, adjust the lifting height and check whether the cutter disk can be raised to the highest position or lowered to the lowest position. If not, the lift motor or the magnetic encoder board assembly needs to be replaced.
+3. If it works, confirm whether error 1202 (cutter disk stuck) is still reported during operation.","613 Lift motor overload
+618/619/2744/2743 Lift motor overcurrent
+2742/2741 Lift motor stall
+609 Lift motor reset error
+617 Lift motor response timeout
+2747 Unable to reach the specified height
+2711 Lift motor abnormal
+610 Lift motor Hall sensor abnormal
+615/616 Lift motor voltage abnormal
+632 Lift motor magnetic encoder error
+2825 Lift motor controller communication timeout","1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Buzzer,Buzzer Frequently Triggered,"1. Remove the front bumper bar and check whether the error persists. If it persists, replace the bumper bar.","1217 Bumper bar triggered detected
+1207 Bumper bar repeatedly triggered","1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Buzzer,Buzzer Sound Abnormal,1. Abnormal buzzer sound or the buzzer not working normally may be caused by a buzzer fault.,,"1. Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.
+2. Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Speaker,Speaker Not Working,"1. Confirm whether the speaker switch is turned on.
+2. Check whether the firmware and the app have been updated to the latest versions.
+3. If the above checks pass, the speaker may be faulty.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Vehicle Locked,Vehicle Remains Locked,"1. Check whether the Home + Start buttons, or the Grass + Start buttons, can be used to unlock the device.
+2. Check whether the emergency stop button is depressed and persistently triggered. If so, it needs to be replaced.
+3. Restart the device and check whether the issue is resolved.",1008 Vehicle persistently locked,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Cannot Power On,"Cannot Power On, Long Press Power Key No Response","1. Place the mower on the charging station and confirm whether it can power on. If it can, troubleshoot as a battery issue; if it cannot, the device needs to be sent in for repair.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Bumper Bar,Front Bumper Bar Continuous Noise,"1. Check whether the front bumper is properly installed.
+2. Check whether the error persists after removing the front bumper. If so, the front bumper needs to be replaced.","1217 Bumper bar triggered detected
+1207 Bumper bar repeatedly triggered","1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Bumper Bar,Front Bumper Bar Port Damaged,"1. Confirm whether the cable connecting the front bumper port on the mower is broken. If it is broken, the front bumper needs to be replaced.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Bumper Bar,Front Bumper Bar Connection Cable Broken,"1. Confirm whether the cable connecting the front bumper port on the mower is broken. If it is broken, the front bumper needs to be replaced.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Bumper Bar,Front Bumper Bar Frequently Falls Off,"1. Confirm whether the cable connecting the front bumper port on the mower is broken. If it is broken, the front bumper needs to be replaced.
+2. When installing the new bumper bar, confirm that the installation steps are performed correctly.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Bumper Bar,Front Bumper Bar Indicator Light Off,1. Reinstall according to the installation guide.,,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Side Guards,Side Guards Installed but App Shows Not Installed,"1. Check whether the magnet on the side guard has fallen off. If so, replace it with a new one.
+2. Test whether the magnet still has magnetic attraction. If not, replace it with a new one.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Rain Sensor,Rainy Day Mowing Disabled but Won't Auto-Recharge Either,"1. Check whether the ""Do not mow in rain"" option is enabled.
+2. If it is correctly enabled, send a new mowing task. Manually drip water onto the rain sensor, or fill the rain sensor groove with water, to test whether the rain sensor can be triggered normally.
+3. The rain sensor requires a certain amount of accumulated water to trigger. Continued use and observation are recommended.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba mini, luba mini LiDAR, luba mini2 1500 Lidar",Needs Repair,,
+Hardware,Rain Sensor,Rain Sensor Triggered Continuously Even in Dry Weather,1. Clean the rain sensor and check whether the error persists.,1003 Rain sensor triggered,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Wiper,Wiper Motor Error / Wiper Stuck,"1. Restart the RTK and the app, and confirm that the firmware and the app are the latest versions.
+2. Check whether the wiper is stuck with foreign objects, and check whether the issue is improved after clearing them.",903 Wiper motor error,,,Needs Repair,,
+Hardware,Wiper,Wiper Rubber Damaged / Missing / Detached,1. Confirm whether the wiper blade rubber has fallen off / is damaged. Consider arranging a replacement order.,,,,Needs Repair,,
+Hardware,Protective Bracket,Protective Bracket Detached / Not Locked,"1. Provide installation guidance, and consider whether re-clamping the protective bracket improves the situation.
+2. If there is no improvement, consider sending the device back to a repair center.",,,,Needs Repair,,
+Hardware,Vision Module,Working Paused Due to Power Off Prompt Shortly After Exit,"1. Confirm whether both positioning and battery level are normal, and whether the message ""woking paused due to power off"" is displayed.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba2, luba2x, luba mini, luba mini2 1000",Needs Repair,,
+Hardware,Vision Module,3D Vision Error Prompt,"1. Check whether the firmware has been upgraded to the latest version.
+2. Reconnect the vision module.",1425 3D vision error detected,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba2, luba2x, luba mini, luba mini2 1000",Needs Repair,,
+Hardware,Vision Module,Vision Module White / Glitched / Fogged / Water-Ingress,1. The vision module needs to be replaced.,,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","luba2, luba2x, luba mini, luba mini2 1000",Needs Repair,,
+Hardware,Vision Module,"Vision Module Not Ready, Self-Check Alert","1. Check whether the firmware and the app are the latest versions.
+2. Check whether the current ambient light is poor. In poor light conditions, the vision self-check may report an error, but it generally does not affect operation. After confirming that the light is dim, you can enable the Auto Fill Light button.
+3. Reinstall the vision module.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Vision Module,FPV Disconnected / White/Black Screen,"1. Confirm that the router has no IP restrictions, and confirm that the app and the firmware are the latest versions.
+2. Test opening the FPV in standby or during operation. Test opening the FPV near / away from the router. Connect using only Wi-Fi / 4G and open the FPV. If any fault occurs, consider testing with another Wi-Fi network or a phone hotspot.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Auxiliary Light,Failed to Manually Turn On Auxiliary Light,"1. Check whether the firmware and the app are the latest versions.
+2. Reinstall the vision module.",,,,Needs Repair,,
+Hardware,Auxiliary Light,Auto Light Function Failed,"1. Manually enable the fill light test function and check whether it works normally.
+2. Confirm whether ""Auto lighting"" is enabled, and confirm that the app and the firmware are the latest versions.",,,,Needs Repair,,
+Hardware,Safety Key,Safety Key Installed but App Shows Not Installed,"1. Reconnect the safety key.
+2. If the issue persists, replace the safety key with a new one.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Solar Panel,Solar Panel Cannot Power RTK Normally,"1. Determine whether the RTK indicator is normal under other power supply methods (charging station power, RTK adapter power, Type-C power). If none of them is normal, replace the RTK.
+2. If it is normal, check whether the solar panel lights up properly, and check the color and status of the indicator (green flashing means battery is above 50%, which is the normal state; yellow flashing means 10-50%; red flashing means below 10%; blue flashing means the solar panel is charging; the indicator is off). If it is not normal, replace the solar panel. Also, use the solar panel when there is sufficient sunlight.",,,,Needs Repair,,
+Hardware,Solar Panel,Solar Panel Light Effect,"1. After 5-15 seconds of direct sunlight (depending on light intensity), the device will automatically power on and stay on, with a flashing blue indicator. Short-press the power button to check the current battery indicator.
+2. If there is no sunlight, long-press the power button to power on. After powering on, the indicator will be solid green or yellow for a few minutes, then slow-flash. After slow-flashing for a few minutes, the device will power off and the indicator will go off if the RTK is not powered or the device is not exposed to sunlight.
+3. When the solar panel indicator is green, the approximate power supply duration for the base station can be confirmed (under normal conditions, it can support about one day of power supply).",,,,Needs FAE Upgrade,,
+Hardware,Noise,Cutter Disc Start-Up Noise / Mowing Noise / Hub Motor Noise,"1. In manual mode, drive the mower forward (do not start the cutter, do not mow, just control the direction to move the mower) and check whether there is any abnormal noise.
+2. Clean the grass tangled in the cutter disk, and in manual mode select ""Manual Mowing"" to check whether the noise still exists (i.e., cutter-on test).
+3. Verify and ensure that the adapter bracket nut is tight. Remove the cutter disk and check whether the noise still exists.
+4. If there is no noise after removing the cutter disk, check whether the cutter disk is worn and whether any screws are loose.
+5. If the noise still exists after replacing the cutter disk / screws, and the noise comes from the wheel hub motor, listen carefully to identify which wheel. With the machine powered off, check the wheel's exterior for damage and manually rotate the wheel to see whether it rotates smoothly. If not, clear any grass tangled in the wheel hub and try again. If the noise persists, it is most likely a wheel hub motor noise.",,,,Needs Repair,,
+Hardware,Drive Board Failure,Cannot Read Drive / Cannot Charge / Powers Off After Exit / Battery Status Update,"1. Restart the RTK and the app, and check whether the firmware and the app are the latest versions.
+2. If you have access to the Data Center, check the wheel/cutter module. If the value is 0, arrange to send the device in for repair.",1015 Battery information update failed,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Grass Catcher,Edge Not Mowed with Frame / Work Progress Anomalous Jump,"1. Restart the RTK and the app, and check whether the issue is improved after upgrading the app and the firmware to the latest versions.
+2. Switch the obstacle-avoidance mode to off or sensitive, and test whether the boundary position is improved.",1210 Firmware version mismatch or grass tangled,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","yuka 2024, yuka 2025",Needs Repair,,
+Hardware,Grass Catcher,Left Grass Roller Error,"1. Restart the RTK and the app, and check whether the issue is improved after upgrading the app and the firmware to the latest versions.
+2. Clean the grass collection box / rollers / rolling brushes, and check whether the issue is improved.","503 Left grass-roller overload
+499 Left grass-roller startup timeout","1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","yuka 2024, yuka 2025",Needs Repair,,
+Hardware,Grass Catcher,Failed to Adjust Brush Motor,"1. Restart the RTK and the app, and check whether the issue is improved after upgrading the app and the firmware to the latest versions.
+2. Remove the rolling brush for cleaning, and check whether the issue is improved.
+3. Check the box firmware version and update it to v1.2.0.447.
+4. Replace the grass collection module to check whether the issue is improved.",1210 Rolling brush motor adjustment failed,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","yuka 2024, yuka 2025",Needs Repair,,
+Hardware,Grass Catcher,Brush Grass Clogging,1. Guide the user to clear any tangled grass.,"1210 Firmware version mismatch / grass tangled
+500/532 Left/right grass-roller motor temperature abnormal
+493/525 Left/right grass-collection motor overload
+492/524 Left/right grass-collection motor controller overload
+490 Grass-collection motor overcurrent","1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","yuka 2024, yuka 2025",Needs Repair,,
+Hardware,Grass Catcher,Counterweight Use (Vehicle Front Lifts When Working with Grass Catcher),"1. Restart the RTK and the app, and check whether the issue is improved after upgrading the app and the firmware to the latest versions.
+2. Check whether the counterweight has been installed on the vision module.
+3. Use the app to check whether the slope during operation exceeds 10°. If so, consider whether removing the grass collection box improves the situation.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","yuka 2024, yuka 2025",Needs Repair,,
+Hardware,Grass Catcher,Sinks into Grass Pile When Dumping,"1. Restart the RTK and the app, and check whether the issue is improved after upgrading the app and the firmware to the latest versions.
+2. Check the grass discharge point settings. Disperse the grass discharge points and increase their number.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","yuka 2024, yuka 2025",Needs Repair,,
+Hardware,Grass Catcher,Right Side Brush Bearing Detached,"1. Confirm that the rolling brush has a bearing on only one side, and confirm that the installation direction is correct.
+2. Provide photos of the worn / missing bearing on the right end of the rolling brush, and consider whether the issue is improved after replacing the assembly.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","yuka 2024, yuka 2025",Needs Repair,,
+Hardware,Grass Catcher,How to Distinguish Old vs New Grass Catcher,"1. Provide photos of the grass collection box port and confirm the cable shape.
+2. If the cable is straight, the grass collection box needs rework. If the cable is curved, it is the new version grass collection box 2025.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","yuka 2024, yuka 2025",Needs Repair,,
+Hardware,Grass Catcher,Brush / Roller Parts Missing / Damaged,"1. Confirm whether the damage type is wear at both ends of the rolling brush assembly, or wear of the grass collection box's main bracket.
+2. If the rolling brush assembly is worn, send a replacement assembly.
+3. If the main bracket is worn, replace the grass collection box directly.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","yuka 2024, yuka 2025",Needs Repair,,
+Hardware,Electric Drive Issue,Electric Drive Communication Timeout,"1. Restart the RTK and the app, and check whether the issue is improved after upgrading the app and the firmware to the latest versions.
+2. Power off the device and reconnect the safety key (up to three times) to check whether the issue is improved.",2821/2822 Electric drive communication timeout,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Hardware,Front Wheel Stuck,Frequent Turning / Reversing,"1. Check whether errors such as 1030 and front wheel lifted are reported.
+2. Check whether the two front wheels are stuck in the vertical direction. If so, use the lubricant provided with the device to lubricate the rotation axis position where the front wheels contact the chassis.","1201 Stuck
+1030 Front wheel lifted","2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Quality Issue," Missing/Damaged/Defective Parts",Vision Module Damaged,"1. Confirm whether the damage is caused by human action or a natural disaster. If confirmed, the user needs to purchase the relevant parts again.
+2. If the damage is not caused by human action or a natural disaster, ask about the cause of the damage and replace the vision module.",,,,Needs Repair,,
+Quality Issue," Missing/Damaged/Defective Parts",Wheel Exterior Part Detached,"1. Provide a clear photo of the back of the exterior part, and ask about how the damage occurred.
+2. If the damage is caused by human action, the user needs to purchase the part themselves. If it is not caused by human action, send the relevant part as a replacement.",,,"luba mini, luba mini LiDAR, luba mini2 1500 Lidar",Needs Repair,,
+Quality Issue," Missing/Damaged/Defective Parts",Front Decorative Cover Damaged,"1. Provide a clear photo of the back of the exterior part, and ask about how the damage occurred.
+2. If the damage is caused by human action, the user needs to purchase the part themselves. If it is not caused by human action, send the relevant part as a replacement.",,,"luba mini, luba mini LiDAR, luba mini2 1500 Lidar",Needs Repair,,
+Quality Issue," Missing/Damaged/Defective Parts",Shock Absorber Broken from Falling,"1. Provide a clear photo of the back of the exterior part, and ask about how the damage occurred.
+2. If the damage is caused by human action, the user needs to purchase the part themselves. If it is not caused by human action, send the relevant part as a replacement.",,,"luba mini, luba mini LiDAR, luba mini2 1500 Lidar",Needs Repair,,
+Quality Issue," Missing/Damaged/Defective Parts",Garage Missing Parts,"1. Take and provide photos of all components, confirm whether the outer packaging was damaged upon receipt, and directly send a replacement garage.",,,,Needs Repair,,
+Quality Issue," Missing/Damaged/Defective Parts",RTK Mounting Bracket Structure Abnormal,"1. Take and provide clear photos of the abnormal area.
+2. Confirm whether it was damaged upon receipt, or was hit by the mower during operation.
+3. If it was damaged upon receipt, send a new RTK pole assembly. If it was damaged during operation, still send a replacement, but it is recommended to install the RTK in a high position (open area, open sky view) when reinstalling, rather than directly on the lawn.",,,luba mini,Needs Repair,,
+Quality Issue," Missing/Damaged/Defective Parts",Exterior Part Yellowing,"1. Collect photos of the yellowing, and verify the yellowing issue.
+2. Send a replacement exterior part.",,,,Needs Repair,,
+Quality Issue," Missing/Damaged/Defective Parts",Missing Cables / Accessories,"1. Determine the missing parts based on the photo / video / indicator information.
+2. Arrange to send the missing parts as replacements.",,,,Needs Repair,,
+Quality Issue," Missing/Damaged/Defective Parts",Garage Screws Damaged / Holes Misaligned,"1. Collect photos of the abnormal garage, and verify whether the garage screws are damaged or the holes are misaligned.
+2. Send a replacement garage (no individual parts will be sent separately).",,,,Needs Repair,,
+Quality Issue," Missing/Damaged/Defective Parts",Charging Station / Contact Pin Stuck,"1. Collect information about the abnormal charging station, and verify that the contact strip is stuck.
+2. Send a replacement charging station.",,,,Needs Repair,,
+Quality Issue," Missing/Damaged/Defective Parts",Charging Station Mounting Hole Damaged (High Wind),"1. Collect information about the abnormal charging station, and verify that the contact strip is stuck.
+2. Send a replacement charging station.",,,,Needs Repair,,
+Obstacle Avoidance,Obstacle Avoidance Abnormal,Obstacle Avoidance Not Working,"1. Confirm whether the obstacle-avoidance mode has been enabled.
+2. If it is already enabled but the issue persists, check whether the abnormal obstacle-avoidance position is on the boundary (LUBA 1 does not avoid obstacles on the boundary position; it is recommended to keep a safe distance).",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Obstacle Avoidance,Obstacle Avoidance Abnormal,Drove Under Vehicle,"1. Confirm whether the mower is within the working area. Place the device at least 1m outside the working area, and check whether the issue is resolved.
+2. Confirm whether the obstacle-avoidance mode has been enabled.
+3. Set the obstacle avoidance to ""less touch"" in the app and try again.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Obstacle Avoidance,Obstacle Avoidance Abnormal,Missed Mowing / Crosses Boundary Without Mowing,"1. Check whether any single cutter disk is not rotating. If so, check whether grass is tangled and clean it.
+2. Check whether the boundary is too far away. Check whether positioning is normal, and re-draw / edit the map.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Obstacle Avoidance,Obstacle Avoidance Abnormal,Vision False Alarm (Also Missed Mowing),"1. Check whether the issue is improved after upgrading the app and the firmware to the latest versions.
+2. Check whether there are any temporary obstacles on the lawn during operation.
+3. Confirm that the LiDAR / vision module is not dirty. If it is, clean it.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Obstacle Avoidance,Obstacle Avoidance Abnormal,Mowing Path Abnormal Near Water Area,1. Provide photos of the environment and location of the abnormal path.,,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Obstacle Avoidance,Obstacle,Robot Stuck,"1. Collect photos of the stuck location and the surrounding environment, the time when the stuck occurred, and whether it always occurs at the same location.
+2. If it always occurs at the same location, ensure that the mower does not operate beyond the boundary. The mower should not scrape against the map boundary. Set no-go zones for trees / poles / flower beds to avoid damage, and draw an obstacle-free zone at the stuck location.",1201/1203 Robot stuck and unable to continue moving,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Obstacle Avoidance,Obstacle,Path Blocked by Obstacle,"1. Verify the stuck location and the surrounding environment, and confirm whether there are any obvious obstacles.
+2. If there are obvious obstacles, set an obstacle-free zone at the stuck location while ensuring that the device does not scrape against the boundary.",1214 Path blocked by obstacle,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Obstacle Avoidance,Bumper Bar,Bumper Bar Continuously Triggered,"1. Check the front bumper assembly: whether the four sides are lifted / visibly loose, whether the cable is connected, whether the screws are installed, etc.
+2. After removing the front bumper, check whether error 1207 is still reported.",1207 Bumper bar persistently triggered,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Obstacle Avoidance,Bumper Bar,App Shows Bumper Not Installed but It Actually Is,"1. Check whether the bumper is properly installed. After installation, confirm that the bumper indicator lights up normally.
+2. Press the left / right side of the front bumper and check whether there is a normal beep sound.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Obstacle Avoidance,Grass Catcher,Grass Catcher Hits Wall,1. Modify the boundary or draw a no-go zone in the area where collisions occur.,1028 Wheel slip / idling,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.","yuka 2024, yuka 2025",Needs FAE Upgrade,,
+Firmware & App,Firmware Issue,New Device Unusable / Base Station Red / No Positioning on Vehicle / Drive Board Disconnected,"1. Check whether the app is the latest version.
+2. Connect to the phone hotspot and try the upgrade to see whether it succeeds.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Firmware & App,Firmware Issue,Map Disappeared / Tasks Gone / Cannot Position After Firmware Upgrade,"1. Check whether the ""Reset Base Station Position"" option was selected by mistake.
+2. If so, after the base station position is reset, the map needs to be re-drawn.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Firmware & App,Firmware Issue,Cannot Position After Firmware Upgrade,"1. Verify whether a backup map exists. If the RTK base station position has not moved and a backup map exists, the map can be restored. Otherwise, the map needs to be re-drawn.
+2. Restart the device and the RTK base station.",,"1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.",,Needs FAE Upgrade,,
+Firmware & App,Firmware Issue,Firmware Update Failed,1. Verify whether the issue is caused by the network. Test whether the upgrade succeeds when connecting to the phone's hotspot.,,"1. Check Update History to confirm the reason for the upgrade failure, and determine whether repair is required based on the reason.",,Needs FAE Upgrade,,
+Firmware & App,App,FPV Unavailable / FPV Cannot Open / FPV White/Black Screen,"1. Confirm whether the device firmware and the app are the latest versions.
+2. Confirm that the network signal is good.",,"1. Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.
+2. Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.",,Needs Repair,,
+Firmware & App,App,App Crashes / UI Display Abnormal,"1. Confirm whether the device firmware and the app are the latest versions.
+2. Try using the app on a different phone.",,,,Needs FAE Upgrade,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
