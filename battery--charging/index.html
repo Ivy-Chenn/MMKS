@@ -1,0 +1,1696 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../firmware--app/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Battery & Charging Troubleshooting - MMKS Knowledge Base</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#battery-charging-troubleshooting" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="MMKS Knowledge Base" class="md-header__button md-logo" aria-label="MMKS Knowledge Base" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MMKS Knowledge Base
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Battery &amp; Charging Troubleshooting
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="MMKS Knowledge Base" class="md-nav__button md-logo" aria-label="MMKS Knowledge Base" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    MMKS Knowledge Base
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Battery &amp; Charging Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Battery &amp; Charging Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#auto-recharge-issue-vehicle-bumps-station-and-exits-after-returning-no-charge-docking-abnormal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto-Recharge Issue - Vehicle Bumps Station and Exits After Returning, No Charge / Docking Abnormal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-recharge-issue-spins-before-station-trying-to-dock-cannot-return-to-station" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto-Recharge Issue - Spins Before Station Trying to Dock / Cannot Return to Station
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-recharge-issue-powers-off-suddenly-during-recharge-shows-0-after-connecting-station" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto-Recharge Issue - Powers Off Suddenly During Recharge, Shows 0% After Connecting Station
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-recharge-issue-reaches-low-battery-without-recharging-stops-on-lawn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto-Recharge Issue - Reaches Low Battery Without Recharging, Stops on Lawn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-recharge-issue-powers-off-during-return-to-station" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto-Recharge Issue - Powers Off During Return to Station
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-cannot-charge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Cannot Charge
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-powers-off-immediately-after-exiting-station" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Powers Off Immediately After Exiting Station
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-battery-cannot-be-fully-charged" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Battery Cannot Be Fully Charged
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-battery-drains-fast-single-charge-work-time-shortened-mowing-efficiency-low" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Battery Drains Fast / Single Charge Work Time Shortened / Mowing Efficiency Low
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-battery-temperature-too-high" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Battery Temperature Too High
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-battery-temperature-too-low" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Battery Temperature Too Low
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-battery-gauge-abnormal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Battery Gauge Abnormal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-battery-shows-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Battery Shows 0%
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-new-device-shows-0-battery-at-startup-can-dock-but-cannot-charge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - New Device Shows 0% Battery at Startup, Can Dock but Cannot Charge
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-sudden-abnormal-shutdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Sudden / Abnormal Shutdown
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docking-issue-repeatedly-shows-start-charging-during-charging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docking Issue - Repeatedly Shows 'Start Charging' During Charging
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docking-issue-not-charging-at-station" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docking Issue - Not Charging at Station
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-center-cannot-charge-but-data-backend-shows-no-abnormality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Center - Cannot Charge but Data Backend Shows No Abnormality
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-center-cannot-charge-but-data-center-shows-bmsnone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Center - Cannot Charge but Data Center Shows BMSNONE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-recharge-issue-does-not-recharge-within-mowing-zone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto-Recharge Issue - Does Not Recharge Within Mowing Zone
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-battery-level-jumps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Battery Level Jumps
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docking-issue-charging-station-adapter-indicator-light-abnormal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docking Issue - Charging Station Adapter Indicator Light Abnormal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docking-issue-charging-station-indicator-light-off-abnormal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docking Issue - Charging Station Indicator Light Off / Abnormal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docking-issue-powers-off-while-on-charging-station" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docking Issue - Powers Off While on Charging Station
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docking-issue-powers-off-while-leaving-station-during-charging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docking Issue - Powers Off While Leaving Station During Charging
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-cannot-power-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Cannot Power On
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../firmware--app/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Firmware &amp; App Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hardware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hardware Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapping Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../navigation--motion-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Navigation &amp; Motion Control Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../obstacle-avoidance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Obstacle Avoidance Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../positioning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Positioning Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quality-issue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quality Issue Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../test/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Test
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wifi--bluetooth--4g/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WiFi &amp; Bluetooth &amp; 4G Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#auto-recharge-issue-vehicle-bumps-station-and-exits-after-returning-no-charge-docking-abnormal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto-Recharge Issue - Vehicle Bumps Station and Exits After Returning, No Charge / Docking Abnormal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-recharge-issue-spins-before-station-trying-to-dock-cannot-return-to-station" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto-Recharge Issue - Spins Before Station Trying to Dock / Cannot Return to Station
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-recharge-issue-powers-off-suddenly-during-recharge-shows-0-after-connecting-station" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto-Recharge Issue - Powers Off Suddenly During Recharge, Shows 0% After Connecting Station
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-recharge-issue-reaches-low-battery-without-recharging-stops-on-lawn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto-Recharge Issue - Reaches Low Battery Without Recharging, Stops on Lawn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-recharge-issue-powers-off-during-return-to-station" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto-Recharge Issue - Powers Off During Return to Station
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-cannot-charge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Cannot Charge
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-powers-off-immediately-after-exiting-station" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Powers Off Immediately After Exiting Station
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-battery-cannot-be-fully-charged" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Battery Cannot Be Fully Charged
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-battery-drains-fast-single-charge-work-time-shortened-mowing-efficiency-low" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Battery Drains Fast / Single Charge Work Time Shortened / Mowing Efficiency Low
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-battery-temperature-too-high" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Battery Temperature Too High
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-battery-temperature-too-low" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Battery Temperature Too Low
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-battery-gauge-abnormal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Battery Gauge Abnormal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-battery-shows-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Battery Shows 0%
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-new-device-shows-0-battery-at-startup-can-dock-but-cannot-charge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - New Device Shows 0% Battery at Startup, Can Dock but Cannot Charge
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-sudden-abnormal-shutdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Sudden / Abnormal Shutdown
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docking-issue-repeatedly-shows-start-charging-during-charging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docking Issue - Repeatedly Shows 'Start Charging' During Charging
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docking-issue-not-charging-at-station" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docking Issue - Not Charging at Station
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-center-cannot-charge-but-data-backend-shows-no-abnormality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Center - Cannot Charge but Data Backend Shows No Abnormality
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-center-cannot-charge-but-data-center-shows-bmsnone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Center - Cannot Charge but Data Center Shows BMSNONE
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-recharge-issue-does-not-recharge-within-mowing-zone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto-Recharge Issue - Does Not Recharge Within Mowing Zone
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-battery-level-jumps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Battery Level Jumps
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docking-issue-charging-station-adapter-indicator-light-abnormal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docking Issue - Charging Station Adapter Indicator Light Abnormal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docking-issue-charging-station-indicator-light-off-abnormal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docking Issue - Charging Station Indicator Light Off / Abnormal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docking-issue-powers-off-while-on-charging-station" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docking Issue - Powers Off While on Charging Station
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docking-issue-powers-off-while-leaving-station-during-charging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docking Issue - Powers Off While Leaving Station During Charging
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery-issue-cannot-power-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery Issue - Cannot Power On
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="battery-charging-troubleshooting">Battery &amp; Charging Troubleshooting</h1>
+<h2 id="auto-recharge-issue-vehicle-bumps-station-and-exits-after-returning-no-charge-docking-abnormal">Auto-Recharge Issue - Vehicle Bumps Station and Exits After Returning, No Charge / Docking Abnormal</h2>
+<p><strong>Error Code:</strong></p>
+<ul>
+<li>1200 Repeatedly entering/leaving dock / bumping dock</li>
+<li>2729 Adapter voltage low</li>
+</ul>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check that the charging station is installed on the ground and that the device's contacts are fully in contact with the charging station's contacts.</li>
+<li>Check whether the charging contact strips on the rear of the mower and the charging station's probes are dirty or corroded; clean them if necessary.</li>
+<li>Check whether the connection port between the charging station's power cable and the adapter is loose; re-plug it if necessary.</li>
+<li>Test the voltage of the charging station contacts and the adapter. If abnormal, send a replacement adapter.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="auto-recharge-issue-spins-before-station-trying-to-dock-cannot-return-to-station">Auto-Recharge Issue - Spins Before Station Trying to Dock / Cannot Return to Station</h2>
+<p><strong>Error Code:</strong></p>
+<ul>
+<li>1200 IR module fault (charging station)</li>
+<li>1000011 Return-to-dock failed</li>
+</ul>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Clean the IR lenses on both the mower and the charging station.</li>
+<li>Use an Android phone to check whether there are 4 IR emitters on the charging station. If the number is abnormal, send a replacement charging station.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="auto-recharge-issue-powers-off-suddenly-during-recharge-shows-0-after-connecting-station">Auto-Recharge Issue - Powers Off Suddenly During Recharge, Shows 0% After Connecting Station</h2>
+<p><strong>Solution:</strong></p>
+<p>/</p>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="auto-recharge-issue-reaches-low-battery-without-recharging-stops-on-lawn">Auto-Recharge Issue - Reaches Low Battery Without Recharging, Stops on Lawn</h2>
+<p><strong>Solution:</strong></p>
+<p>/</p>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs FAE Upgrade</code></p>
+<hr />
+<h2 id="auto-recharge-issue-powers-off-during-return-to-station">Auto-Recharge Issue - Powers Off During Return to Station</h2>
+<p><strong>Error Code:</strong></p>
+<ul>
+<li>360 Left wheel hub voltage low</li>
+<li>392 Right wheel hub voltage low</li>
+</ul>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check whether the 2829 low-temperature error is also reported. If so, move the charging station indoors to warm up, and try charging again after the temperature rises.</li>
+<li>Try replacing the battery to see whether the issue is resolved.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs FAE Upgrade</code></p>
+<hr />
+<h2 id="battery-issue-cannot-charge">Battery Issue - Cannot Charge</h2>
+<p><strong>Error Code:</strong></p>
+<ul>
+<li>2729 Adapter voltage low</li>
+</ul>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>For a new device, activate the device first, then dock/undock it on the charging station a few times, confirm that the battery can be charged to 30%, and check that the firmware has been upgraded.</li>
+<li>If it is not a new device, first clean the charging contact strips on both the mower and the charging station, and check the indicator status of the charging station and the adapter.</li>
+<li>Check that the charging station is installed on the ground and that the device's contacts are fully in contact with the charging station's contacts.</li>
+<li>Test the voltage of the charging station contacts and the adapter. If abnormal, send a replacement adapter.</li>
+<li>After the inspection, try placing the mower on the charging station again to see whether it powers on normally.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="battery-issue-powers-off-immediately-after-exiting-station">Battery Issue - Powers Off Immediately After Exiting Station</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Battery over-discharge / unable to charge, which may be caused by a drive board fault.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="battery-issue-battery-cannot-be-fully-charged">Battery Issue - Battery Cannot Be Fully Charged</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Confirm that the firmware is the latest version, and check that the charging contact strips are clean and fully in contact.</li>
+<li>Confirm that the adapter voltage is approximately the normal 25V.</li>
+<li>If the measured value is abnormal, replace the adapter with a new one.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="battery-issue-battery-drains-fast-single-charge-work-time-shortened-mowing-efficiency-low">Battery Issue - Battery Drains Fast / Single Charge Work Time Shortened / Mowing Efficiency Low</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check whether the cutter disk is clogged with grass.</li>
+<li>Check whether the grass is currently thick / the mowing height is set too low.</li>
+<li>Try setting the mowing height in stages from high / medium / low.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="battery-issue-battery-temperature-too-high">Battery Issue - Battery Temperature Too High</h2>
+<p><strong>Error Code:</strong></p>
+<ul>
+<li>2171 Battery temperature too high</li>
+<li>2719 Battery temperature too high</li>
+</ul>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check whether the ambient temperature is too high. If it is above 35°C, it is recommended to wait for the temperature to drop before mowing.</li>
+<li>Check whether the subsequent error disappears.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="battery-issue-battery-temperature-too-low">Battery Issue - Battery Temperature Too Low</h2>
+<p><strong>Error Code:</strong></p>
+<ul>
+<li>2718 Battery temperature too low</li>
+<li>2829 Low-temperature protection, not charging</li>
+</ul>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check whether the ambient temperature is below -10°C. Try to avoid operating the mower in excessively low temperatures.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="battery-issue-battery-gauge-abnormal">Battery Issue - Battery Gauge Abnormal</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>The battery cannot be fully charged. This is caused by an error in the battery SOC table.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs FAE Upgrade</code></p>
+<hr />
+<h2 id="battery-issue-battery-shows-0">Battery Issue - Battery Shows 0%</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Restart the device and check whether the firmware has been upgraded to the latest version.</li>
+<li>Reconnect the battery (YUKA series, mini series) and swap the two batteries to perform a cross-test, troubleshooting each battery individually.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="battery-issue-new-device-shows-0-battery-at-startup-can-dock-but-cannot-charge">Battery Issue - New Device Shows 0% Battery at Startup, Can Dock but Cannot Charge</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>New devices are pre-charged at the factory. Confirm that the device can power on normally.</li>
+<li>Manually secure the charging station and confirm whether it can charge normally.</li>
+<li>Check whether the charging surface is level and the charging contact strips are normal.</li>
+<li>Confirm that the battery can be charged above 30%.</li>
+<li>The firmware needs to be upgraded to the latest version.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="battery-issue-sudden-abnormal-shutdown">Battery Issue - Sudden / Abnormal Shutdown</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check whether the device was in a stationary state for some time before powering off, which may have caused it to enter low-power mode.</li>
+<li>Check for any related errors before the device stopped, and troubleshoot according to the corresponding errors.</li>
+<li>Check whether the FPV function works normally (LUBA 1 does not have the FPV function).</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs FAE Upgrade</code></p>
+<hr />
+<h2 id="docking-issue-repeatedly-shows-start-charging-during-charging">Docking Issue - Repeatedly Shows 'Start Charging' During Charging</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check that the charging station is installed on a level surface and that the device's contacts are fully in contact with the charging station's contacts.</li>
+<li>Check whether the charging contact strips on the rear of the mower and the charging station's probes are dirty or corroded; clean them if necessary.</li>
+<li>Check whether the connection port between the charging station's power cable and the adapter is loose; re-plug it if necessary.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="docking-issue-not-charging-at-station">Docking Issue - Not Charging at Station</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Disconnect the adapter from the charging station and further confirm the status of the adapter indicator. If there is a problem, the charging station adapter may need to be replaced.</li>
+<li>If the adapter status is normal, check the charging station indicator. If there is a problem, the charging station may need to be replaced.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="data-center-cannot-charge-but-data-backend-shows-no-abnormality">Data Center - Cannot Charge but Data Backend Shows No Abnormality</h2>
+<p><strong>Error Code:</strong></p>
+<ul>
+<li>Adapter fault / probe contact not lit / contact strip corrosion / charging station fault</li>
+</ul>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check whether the charging station / adapter indicators are normal before and after docking.</li>
+<li>Check whether the side indicator on the rear of the device is on / slowly flashing after docking.</li>
+<li>Check whether the device is properly docked. Clean the contact strips on the device / charging station and re-dock for testing.</li>
+<li>If the issue is resolved, this indicates that a thorough cleaning of the contact strips is required.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>To Be Discussed</code></p>
+<hr />
+<h2 id="data-center-cannot-charge-but-data-center-shows-bmsnone">Data Center - Cannot Charge but Data Center Shows BMSNONE</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>This may be a battery fault / drive board abnormality.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>To Be Discussed</code></p>
+<hr />
+<h2 id="auto-recharge-issue-does-not-recharge-within-mowing-zone">Auto-Recharge Issue - Does Not Recharge Within Mowing Zone</h2>
+<p><strong>Error Code:</strong></p>
+<ul>
+<li>1201 Stuck</li>
+<li>1203 Return-to-dock failed</li>
+<li>1214 Path blocked by obstacle</li>
+</ul>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check for obstacles around the area. Clear any obstacles to ensure the path is wide enough (LUBA 3: minimum path width is 70cm).</li>
+<li>If there are no obstacles or clearing them does not help, check whether the LiDAR / vision module is dirty. Clean it and keep it regularly cleaned.</li>
+<li>If there is no dirt or cleaning does not help, check whether there is a virtual wall / no-go zone blocking the path in the app map.</li>
+<li>If there is no virtual wall or re-trying does not help, check whether a connecting path is missing between the target zone and other zones. If so, create the path.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs FAE Upgrade</code></p>
+<hr />
+<h2 id="battery-issue-battery-level-jumps">Battery Issue - Battery Level Jumps</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Collect the time of the incident and a screenshot of the battery-level jump.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs FAE Upgrade</code></p>
+<hr />
+<h2 id="docking-issue-charging-station-adapter-indicator-light-abnormal">Docking Issue - Charging Station Adapter Indicator Light Abnormal</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Confirm whether the device is docked and whether the adapter indicator is normal.</li>
+<li>Check whether the adapter voltage is normal.</li>
+<li>Confirm whether the device can power on normally.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="docking-issue-charging-station-indicator-light-off-abnormal">Docking Issue - Charging Station Indicator Light Off / Abnormal</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Confirm whether the device is docked and whether the adapter indicator is normal.</li>
+<li>Check whether the adapter voltage is normal.</li>
+<li>Confirm whether the device can power on normally.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="docking-issue-powers-off-while-on-charging-station">Docking Issue - Powers Off While on Charging Station</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check the on-site environment and whether the charging contacts are clean, free of corrosion, and not worn. If dirty, clean them.</li>
+<li>Manually place the device on the charging station and confirm that the charging station is on firm, level ground. Check whether the issue is resolved when the device is on firm, level ground.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="docking-issue-powers-off-while-leaving-station-during-charging">Docking Issue - Powers Off While Leaving Station During Charging</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check whether the charging station is installed level.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs FAE Upgrade</code></p>
+<hr />
+<h2 id="battery-issue-cannot-power-on">Battery Issue - Cannot Power On</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Measure the voltage of the charging station contact strips when the mower is on the dock / not on the dock, and check whether the charging station adapter voltage is normal (approximately 27V). If it is abnormal, consider replacing the charging station or the adapter.</li>
+<li>If measurement is not possible, both the charging station and the adapter need to be sent in for repair.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

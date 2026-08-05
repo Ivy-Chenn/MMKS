@@ -1,0 +1,1225 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../test/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>WiFi & Bluetooth & 4G Troubleshooting - MMKS Knowledge Base</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#wifi-bluetooth-4g-troubleshooting" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="MMKS Knowledge Base" class="md-header__button md-logo" aria-label="MMKS Knowledge Base" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MMKS Knowledge Base
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              WiFi &amp; Bluetooth &amp; 4G Troubleshooting
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="MMKS Knowledge Base" class="md-nav__button md-logo" aria-label="MMKS Knowledge Base" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    MMKS Knowledge Base
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../battery--charging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Battery &amp; Charging Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../firmware--app/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Firmware &amp; App Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hardware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hardware Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapping Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../navigation--motion-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Navigation &amp; Motion Control Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../obstacle-avoidance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Obstacle Avoidance Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../positioning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Positioning Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quality-issue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quality Issue Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../test/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Test
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WiFi &amp; Bluetooth &amp; 4G Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WiFi &amp; Bluetooth &amp; 4G Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bluetooth-issue-app-cannot-find-device-bluetooth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bluetooth Issue - App Cannot Find Device Bluetooth
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bluetooth-issue-can-find-but-cannot-connect-continuously-loading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bluetooth Issue - Can Find but Cannot Connect / Continuously Loading
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bluetooth-issue-bluetooth-signal-weak-lag-frequent-disconnection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bluetooth Issue - Bluetooth Signal Weak / Lag / Frequent Disconnection
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wi-fi-issue-app-cannot-find-wi-fi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wi-Fi Issue - App Cannot Find Wi-Fi
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wi-fi-issue-can-find-but-cannot-connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wi-Fi Issue - Can Find but Cannot Connect
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wi-fi-issue-wi-fi-signal-weak-exclamation-mark-frequent-disconnection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wi-Fi Issue - Wi-Fi Signal Weak / Exclamation Mark / Frequent Disconnection
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wi-fi-issue-connection-error-binding-failed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wi-Fi Issue - Connection Error / Binding Failed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4gsim-issue-4g-icon-gray-cannot-get-ip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4G/SIM Issue - 4G Icon Gray / Cannot Get IP
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4gsim-issue-red-exclamation-cannot-register-status-not-displayed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4G/SIM Issue - Red Exclamation / Cannot Register / Status Not Displayed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4gsim-issue-4g-unusable-plan-inactive-data-exhausted" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4G/SIM Issue - 4G Unusable / Plan Inactive / Data Exhausted
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4gsim-issue-4g-signal-weak-remote-connection-unstable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4G/SIM Issue - 4G Signal Weak / Remote Connection Unstable
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4gsim-issue-sim-card-not-recognized-incompatible-module-not-installed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4G/SIM Issue - SIM Card Not Recognized / Incompatible / Module Not Installed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#device-offline-user-network-causes-offline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Device Offline - User Network Causes Offline
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#device-offline-iot-platform-or-other-reasons-cause-offline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Device Offline - IoT / Platform or Other Reasons Cause Offline
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bluetooth-issue-app-cannot-find-device-bluetooth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bluetooth Issue - App Cannot Find Device Bluetooth
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bluetooth-issue-can-find-but-cannot-connect-continuously-loading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bluetooth Issue - Can Find but Cannot Connect / Continuously Loading
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bluetooth-issue-bluetooth-signal-weak-lag-frequent-disconnection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bluetooth Issue - Bluetooth Signal Weak / Lag / Frequent Disconnection
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wi-fi-issue-app-cannot-find-wi-fi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wi-Fi Issue - App Cannot Find Wi-Fi
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wi-fi-issue-can-find-but-cannot-connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wi-Fi Issue - Can Find but Cannot Connect
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wi-fi-issue-wi-fi-signal-weak-exclamation-mark-frequent-disconnection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wi-Fi Issue - Wi-Fi Signal Weak / Exclamation Mark / Frequent Disconnection
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wi-fi-issue-connection-error-binding-failed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wi-Fi Issue - Connection Error / Binding Failed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4gsim-issue-4g-icon-gray-cannot-get-ip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4G/SIM Issue - 4G Icon Gray / Cannot Get IP
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4gsim-issue-red-exclamation-cannot-register-status-not-displayed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4G/SIM Issue - Red Exclamation / Cannot Register / Status Not Displayed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4gsim-issue-4g-unusable-plan-inactive-data-exhausted" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4G/SIM Issue - 4G Unusable / Plan Inactive / Data Exhausted
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4gsim-issue-4g-signal-weak-remote-connection-unstable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4G/SIM Issue - 4G Signal Weak / Remote Connection Unstable
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4gsim-issue-sim-card-not-recognized-incompatible-module-not-installed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4G/SIM Issue - SIM Card Not Recognized / Incompatible / Module Not Installed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#device-offline-user-network-causes-offline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Device Offline - User Network Causes Offline
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#device-offline-iot-platform-or-other-reasons-cause-offline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Device Offline - IoT / Platform or Other Reasons Cause Offline
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="wifi-bluetooth-4g-troubleshooting">WiFi &amp; Bluetooth &amp; 4G Troubleshooting</h1>
+<h2 id="bluetooth-issue-app-cannot-find-device-bluetooth">Bluetooth Issue - App Cannot Find Device Bluetooth</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check whether the firmware is the latest version; if not, it needs to be updated.</li>
+<li>Reconnect the vision module (LUBA 2, LUBA 2X, LUBA mini, LUBA mini 2 1000).</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="bluetooth-issue-can-find-but-cannot-connect-continuously-loading">Bluetooth Issue - Can Find but Cannot Connect / Continuously Loading</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check whether the firmware is the latest version; if not, it needs to be updated.</li>
+<li>Reconnect the camera (LUBA 2, LUBA 2X, LUBA mini, LUBA mini 2 1000).</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="bluetooth-issue-bluetooth-signal-weak-lag-frequent-disconnection">Bluetooth Issue - Bluetooth Signal Weak / Lag / Frequent Disconnection</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check whether the firmware is the latest version; if not, it needs to be updated.</li>
+<li>Reconnect the vision module (LUBA 2, LUBA 2X, LUBA mini, LUBA mini 2 1000).</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="wi-fi-issue-app-cannot-find-wi-fi">Wi-Fi Issue - App Cannot Find Wi-Fi</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Reconnect the vision module (LUBA 2, LUBA 2X, LUBA mini, LUBA mini 2 1000).</li>
+<li>Wait 2-3 minutes after powering on before configuring the network.</li>
+<li>Try connecting to the phone's hotspot. If the connection succeeds, the Wi-Fi is incompatible.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="wi-fi-issue-can-find-but-cannot-connect">Wi-Fi Issue - Can Find but Cannot Connect</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Reconnect the vision module (LUBA 2, LUBA 2X, LUBA mini, LUBA mini 2 1000).</li>
+<li>Wait 2-3 minutes after powering on before configuring the network.</li>
+<li>Try connecting to the phone's hotspot. If the connection succeeds, the Wi-Fi is incompatible.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</p>
+</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="wi-fi-issue-wi-fi-signal-weak-exclamation-mark-frequent-disconnection">Wi-Fi Issue - Wi-Fi Signal Weak / Exclamation Mark / Frequent Disconnection</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Try connecting to the phone's hotspot. If the connection succeeds, the Wi-Fi is incompatible.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check Basic Info to confirm the Wi-Fi signal strength.</li>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check Basic Info to confirm the Wi-Fi signal strength.</p>
+</li>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="wi-fi-issue-connection-error-binding-failed">Wi-Fi Issue - Connection Error / Binding Failed</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Try connecting to the phone's hotspot. If the connection succeeds, the Wi-Fi is incompatible.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check Basic Info to confirm the Wi-Fi signal strength.</li>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check Basic Info to confirm the Wi-Fi signal strength.</p>
+</li>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs Repair</code></p>
+<hr />
+<h2 id="4gsim-issue-4g-icon-gray-cannot-get-ip">4G/SIM Issue - 4G Icon Gray / Cannot Get IP</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check whether the 4G function has been enabled in the app.</li>
+<li>Restart the device and wait 2-3 minutes.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check Basic Info to confirm the Wi-Fi signal strength.</li>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Check Sim Info to confirm the 4G SIM activation status.</p>
+</li>
+<li>
+<p>Check Basic Info to confirm the Wi-Fi signal strength.</p>
+</li>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>Check Sim Info to confirm the 4G SIM activation status.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs FAE Upgrade</code></p>
+<hr />
+<h2 id="4gsim-issue-red-exclamation-cannot-register-status-not-displayed">4G/SIM Issue - Red Exclamation / Cannot Register / Status Not Displayed</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Reconnect the 4G module (YUKA mini, YUKA mini 2).</li>
+<li>Restart the device and wait 2-3 minutes.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check Basic Info to confirm the Wi-Fi signal strength.</li>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Check Sim Info to confirm the 4G SIM activation status.</p>
+</li>
+<li>
+<p>Check Basic Info to confirm the Wi-Fi signal strength.</p>
+</li>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>Check Sim Info to confirm the 4G SIM activation status.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs FAE Upgrade</code></p>
+<hr />
+<h2 id="4gsim-issue-4g-unusable-plan-inactive-data-exhausted">4G/SIM Issue - 4G Unusable / Plan Inactive / Data Exhausted</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check the data plan, data usage, and SIM activation/renewal status.</li>
+<li>Restart the device and wait 2-3 minutes.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check Basic Info to confirm the Wi-Fi signal strength.</li>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Check Sim Info to confirm the 4G SIM activation status.</p>
+</li>
+<li>
+<p>Check Basic Info to confirm the Wi-Fi signal strength.</p>
+</li>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>Check Sim Info to confirm the 4G SIM activation status.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs FAE Upgrade</code></p>
+<hr />
+<h2 id="4gsim-issue-4g-signal-weak-remote-connection-unstable">4G/SIM Issue - 4G Signal Weak / Remote Connection Unstable</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check the data plan, data usage, and SIM activation/renewal status.</li>
+<li>Restart the device and wait 2-3 minutes; confirm that the area where the device is located has stable cellular network coverage.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check Basic Info to confirm the Wi-Fi signal strength.</li>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Check Sim Info to confirm the 4G SIM activation status.</p>
+</li>
+<li>
+<p>Check Basic Info to confirm the Wi-Fi signal strength.</p>
+</li>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>Check Sim Info to confirm the 4G SIM activation status.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs FAE Upgrade</code></p>
+<hr />
+<h2 id="4gsim-issue-sim-card-not-recognized-incompatible-module-not-installed">4G/SIM Issue - SIM Card Not Recognized / Incompatible / Module Not Installed</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Reconnect the 4G module (YUKA mini, YUKA mini 2).</li>
+<li>Restart the device and wait 2-3 minutes.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check Basic Info to confirm the Wi-Fi signal strength.</li>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Check Sim Info to confirm the 4G SIM activation status.</p>
+</li>
+<li>
+<p>Check Basic Info to confirm the Wi-Fi signal strength.</p>
+</li>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>Check Sim Info to confirm the 4G SIM activation status.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs FAE Upgrade</code></p>
+<hr />
+<h2 id="device-offline-user-network-causes-offline">Device Offline - User Network Causes Offline</h2>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Check whether the firmware is the latest version; if not, it needs to be updated.</li>
+<li>Confirm whether the robot is powered on when offline.</li>
+<li>Check the current Wi-Fi signal and network status.</li>
+</ol>
+<p><strong>Query Page:</strong></p>
+<ol>
+<li>Check Basic Info to confirm the network signal strength.</li>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>
+<p>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</p>
+</li>
+<li>
+<p>Check Basic Info to confirm the network signal strength.</p>
+</li>
+<li>Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.</li>
+<li>Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.</li>
+</ol>
+<p><strong>If not sloved:</strong>
+ <code>Needs FAE Upgrade</code></p>
+<hr />
+<h2 id="device-offline-iot-platform-or-other-reasons-cause-offline">Device Offline - IoT / Platform or Other Reasons Cause Offline</h2>
+<p><strong>Solution:</strong></p>
+<p>/</p>
+<p><strong>If not sloved:</strong>
+ <code>To Be Discussed</code></p>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
