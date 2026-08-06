@@ -1,0 +1,32 @@
+site_name: MMKS Knowledge Base
+site_url: http://Ivy-Chenn.github.io/MMKS/
+
+docs_dir: ITR
+
+theme:
+  name: material
+  logo: assets/logo.png 
+  favicon: assets/favicon.png
+  language: en
+  features:
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+
+nav:
+  - Home: index.md 
+  - Battery & Charging: battery--charging.md
+  - Firmwave & App: firmware--app.md
+  - Hardware: hardware.md
+  - Mapping: mapping.md
+  - Navigation & Motion Control: navigation--motion-control.md
+  - Obstacle Avoidance: obstacle-avoidance.md
+  - Positioning: positioning.md
+  - Quality Issue: quality-issue.md
+  - WiFi & Bluebooth & 4G: wifi--bluetooth--4g.md
