@@ -39,11 +39,11 @@ if module_col in df.columns:
 
 
                 title_text = (
-                    f'{symptom} - {sub_symptom}'
+                    f'**{symptom}** - {sub_symptom}'
                     if pd.notna(sub_symptom) and sub_symptom
-                    else symptom
+                    else f'**{symptom}**' 
                 )
-                f.write(f'##{title_text}\n\n')
+                f.write(f'## {title_text}\n\n')
 
                 if pd.notna(error_code) and str(error_code).strip():
                     f.write('**Error Code:**\n\n')
