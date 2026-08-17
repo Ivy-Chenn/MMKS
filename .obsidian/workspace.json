@@ -196,8 +196,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eddc6771ed5fac67",
+  "active": "9134261c2976e680",
   "lastOpenFiles": [
+    "site/404.html",
+    "site/assets/images/favicon.png",
     "ITR/test.md",
     "ITR/quality-issue.md",
     "ITR/positioning.md",
@@ -218,7 +220,6 @@
     "site/quality-issue",
     "site/positioning/index.html",
     "site/positioning",
-    "site/assets/images/favicon.png",
     "site/assets/logo.png",
     "site/assets/favicon.png",
     "ITR/wifi--bluetooth--4g.md",

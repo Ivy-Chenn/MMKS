@@ -73,7 +73,7 @@ if module_col in df.columns:
                     f.write('\n')
 
                 if pd.notna(if_not_solved) and str(if_not_solved).strip():
-                    f.write(f'**If not sloved:**\n `{if_not_solved}`\n\n')
+                    f.write(f'**If not solved:**\n `{if_not_solved}`\n\n')
 
                 f.write('---\n\n')    
         print(f'updated:{file_path}')
