@@ -12,9 +12,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -32,9 +29,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -48,9 +42,6 @@
 2. Reconnect the vision module (LUBA 2, LUBA 2X, LUBA mini, LUBA mini 2 1000).
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -73,9 +64,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -90,9 +78,6 @@
 3. Try connecting to the phone's hotspot. If the connection succeeds, the Wi-Fi is incompatible.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -114,10 +99,6 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check Basic Info to confirm the Wi-Fi signal strength.
-2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -130,10 +111,6 @@
 1. Try connecting to the phone's hotspot. If the connection succeeds, the Wi-Fi is incompatible.
 
 **Query Page:**
-
-1. Check Basic Info to confirm the Wi-Fi signal strength.
-2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check Basic Info to confirm the Wi-Fi signal strength.
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
@@ -157,10 +134,6 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Check Sim Info to confirm the 4G SIM activation status.
 
-1. Check Basic Info to confirm the Wi-Fi signal strength.
-2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-3. Check Sim Info to confirm the 4G SIM activation status.
-
 **If not sloved:**
  `Needs FAE Upgrade`
 
@@ -174,10 +147,6 @@
 2. Restart the device and wait 2-3 minutes.
 
 **Query Page:**
-
-1. Check Basic Info to confirm the Wi-Fi signal strength.
-2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-3. Check Sim Info to confirm the 4G SIM activation status.
 
 1. Check Basic Info to confirm the Wi-Fi signal strength.
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
@@ -201,10 +170,6 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Check Sim Info to confirm the 4G SIM activation status.
 
-1. Check Basic Info to confirm the Wi-Fi signal strength.
-2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-3. Check Sim Info to confirm the 4G SIM activation status.
-
 **If not sloved:**
  `Needs FAE Upgrade`
 
@@ -218,10 +183,6 @@
 2. Restart the device and wait 2-3 minutes; confirm that the area where the device is located has stable cellular network coverage.
 
 **Query Page:**
-
-1. Check Basic Info to confirm the Wi-Fi signal strength.
-2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-3. Check Sim Info to confirm the 4G SIM activation status.
 
 1. Check Basic Info to confirm the Wi-Fi signal strength.
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
@@ -245,10 +206,6 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Check Sim Info to confirm the 4G SIM activation status.
 
-1. Check Basic Info to confirm the Wi-Fi signal strength.
-2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-3. Check Sim Info to confirm the 4G SIM activation status.
-
 **If not sloved:**
  `Needs FAE Upgrade`
 
@@ -263,10 +220,6 @@
 3. Check the current Wi-Fi signal and network status.
 
 **Query Page:**
-
-1. Check Basic Info to confirm the network signal strength.
-2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check Basic Info to confirm the network signal strength.
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.

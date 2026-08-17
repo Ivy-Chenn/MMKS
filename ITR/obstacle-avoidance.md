@@ -12,9 +12,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs FAE Upgrade`
 
@@ -33,9 +30,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs FAE Upgrade`
 
@@ -49,9 +43,6 @@
 2. Check whether the boundary is too far away. Check whether positioning is normal, and re-draw / edit the map.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -74,9 +65,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs FAE Upgrade`
 
@@ -89,9 +77,6 @@
 1. Provide photos of the environment and location of the abnormal path.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -117,9 +102,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs FAE Upgrade`
 
@@ -137,9 +119,6 @@
 2. If there are obvious obstacles, set an obstacle-free zone at the stuck location while ensuring that the device does not scrape against the boundary.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -165,9 +144,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -181,9 +157,6 @@
 2. Press the left / right side of the front bumper and check whether there is a normal beep sound.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -204,9 +177,6 @@
 1. Modify the boundary or draw a no-go zone in the area where collisions occur.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.

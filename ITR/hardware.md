@@ -16,9 +16,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -43,9 +40,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -58,9 +52,6 @@
 1. Verify the situation and confirm the abnormal wheel noise.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -95,9 +86,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -115,9 +103,6 @@
 2. Try powering off the device and reconnecting the safety key (up to three times).
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -146,9 +131,6 @@
 2. If not, but the error persists, the device needs to be sent in for repair.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -184,9 +166,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -209,9 +188,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -229,9 +205,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -244,9 +217,6 @@
 1. Check whether any blade has fallen off / check whether the protective cover is loose / check whether any screws are missing.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -268,9 +238,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -284,9 +251,6 @@
 2. If deformed / uneven, arrange to send the device in for repair.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -313,9 +277,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -333,9 +294,6 @@
 2. After cleaning, restart the device, adjust the cutter height in the app, and start a new mowing task to check whether the error still occurs.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -372,9 +330,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -396,9 +351,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -411,9 +363,6 @@
 1. Abnormal buzzer sound or the buzzer not working normally may be caused by a buzzer fault.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.
-2. Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.
 2. Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.
@@ -432,9 +381,6 @@
 3. If the above checks pass, the speaker may be faulty.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -461,9 +407,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -476,9 +419,6 @@
 1. Place the mower on the charging station and confirm whether it can power on. If it can, troubleshoot as a battery issue; if it cannot, the device needs to be sent in for repair.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -505,9 +445,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -524,9 +461,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -539,9 +473,6 @@
 1. Confirm whether the cable connecting the front bumper port on the mower is broken. If it is broken, the front bumper needs to be replaced.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -563,9 +494,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -578,9 +506,6 @@
 1. Reinstall according to the installation guide.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -598,9 +523,6 @@
 2. Test whether the magnet still has magnetic attraction. If not, replace it with a new one.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -623,9 +545,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -642,9 +561,6 @@
 1. Clean the rain sensor and check whether the error persists.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -704,9 +620,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -728,9 +641,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -743,9 +653,6 @@
 1. The vision module needs to be replaced.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -768,9 +675,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -784,9 +688,6 @@
 2. Test opening the FPV in standby or during operation. Test opening the FPV near / away from the router. Connect using only Wi-Fi / 4G and open the FPV. If any fault occurs, consider testing with another Wi-Fi network or a phone hotspot.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -828,9 +729,6 @@
 2. If the issue persists, replace the safety key with a new one.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -896,9 +794,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -916,9 +811,6 @@
 2. Switch the obstacle-avoidance mode to off or sensitive, and test whether the boundary position is improved.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -945,9 +837,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -967,9 +856,6 @@
 4. Replace the grass collection module to check whether the issue is improved.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -998,9 +884,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -1015,9 +898,6 @@
 3. Use the app to check whether the slope during operation exceeds 10°. If so, consider whether removing the grass collection box improves the situation.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -1039,9 +919,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -1055,9 +932,6 @@
 2. Provide photos of the worn / missing bearing on the right end of the rolling brush, and consider whether the issue is improved after replacing the assembly.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -1079,9 +953,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -1096,9 +967,6 @@
 3. If the main bracket is worn, replace the grass collection box directly.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -1124,9 +992,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -1146,9 +1011,7 @@
 
 **Query Page:**
 
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+1. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 **If not sloved:**
  `Needs Repair`

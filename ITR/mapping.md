@@ -77,9 +77,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs FAE Upgrade`
 
@@ -125,8 +122,6 @@
 2. Remove any possible obstacles in front of the charging station.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 

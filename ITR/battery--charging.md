@@ -19,9 +19,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -44,8 +41,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 **If not sloved:**
  `Needs Repair`
@@ -59,9 +54,6 @@
 /
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.
-2. Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.
 2. Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.
@@ -82,8 +74,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 **If not sloved:**
  `Needs FAE Upgrade`
@@ -103,9 +93,6 @@
 2. Try replacing the battery to see whether the issue is resolved.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -134,9 +121,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -149,9 +133,6 @@
 1. Battery over-discharge / unable to charge, which may be caused by a drive board fault.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -174,9 +155,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -191,9 +169,6 @@
 3. Try setting the mowing height in stages from high / medium / low.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -220,9 +195,6 @@
 1. Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.
 2. Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.
-2. Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -244,9 +216,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -259,9 +228,6 @@
 1. The battery cannot be fully charged. This is caused by an error in the battery SOC table.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -279,9 +245,6 @@
 2. Reconnect the battery (YUKA series, mini series) and swap the two batteries to perform a cross-test, troubleshooting each battery individually.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -306,9 +269,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -323,9 +283,6 @@
 3. Check whether the FPV function works normally (LUBA 1 does not have the FPV function).
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -348,9 +305,6 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -364,9 +318,6 @@
 2. If the adapter status is normal, check the charging station indicator. If there is a problem, the charging station may need to be replaced.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -421,9 +372,6 @@
 4. If there is no virtual wall or re-trying does not help, check whether a connecting path is missing between the target zone and other zones. If so, create the path.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
@@ -501,9 +449,6 @@
 2. If measurement is not possible, both the charging station and the adapter need to be sent in for repair.
 
 **Query Page:**
-
-1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.

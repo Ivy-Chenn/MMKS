@@ -17,10 +17,6 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check Basic Info to confirm the current positioning mode of the robot.
-2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs FAE Upgrade`
 
@@ -38,10 +34,6 @@
 2. Move the path obstacles away or redraw the path to avoid the obstacles.
 
 **Query Page:**
-
-1. Check Basic Info to confirm the current positioning mode of the robot.
-2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check Basic Info to confirm the current positioning mode of the robot.
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
@@ -71,10 +63,6 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check Basic Info to confirm the current positioning mode of the robot.
-2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs Repair`
 
@@ -87,10 +75,6 @@
 1. Check whether there are any wheel hub motor / cutter motor errors in the app.
 
 **Query Page:**
-
-1. Check Basic Info to confirm the current positioning mode of the robot.
-2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check Basic Info to confirm the current positioning mode of the robot.
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
@@ -137,10 +121,6 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check Basic Info to confirm the current positioning mode of the robot.
-2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs FAE Upgrade`
 
@@ -153,10 +133,6 @@
 1. Check whether there are any motor-related errors in the app.
 
 **Query Page:**
-
-1. Check Basic Info to confirm the current positioning mode of the robot.
-2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check Basic Info to confirm the current positioning mode of the robot.
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
@@ -180,10 +156,6 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-1. Check Basic Info to confirm the current positioning mode of the robot.
-2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
-
 **If not sloved:**
  `Needs FAE Upgrade`
 
@@ -201,10 +173,6 @@
 2. Check whether the issue is improved after enabling the obstacle-avoidance mode.
 
 **Query Page:**
-
-1. Check Basic Info to confirm the current positioning mode of the robot.
-2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
-3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
 1. Check Basic Info to confirm the current positioning mode of the robot.
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
