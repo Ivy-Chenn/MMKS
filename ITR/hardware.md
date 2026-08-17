@@ -488,12 +488,12 @@
 
 ---
 
-##Bumper Bar - Front Bumper Bar Continuous Noise
+##Bumper - Front Bumper Continuous Noise
 
 **Error Code:**
 
-- 1217 Bumper bar triggered detected
-- 1207 Bumper bar repeatedly triggered
+- 1217 Bumper triggered detected
+- 1207 Bumper repeatedly triggered
 
 **Solution:**
 
@@ -513,7 +513,7 @@
 
 ---
 
-##Bumper Bar - Front Bumper Bar Port Damaged
+##Bumper- Front Bumper Port Damaged
 
 **Solution:**
 
@@ -532,7 +532,7 @@
 
 ---
 
-##Bumper Bar - Front Bumper Bar Connection Cable Broken
+##Bumper - Front Bumper Connection Cable Broken
 
 **Solution:**
 
@@ -551,7 +551,7 @@
 
 ---
 
-##Bumper Bar - Front Bumper Bar Frequently Falls Off
+##Bumper - Front Bumper Frequently Falls Off
 
 **Solution:**
 
@@ -571,7 +571,7 @@
 
 ---
 
-##Bumper Bar - Front Bumper Bar Indicator Light Off
+##Bumper - Front Bumper Indicator Light Off
 
 **Solution:**
 
