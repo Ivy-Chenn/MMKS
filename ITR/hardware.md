@@ -428,7 +428,7 @@
 
 ---
 
-## **Bumper - Front Bumper Continuous Noise
+## **Bumper** - Front Bumper Continuous Noise
 
 **Error Code:**
 
@@ -466,7 +466,7 @@
 
 ---
 
-## **Bumper - Front Bumper Connection Cable Broken
+## **Bumper** - Front Bumper Connection Cable Broken
 
 **Solution:**
 
@@ -482,7 +482,7 @@
 
 ---
 
-## **Bumper - Front Bumper Frequently Falls Off
+## **Bumper** - Front Bumper Frequently Falls Off
 
 **Solution:**
 
@@ -499,7 +499,7 @@
 
 ---
 
-## **Bumper - Front Bumper Indicator Light Off
+## **Bumper** - Front Bumper Indicator Light Off
 
 **Solution:**
 
