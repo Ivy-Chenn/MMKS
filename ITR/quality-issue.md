@@ -1,6 +1,6 @@
 #Quality Issue Troubleshooting
 
-## ** Missing/Damaged/Defective Parts** - Vision Module Damaged
+## **Missing/Damaged/Defective Parts** - Vision Module Damaged
 
 **Solution:**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## ** Missing/Damaged/Defective Parts** - Wheel Exterior Part Detached
+## **Missing/Damaged/Defective Parts** - Wheel Exterior Part Detached
 
 **Solution:**
 
@@ -24,7 +24,7 @@
 
 ---
 
-## ** Missing/Damaged/Defective Parts** - Front Decorative Cover Damaged
+## **Missing/Damaged/Defective Parts** - Front Decorative Cover Damaged
 
 **Solution:**
 
@@ -36,7 +36,7 @@
 
 ---
 
-## ** Missing/Damaged/Defective Parts** - Shock Absorber Broken from Falling
+## **Missing/Damaged/Defective Parts** - Shock Absorber Broken from Falling
 
 **Solution:**
 
@@ -48,7 +48,7 @@
 
 ---
 
-## ** Missing/Damaged/Defective Parts** - Garage Missing Parts
+## **Missing/Damaged/Defective Parts** - Garage Missing Parts
 
 **Solution:**
 
@@ -59,7 +59,7 @@
 
 ---
 
-## ** Missing/Damaged/Defective Parts** - RTK Mounting Bracket Structure Abnormal
+## **Missing/Damaged/Defective Parts** - RTK Mounting Bracket Structure Abnormal
 
 **Solution:**
 
@@ -72,7 +72,7 @@
 
 ---
 
-## ** Missing/Damaged/Defective Parts** - Exterior Part Yellowing
+## **Missing/Damaged/Defective Parts** - Exterior Part Yellowing
 
 **Solution:**
 
@@ -84,7 +84,7 @@
 
 ---
 
-## ** Missing/Damaged/Defective Parts** - Missing Cables / Accessories
+## **Missing/Damaged/Defective Parts** - Missing Cables / Accessories
 
 **Solution:**
 
@@ -96,7 +96,7 @@
 
 ---
 
-## ** Missing/Damaged/Defective Parts** - Garage Screws Damaged / Holes Misaligned
+## **Missing/Damaged/Defective Parts** - Garage Screws Damaged / Holes Misaligned
 
 **Solution:**
 
@@ -108,7 +108,7 @@
 
 ---
 
-## ** Missing/Damaged/Defective Parts** - Charging Station / Contact Pin Stuck
+## **Missing/Damaged/Defective Parts** - Charging Station / Contact Pin Stuck
 
 **Solution:**
 
@@ -120,7 +120,7 @@
 
 ---
 
-## ** Missing/Damaged/Defective Parts** - Charging Station Mounting Hole Damaged (High Wind)
+## **Missing/Damaged/Defective Parts** - Charging Station Mounting Hole Damaged (High Wind)
 
 **Solution:**
 
