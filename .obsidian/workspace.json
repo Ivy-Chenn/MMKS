@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ITR/wifi--bluetooth--4g.md",
+                "file": "ITR/battery--charging.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wifi--bluetooth--4g"
+              "title": "battery--charging"
             }
           }
         ]
@@ -198,6 +198,8 @@
   },
   "active": "9134261c2976e680",
   "lastOpenFiles": [
+    "ITR/firmware--app.md",
+    "ITR/wifi--bluetooth--4g.md",
     "site/404.html",
     "site/assets/images/favicon.png",
     "ITR/test.md",
@@ -208,7 +210,6 @@
     "ITR/mapping.md",
     "ITR/index.md",
     "ITR/hardware.md",
-    "ITR/firmware--app.md",
     "ITR/battery--charging.md",
     "site/search/search_index.json",
     "site/search",
@@ -219,10 +220,8 @@
     "site/quality-issue/index.html",
     "site/quality-issue",
     "site/positioning/index.html",
-    "site/positioning",
     "site/assets/logo.png",
     "site/assets/favicon.png",
-    "ITR/wifi--bluetooth--4g.md",
     "ITR/assets/logo.png",
     "ITR/assets/favicon.png",
     "ITR/wi-fi-bluetooth-4g.md",

@@ -1,6 +1,6 @@
 #Firmware & App Troubleshooting
 
-##Firmware Issue - New Device Unusable / Base Station Red / No Positioning on Vehicle / Drive Board Disconnected
+## **Firmware Issue** - New Device Unusable / Base Station Red / No Positioning on Vehicle / Drive Board Disconnected
 
 **Solution:**
 
@@ -12,12 +12,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Firmware Issue - Map Disappeared / Tasks Gone / Cannot Position After Firmware Upgrade
+## **Firmware Issue** - Map Disappeared / Tasks Gone / Cannot Position After Firmware Upgrade
 
 **Solution:**
 
@@ -29,12 +29,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Firmware Issue - Cannot Position After Firmware Upgrade
+## **Firmware Issue** - Cannot Position After Firmware Upgrade
 
 **Solution:**
 
@@ -46,12 +46,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Firmware Issue - Firmware Update Failed
+## **Firmware Issue** - Firmware Update Failed
 
 **Solution:**
 
@@ -61,13 +61,12 @@
 
 1. Check Update History to confirm the reason for the upgrade failure, and determine whether repair is required based on the reason.
 
-
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##App - FPV Unavailable / FPV Cannot Open / FPV White/Black Screen
+## **App** - FPV Unavailable / FPV Cannot Open / FPV White/Black Screen
 
 **Solution:**
 
@@ -79,19 +78,19 @@
 1. Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.
 2. Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##App - App Crashes / UI Display Abnormal
+## **App** - App Crashes / UI Display Abnormal
 
 **Solution:**
 
 1. Confirm whether the device firmware and the app are the latest versions.
 2. Try using the app on a different phone.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---

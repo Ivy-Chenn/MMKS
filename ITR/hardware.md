@@ -1,6 +1,6 @@
 #Hardware Troubleshooting
 
-##Drive Board Linkage Issue - Upgrade Failed / Wheels Not Powered / Powers Off After Exit / Battery Not Displayed or 0% / Battery Info Update Failed
+## **Drive Board Linkage Issue** - Upgrade Failed / Wheels Not Powered / Powers Off After Exit / Battery Not Displayed or 0% / Battery Info Update Failed
 
 **Error Code:**
 
@@ -16,12 +16,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Hub Motor - Hub Motor / Hall Sensor Error
+## **Hub Motor** - Hub Motor / Hall Sensor Error
 
 **Error Code:**
 
@@ -40,12 +40,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Hub Motor - Wheel Noise
+## **Hub Motor** - Wheel Noise
 
 **Solution:**
 
@@ -56,12 +56,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Hub Motor - Hub Motor Abnormal
+## **Hub Motor** - Hub Motor Abnormal
 
 **Error Code:**
 
@@ -86,12 +86,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Hub Motor - Hub Motor Overcurrent
+## **Hub Motor** - Hub Motor Overcurrent
 
 **Error Code:**
 
@@ -107,12 +107,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Cutter Motor - Cutter Motor Overload Error
+## **Cutter Motor** - Cutter Motor Overload Error
 
 **Error Code:**
 
@@ -135,12 +135,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Cutter Motor - Cutter Motor Abnormal
+## **Cutter Motor** - Cutter Motor Abnormal
 
 **Error Code:**
 
@@ -166,12 +166,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Cutter Motor - Cutter Disc Stuck
+## **Cutter Motor** - Cutter Disc Stuck
 
 **Error Code:**
 
@@ -188,12 +188,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Cutter Motor - Cutter Motor Abnormal Noise
+## **Cutter Motor** - Cutter Motor Abnormal Noise
 
 **Solution:**
 
@@ -205,12 +205,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Cutter Motor - Cutter Disc Fuse Blown
+## **Cutter Motor** - Cutter Disc Fuse Blown
 
 **Solution:**
 
@@ -221,12 +221,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Cutter Motor - Cutter Disc Edge Grinding
+## **Cutter Motor** - Cutter Disc Edge Grinding
 
 **Solution:**
 
@@ -238,12 +238,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Cutter Motor - Cutter Disc Baffle Uneven
+## **Cutter Motor** - Cutter Disc Baffle Uneven
 
 **Solution:**
 
@@ -255,12 +255,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Lift Motor - Lift Motor Angle Position Sensor Abnormal
+## **Lift Motor** - Lift Motor Angle Position Sensor Abnormal
 
 **Error Code:**
 
@@ -277,12 +277,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Lift Motor - Lift Motor Overcurrent
+## **Lift Motor** - Lift Motor Overcurrent
 
 **Error Code:**
 
@@ -298,12 +298,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Lift Motor - Lift Motor Abnormal
+## **Lift Motor** - Lift Motor Abnormal
 
 **Error Code:**
 
@@ -330,12 +330,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Buzzer - Buzzer Frequently Triggered
+## **Buzzer** - Buzzer Frequently Triggered
 
 **Error Code:**
 
@@ -351,12 +351,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Buzzer - Buzzer Sound Abnormal
+## **Buzzer** - Buzzer Sound Abnormal
 
 **Solution:**
 
@@ -367,12 +367,12 @@
 1. Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.
 2. Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Speaker - Speaker Not Working
+## **Speaker** - Speaker Not Working
 
 **Solution:**
 
@@ -385,12 +385,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Vehicle Locked - Vehicle Remains Locked
+## **Vehicle Locked** - Vehicle Remains Locked
 
 **Error Code:**
 
@@ -407,12 +407,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Cannot Power On - Cannot Power On, Long Press Power Key No Response
+## **Cannot Power On** - Cannot Power On, Long Press Power Key No Response
 
 **Solution:**
 
@@ -423,17 +423,17 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Bumper - Front Bumper Continuous Noise
+## **Bumper Bar** - Front Bumper Bar Continuous Noise
 
 **Error Code:**
 
-- 1217 Bumper triggered detected
-- 1207 Bumper repeatedly triggered
+- 1217 Bumper bar triggered detected
+- 1207 Bumper bar repeatedly triggered
 
 **Solution:**
 
@@ -445,12 +445,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Bumper- Front Bumper Port Damaged
+## **Bumper Bar** - Front Bumper Bar Port Damaged
 
 **Solution:**
 
@@ -461,12 +461,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Bumper - Front Bumper Connection Cable Broken
+## **Bumper Bar** - Front Bumper Bar Connection Cable Broken
 
 **Solution:**
 
@@ -477,12 +477,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Bumper - Front Bumper Frequently Falls Off
+## **Bumper Bar** - Front Bumper Bar Frequently Falls Off
 
 **Solution:**
 
@@ -494,12 +494,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Bumper - Front Bumper Indicator Light Off
+## **Bumper Bar** - Front Bumper Bar Indicator Light Off
 
 **Solution:**
 
@@ -510,12 +510,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Side Guards - Side Guards Installed but App Shows Not Installed
+## **Side Guards** - Side Guards Installed but App Shows Not Installed
 
 **Solution:**
 
@@ -527,12 +527,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Rain Sensor - Rainy Day Mowing Disabled but Won't Auto-Recharge Either
+## **Rain Sensor** - Rainy Day Mowing Disabled but Won't Auto-Recharge Either
 
 **Solution:**
 
@@ -545,12 +545,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Rain Sensor - Rain Sensor Triggered Continuously Even in Dry Weather
+## **Rain Sensor** - Rain Sensor Triggered Continuously Even in Dry Weather
 
 **Error Code:**
 
@@ -565,12 +565,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Wiper - Wiper Motor Error / Wiper Stuck
+## **Wiper** - Wiper Motor Error / Wiper Stuck
 
 **Error Code:**
 
@@ -581,35 +581,35 @@
 1. Restart the RTK and the app, and confirm that the firmware and the app are the latest versions.
 2. Check whether the wiper is stuck with foreign objects, and check whether the issue is improved after clearing them.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Wiper - Wiper Rubber Damaged / Missing / Detached
+## **Wiper** - Wiper Rubber Damaged / Missing / Detached
 
 **Solution:**
 
 1. Confirm whether the wiper blade rubber has fallen off / is damaged. Consider arranging a replacement order.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Protective Bracket - Protective Bracket Detached / Not Locked
+## **Protective Bracket** - Protective Bracket Detached / Not Locked
 
 **Solution:**
 
 1. Provide installation guidance, and consider whether re-clamping the protective bracket improves the situation.
 2. If there is no improvement, consider sending the device back to a repair center.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Vision Module - Working Paused Due to Power Off Prompt Shortly After Exit
+## **Vision Module** - Working Paused Due to Power Off Prompt Shortly After Exit
 
 **Solution:**
 
@@ -620,12 +620,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Vision Module - 3D Vision Error Prompt
+## **Vision Module** - 3D Vision Error Prompt
 
 **Error Code:**
 
@@ -641,12 +641,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Vision Module - Vision Module White / Glitched / Fogged / Water-Ingress
+## **Vision Module** - Vision Module White / Glitched / Fogged / Water-Ingress
 
 **Solution:**
 
@@ -657,12 +657,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Vision Module - Vision Module Not Ready, Self-Check Alert
+## **Vision Module** - Vision Module Not Ready, Self-Check Alert
 
 **Solution:**
 
@@ -675,12 +675,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Vision Module - FPV Disconnected / White/Black Screen
+## **Vision Module** - FPV Disconnected / White/Black Screen
 
 **Solution:**
 
@@ -692,36 +692,36 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Auxiliary Light - Failed to Manually Turn On Auxiliary Light
+## **Auxiliary Light** - Failed to Manually Turn On Auxiliary Light
 
 **Solution:**
 
 1. Check whether the firmware and the app are the latest versions.
 2. Reinstall the vision module.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Auxiliary Light - Auto Light Function Failed
+## **Auxiliary Light** - Auto Light Function Failed
 
 **Solution:**
 
 1. Manually enable the fill light test function and check whether it works normally.
 2. Confirm whether "Auto lighting" is enabled, and confirm that the app and the firmware are the latest versions.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Safety Key - Safety Key Installed but App Shows Not Installed
+## **Safety Key** - Safety Key Installed but App Shows Not Installed
 
 **Solution:**
 
@@ -733,24 +733,24 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Solar Panel - Solar Panel Cannot Power RTK Normally
+## **Solar Panel** - Solar Panel Cannot Power RTK Normally
 
 **Solution:**
 
 1. Determine whether the RTK indicator is normal under other power supply methods (charging station power, RTK adapter power, Type-C power). If none of them is normal, replace the RTK.
 2. If it is normal, check whether the solar panel lights up properly, and check the color and status of the indicator (green flashing means battery is above 50%, which is the normal state; yellow flashing means 10-50%; red flashing means below 10%; blue flashing means the solar panel is charging; the indicator is off). If it is not normal, replace the solar panel. Also, use the solar panel when there is sufficient sunlight.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Solar Panel - Solar Panel Light Effect
+## **Solar Panel** - Solar Panel Light Effect
 
 **Solution:**
 
@@ -758,12 +758,12 @@
 2. If there is no sunlight, long-press the power button to power on. After powering on, the indicator will be solid green or yellow for a few minutes, then slow-flash. After slow-flashing for a few minutes, the device will power off and the indicator will go off if the RTK is not powered or the device is not exposed to sunlight.
 3. When the solar panel indicator is green, the approximate power supply duration for the base station can be confirmed (under normal conditions, it can support about one day of power supply).
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Noise - Cutter Disc Start-Up Noise / Mowing Noise / Hub Motor Noise
+## **Noise** - Cutter Disc Start-Up Noise / Mowing Noise / Hub Motor Noise
 
 **Solution:**
 
@@ -773,12 +773,12 @@
 4. If there is no noise after removing the cutter disk, check whether the cutter disk is worn and whether any screws are loose.
 5. If the noise still exists after replacing the cutter disk / screws, and the noise comes from the wheel hub motor, listen carefully to identify which wheel. With the machine powered off, check the wheel's exterior for damage and manually rotate the wheel to see whether it rotates smoothly. If not, clear any grass tangled in the wheel hub and try again. If the noise persists, it is most likely a wheel hub motor noise.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Drive Board Failure - Cannot Read Drive / Cannot Charge / Powers Off After Exit / Battery Status Update
+## **Drive Board Failure** - Cannot Read Drive / Cannot Charge / Powers Off After Exit / Battery Status Update
 
 **Error Code:**
 
@@ -794,12 +794,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Grass Catcher - Edge Not Mowed with Frame / Work Progress Anomalous Jump
+## **Grass Catcher** - Edge Not Mowed with Frame / Work Progress Anomalous Jump
 
 **Error Code:**
 
@@ -815,12 +815,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Grass Catcher - Left Grass Roller Error
+## **Grass Catcher** - Left Grass Roller Error
 
 **Error Code:**
 
@@ -837,12 +837,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Grass Catcher - Failed to Adjust Brush Motor
+## **Grass Catcher** - Failed to Adjust Brush Motor
 
 **Error Code:**
 
@@ -860,12 +860,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Grass Catcher - Brush Grass Clogging
+## **Grass Catcher** - Brush Grass Clogging
 
 **Error Code:**
 
@@ -884,12 +884,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Grass Catcher - Counterweight Use (Vehicle Front Lifts When Working with Grass Catcher)
+## **Grass Catcher** - Counterweight Use (Vehicle Front Lifts When Working with Grass Catcher)
 
 **Solution:**
 
@@ -902,12 +902,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Grass Catcher - Sinks into Grass Pile When Dumping
+## **Grass Catcher** - Sinks into Grass Pile When Dumping
 
 **Solution:**
 
@@ -919,12 +919,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Grass Catcher - Right Side Brush Bearing Detached
+## **Grass Catcher** - Right Side Brush Bearing Detached
 
 **Solution:**
 
@@ -936,12 +936,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Grass Catcher - How to Distinguish Old vs New Grass Catcher
+## **Grass Catcher** - How to Distinguish Old vs New Grass Catcher
 
 **Solution:**
 
@@ -953,12 +953,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Grass Catcher - Brush / Roller Parts Missing / Damaged
+## **Grass Catcher** - Brush / Roller Parts Missing / Damaged
 
 **Solution:**
 
@@ -971,12 +971,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Electric Drive Issue - Electric Drive Communication Timeout
+## **Electric Drive Issue** - Electric Drive Communication Timeout
 
 **Error Code:**
 
@@ -992,12 +992,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Front Wheel Stuck - Frequent Turning / Reversing
+## **Front Wheel Stuck** - Frequent Turning / Reversing
 
 **Error Code:**
 
@@ -1011,9 +1011,9 @@
 
 **Query Page:**
 
-1. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
+2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---

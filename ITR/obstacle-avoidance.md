@@ -1,6 +1,6 @@
 #Obstacle Avoidance Troubleshooting
 
-##Obstacle Avoidance Abnormal - Obstacle Avoidance Not Working
+## **Obstacle Avoidance Abnormal** - Obstacle Avoidance Not Working
 
 **Solution:**
 
@@ -12,12 +12,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Obstacle Avoidance Abnormal - Drove Under Vehicle
+## **Obstacle Avoidance Abnormal** - Drove Under Vehicle
 
 **Solution:**
 
@@ -30,12 +30,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Obstacle Avoidance Abnormal - Missed Mowing / Crosses Boundary Without Mowing
+## **Obstacle Avoidance Abnormal** - Missed Mowing / Crosses Boundary Without Mowing
 
 **Solution:**
 
@@ -47,12 +47,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Obstacle Avoidance Abnormal - Vision False Alarm (Also Missed Mowing)
+## **Obstacle Avoidance Abnormal** - Vision False Alarm (Also Missed Mowing)
 
 **Solution:**
 
@@ -65,12 +65,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Obstacle Avoidance Abnormal - Mowing Path Abnormal Near Water Area
+## **Obstacle Avoidance Abnormal** - Mowing Path Abnormal Near Water Area
 
 **Solution:**
 
@@ -81,12 +81,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Obstacle - Robot Stuck
+## **Obstacle** - Robot Stuck
 
 **Error Code:**
 
@@ -102,12 +102,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Obstacle - Path Blocked by Obstacle
+## **Obstacle** - Path Blocked by Obstacle
 
 **Error Code:**
 
@@ -123,12 +123,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Bumper Bar - Bumper Bar Continuously Triggered
+## **Bumper Bar** - Bumper Bar Continuously Triggered
 
 **Error Code:**
 
@@ -144,12 +144,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Bumper Bar - App Shows Bumper Not Installed but It Actually Is
+## **Bumper Bar** - App Shows Bumper Not Installed but It Actually Is
 
 **Solution:**
 
@@ -161,12 +161,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Grass Catcher - Grass Catcher Hits Wall
+## **Grass Catcher** - Grass Catcher Hits Wall
 
 **Error Code:**
 
@@ -181,7 +181,7 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---

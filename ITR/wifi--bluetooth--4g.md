@@ -1,6 +1,6 @@
 #WiFi & Bluetooth & 4G Troubleshooting
 
-##Bluetooth Issue - App Cannot Find Device Bluetooth
+## **Bluetooth Issue** - App Cannot Find Device Bluetooth
 
 **Solution:**
 
@@ -12,12 +12,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Bluetooth Issue - Can Find but Cannot Connect / Continuously Loading
+## **Bluetooth Issue** - Can Find but Cannot Connect / Continuously Loading
 
 **Solution:**
 
@@ -29,12 +29,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Bluetooth Issue - Bluetooth Signal Weak / Lag / Frequent Disconnection
+## **Bluetooth Issue** - Bluetooth Signal Weak / Lag / Frequent Disconnection
 
 **Solution:**
 
@@ -46,12 +46,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Wi-Fi Issue - App Cannot Find Wi-Fi
+## **Wi-Fi Issue** - App Cannot Find Wi-Fi
 
 **Solution:**
 
@@ -64,12 +64,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Wi-Fi Issue - Can Find but Cannot Connect
+## **Wi-Fi Issue** - Can Find but Cannot Connect
 
 **Solution:**
 
@@ -82,12 +82,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Wi-Fi Issue - Wi-Fi Signal Weak / Exclamation Mark / Frequent Disconnection
+## **Wi-Fi Issue** - Wi-Fi Signal Weak / Exclamation Mark / Frequent Disconnection
 
 **Solution:**
 
@@ -99,12 +99,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Wi-Fi Issue - Connection Error / Binding Failed
+## **Wi-Fi Issue** - Connection Error / Binding Failed
 
 **Solution:**
 
@@ -116,12 +116,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##4G/SIM Issue - 4G Icon Gray / Cannot Get IP
+## **4G/SIM Issue** - 4G Icon Gray / Cannot Get IP
 
 **Solution:**
 
@@ -134,12 +134,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Check Sim Info to confirm the 4G SIM activation status.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##4G/SIM Issue - Red Exclamation / Cannot Register / Status Not Displayed
+## **4G/SIM Issue** - Red Exclamation / Cannot Register / Status Not Displayed
 
 **Solution:**
 
@@ -152,12 +152,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Check Sim Info to confirm the 4G SIM activation status.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##4G/SIM Issue - 4G Unusable / Plan Inactive / Data Exhausted
+## **4G/SIM Issue** - 4G Unusable / Plan Inactive / Data Exhausted
 
 **Solution:**
 
@@ -170,12 +170,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Check Sim Info to confirm the 4G SIM activation status.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##4G/SIM Issue - 4G Signal Weak / Remote Connection Unstable
+## **4G/SIM Issue** - 4G Signal Weak / Remote Connection Unstable
 
 **Solution:**
 
@@ -188,12 +188,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Check Sim Info to confirm the 4G SIM activation status.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##4G/SIM Issue - SIM Card Not Recognized / Incompatible / Module Not Installed
+## **4G/SIM Issue** - SIM Card Not Recognized / Incompatible / Module Not Installed
 
 **Solution:**
 
@@ -206,12 +206,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Check Sim Info to confirm the 4G SIM activation status.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Device Offline - User Network Causes Offline
+## **Device Offline** - User Network Causes Offline
 
 **Solution:**
 
@@ -225,18 +225,18 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Device Offline - IoT / Platform or Other Reasons Cause Offline
+## **Device Offline** - IoT / Platform or Other Reasons Cause Offline
 
 **Solution:**
 
 /
 
-**If not sloved:**
+**If not solved:**
  `To Be Discussed`
 
 ---

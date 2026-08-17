@@ -1,6 +1,6 @@
 #Positioning Troubleshooting
 
-##Positioning Issue - Poor Positioning, Environmental Issue
+## **Positioning Issue** - Poor Positioning, Environmental Issue
 
 **Error Code:**
 
@@ -18,12 +18,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Positioning Issue - Positioning Calibration Failed
+## **Positioning Issue** - Positioning Calibration Failed
 
 **Error Code:**
 
@@ -42,12 +42,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Positioning Issue - App Vehicle Position Offset
+## **Positioning Issue** - App Vehicle Position Offset
 
 **Solution:**
 
@@ -59,12 +59,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Positioning Issue - Positioning Error / Station Position Offset / POS Not Good
+## **Positioning Issue** - Positioning Error / Station Position Offset / POS Not Good
 
 **Solution:**
 
@@ -80,12 +80,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Docking Issue - Cannot Exit Station to Auto-Work
+## **Docking Issue** - Cannot Exit Station to Auto-Work
 
 **Solution:**
 
@@ -98,24 +98,24 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Docking Issue - App Shows Device Not in Work Zone but Actually Charging
+## **Docking Issue** - App Shows Device Not in Work Zone but Actually Charging
 
 **Solution:**
 
 1. Check the surroundings of the charging station's location for any obstructions such as trees / walls / buildings; it should be installed in an open area.
 2. Verify the applicable positioning mode. If it is RTK, check whether the RTK base station installation position has any obstructions.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Docking Issue - Stops in Front of Station After Exiting
+## **Docking Issue** - Stops in Front of Station After Exiting
 
 **Error Code:**
 
@@ -132,12 +132,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##RTK - RTK Base Station Disconnected
+## **RTK** - RTK Base Station Disconnected
 
 **Error Code:**
 
@@ -150,12 +150,12 @@
 3. Verify that both the robot and the RTK have a satellite count. If the robot's satellite count is 0, try restarting the device multiple times. If the RTK base station's satellite count is 0, check the RTK base station indicator status.
 4. If the RTK base station indicator is abnormal, check the power cable interface on the back of the charging station. If the interface is normal, replace the RTK adapter; if the interface is faulty, perform a defective product return.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##RTK - RTK Indicator Light Abnormal
+## **RTK** - RTK Indicator Light Abnormal
 
 **Solution:**
 
@@ -165,71 +165,71 @@
 4. If the charging station power supply works normally, send a replacement RTK adapter.
 5. If neither option works normally, send a replacement RTK.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##RTK - RTK Solid Red / Flashing Red Light
+## **RTK** - RTK Solid Red / Flashing Red Light
 
 **Solution:**
 
 1. Check whether the RTK works normally after being powered on again.
 2. If the issue persists, send a replacement base station.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##RTK - RTK Light Off, No Satellite Signal, Needs Restart
+## **RTK** - RTK Light Off, No Satellite Signal, Needs Restart
 
 **Solution:**
 
 1. Check whether both the mower and the RTK firmware are the latest versions.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##RTK - Cannot Connect After RTK-LoRa Mode Switch
+## **RTK** - Cannot Connect After RTK-LoRa Mode Switch
 
 **Solution:**
 
 1. Check whether the RTK can be added manually; if it is not bound, add it again.
 2. Check that the link mode of the mower and the RTK are consistent; they need to be set to the same mode.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##RTK - App Cannot Connect to RTK / RTK Cannot Connect to WiFi
+## **RTK** - App Cannot Connect to RTK / RTK Cannot Connect to WiFi
 
 **Solution:**
 
 1. Check whether the Wi-Fi is a 2.4GHz or 2.4/5GHz network/hotspot. If not, switch to one of these bands.
 2. Check whether the Wi-Fi router has encryption-level restrictions or insufficient IP address pool.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##RTK - App Cannot Connect to RTK / Bluetooth Connection Failed
+## **RTK** - App Cannot Connect to RTK / Bluetooth Connection Failed
 
 **Solution:**
 
 1. Check the RTK indicator and troubleshoot any Wi-Fi / Bluetooth / 4G issues.
 2. You can try connecting to the RTK via Bluetooth from another phone. Android phones can use the built-in Bluetooth search function; iPhones can use a BLE scanner or another Bluetooth-scanning app to scan.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##RTK Adapter - RTK Power Adapter Indicator Light Abnormal
+## **RTK Adapter** - RTK Power Adapter Indicator Light Abnormal
 
 **Solution:**
 
@@ -237,23 +237,23 @@
 2. Cross-verify: the RTK base station supports power supply from the RTK adapter and from the charging station's power port.
 3. Confirm the indicator status.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##RTK Adapter - RTK Power Adapter Voltage Abnormal
+## **RTK Adapter** - RTK Power Adapter Voltage Abnormal
 
 **Solution:**
 
 1. Check / test that the voltage of the RTK power adapter is approximately the normal 12V.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##iNavi - Positioning No Response
+## **iNavi** - Positioning No Response
 
 **Error Code:**
 
@@ -269,12 +269,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##iNavi - Positioning Failed
+## **iNavi** - Positioning Failed
 
 **Error Code:**
 
@@ -291,12 +291,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##iNavi - Vehicle Lost Positioning in Narrow Path/Zone
+## **iNavi** - Vehicle Lost Positioning in Narrow Path/Zone
 
 **Error Code:**
 
@@ -313,12 +313,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##iNavi - iNavi Positioning Signal Weak
+## **iNavi** - iNavi Positioning Signal Weak
 
 **Error Code:**
 
@@ -337,12 +337,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##iNavi - Positioning Timeout / Map Distorted / No Response
+## **iNavi** - Positioning Timeout / Map Distorted / No Response
 
 **Error Code:**
 
@@ -358,12 +358,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##iNavi - Satellite Map Offset
+## **iNavi** - Satellite Map Offset
 
 **Solution:**
 
@@ -375,12 +375,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##iNavi - iNavi Network Unstable / 4G or WiFi Connection Abnormal
+## **iNavi** - iNavi Network Unstable / 4G or WiFi Connection Abnormal
 
 **Error Code:**
 
@@ -397,12 +397,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##iNavi - POS Status Single
+## **iNavi** - POS Status Single
 
 **Solution:**
 
@@ -416,12 +416,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Positioning Issue - Map Distorted / Offset / Path Missing / Station Position Offset
+## **Positioning Issue** - Map Distorted / Offset / Path Missing / Station Position Offset
 
 **Error Code:**
 
@@ -437,12 +437,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Positioning Issue - Positioning No Response
+## **Positioning Issue** - Positioning No Response
 
 **Error Code:**
 
@@ -461,12 +461,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Positioning Issue - Positioning Lost / Map Drawing Failed
+## **Positioning Issue** - Positioning Lost / Map Drawing Failed
 
 **Error Code:**
 
@@ -483,12 +483,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Positioning Issue - Charging Station Position Change Detected
+## **Positioning Issue** - Charging Station Position Change Detected
 
 **Error Code:**
 
@@ -505,12 +505,12 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Positioning Issue - Positioning Timeout / Map Distorted / No Response
+## **Positioning Issue** - Positioning Timeout / Map Distorted / No Response
 
 **Error Code:**
 
@@ -529,7 +529,7 @@
 2. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 3. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---

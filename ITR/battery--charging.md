@@ -1,6 +1,6 @@
 #Battery & Charging Troubleshooting
 
-##Auto-Recharge Issue - Vehicle Bumps Station and Exits After Returning, No Charge / Docking Abnormal
+## **Auto-Recharge Issue** - Vehicle Bumps Station and Exits After Returning, No Charge / Docking Abnormal
 
 **Error Code:**
 
@@ -19,12 +19,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Auto-Recharge Issue - Spins Before Station Trying to Dock / Cannot Return to Station
+## **Auto-Recharge Issue** - Spins Before Station Trying to Dock / Cannot Return to Station
 
 **Error Code:**
 
@@ -41,13 +41,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Auto-Recharge Issue - Powers Off Suddenly During Recharge, Shows 0% After Connecting Station
+## **Auto-Recharge Issue** - Powers Off Suddenly During Recharge, Shows 0% After Connecting Station
 
 **Solution:**
 
@@ -58,12 +57,12 @@
 1. Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.
 2. Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Auto-Recharge Issue - Reaches Low Battery Without Recharging, Stops on Lawn
+## **Auto-Recharge Issue** - Reaches Low Battery Without Recharging, Stops on Lawn
 
 **Solution:**
 
@@ -74,13 +73,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Auto-Recharge Issue - Powers Off During Return to Station
+## **Auto-Recharge Issue** - Powers Off During Return to Station
 
 **Error Code:**
 
@@ -97,12 +95,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Battery Issue - Cannot Charge
+## **Battery Issue** - Cannot Charge
 
 **Error Code:**
 
@@ -121,12 +119,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Battery Issue - Powers Off Immediately After Exiting Station
+## **Battery Issue** - Powers Off Immediately After Exiting Station
 
 **Solution:**
 
@@ -137,12 +135,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Battery Issue - Battery Cannot Be Fully Charged
+## **Battery Issue** - Battery Cannot Be Fully Charged
 
 **Solution:**
 
@@ -155,12 +153,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Battery Issue - Battery Drains Fast / Single Charge Work Time Shortened / Mowing Efficiency Low
+## **Battery Issue** - Battery Drains Fast / Single Charge Work Time Shortened / Mowing Efficiency Low
 
 **Solution:**
 
@@ -173,12 +171,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Battery Issue - Battery Temperature Too High
+## **Battery Issue** - Battery Temperature Too High
 
 **Error Code:**
 
@@ -195,12 +193,12 @@
 1. Check the Device Profile and Self-check modules to confirm that the robot's hardware connections are normal.
 2. Based on the corresponding error codes, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Battery Issue - Battery Temperature Too Low
+## **Battery Issue** - Battery Temperature Too Low
 
 **Error Code:**
 
@@ -216,12 +214,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Battery Issue - Battery Gauge Abnormal
+## **Battery Issue** - Battery Gauge Abnormal
 
 **Solution:**
 
@@ -232,12 +230,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Battery Issue - Battery Shows 0%
+## **Battery Issue** - Battery Shows 0%
 
 **Solution:**
 
@@ -249,12 +247,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Battery Issue - New Device Shows 0% Battery at Startup, Can Dock but Cannot Charge
+## **Battery Issue** - New Device Shows 0% Battery at Startup, Can Dock but Cannot Charge
 
 **Solution:**
 
@@ -269,12 +267,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Battery Issue - Sudden / Abnormal Shutdown
+## **Battery Issue** - Sudden / Abnormal Shutdown
 
 **Solution:**
 
@@ -287,12 +285,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Docking Issue - Repeatedly Shows 'Start Charging' During Charging
+## **Docking Issue** - Repeatedly Shows 'Start Charging' During Charging
 
 **Solution:**
 
@@ -305,12 +303,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Docking Issue - Not Charging at Station
+## **Docking Issue** - Not Charging at Station
 
 **Solution:**
 
@@ -322,12 +320,12 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Data Center - Cannot Charge but Data Backend Shows No Abnormality
+## **Data Center** - Cannot Charge but Data Backend Shows No Abnormality
 
 **Error Code:**
 
@@ -340,23 +338,23 @@
 3. Check whether the device is properly docked. Clean the contact strips on the device / charging station and re-dock for testing.
 4. If the issue is resolved, this indicates that a thorough cleaning of the contact strips is required.
 
-**If not sloved:**
+**If not solved:**
  `To Be Discussed`
 
 ---
 
-##Data Center - Cannot Charge but Data Center Shows BMSNONE
+## **Data Center** - Cannot Charge but Data Center Shows BMSNONE
 
 **Solution:**
 
 1. This may be a battery fault / drive board abnormality.
 
-**If not sloved:**
+**If not solved:**
  `To Be Discussed`
 
 ---
 
-##Auto-Recharge Issue - Does Not Recharge Within Mowing Zone
+## **Auto-Recharge Issue** - Does Not Recharge Within Mowing Zone
 
 **Error Code:**
 
@@ -376,23 +374,23 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Battery Issue - Battery Level Jumps
+## **Battery Issue** - Battery Level Jumps
 
 **Solution:**
 
 1. Collect the time of the incident and a screenshot of the battery-level jump.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Docking Issue - Charging Station Adapter Indicator Light Abnormal
+## **Docking Issue** - Charging Station Adapter Indicator Light Abnormal
 
 **Solution:**
 
@@ -400,12 +398,12 @@
 2. Check whether the adapter voltage is normal.
 3. Confirm whether the device can power on normally.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Docking Issue - Charging Station Indicator Light Off / Abnormal
+## **Docking Issue** - Charging Station Indicator Light Off / Abnormal
 
 **Solution:**
 
@@ -413,35 +411,35 @@
 2. Check whether the adapter voltage is normal.
 3. Confirm whether the device can power on normally.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Docking Issue - Powers Off While on Charging Station
+## **Docking Issue** - Powers Off While on Charging Station
 
 **Solution:**
 
 1. Check the on-site environment and whether the charging contacts are clean, free of corrosion, and not worn. If dirty, clean them.
 2. Manually place the device on the charging station and confirm that the charging station is on firm, level ground. Check whether the issue is resolved when the device is on firm, level ground.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
 
-##Docking Issue - Powers Off While Leaving Station During Charging
+## **Docking Issue** - Powers Off While Leaving Station During Charging
 
 **Solution:**
 
 1. Check whether the charging station is installed level.
 
-**If not sloved:**
+**If not solved:**
  `Needs FAE Upgrade`
 
 ---
 
-##Battery Issue - Cannot Power On
+## **Battery Issue** - Cannot Power On
 
 **Solution:**
 
@@ -453,7 +451,7 @@
 1. Check the Device Profile and Self-check modules to confirm whether the robot's hardware connections are normal.
 2. Based on the corresponding error code, preliminarily determine the type and possible cause of the robot's fault.
 
-**If not sloved:**
+**If not solved:**
  `Needs Repair`
 
 ---
