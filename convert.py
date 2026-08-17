@@ -64,10 +64,10 @@ if module_col in df.columns:
                     f.write('\n')
 
                 if pd.notna(query_page) and str(query_page).strip():
-                    f.write(f'**Query Page:**\n\n{query_page}\n\n')
+                    f.write('**Query Page:**\n\n')
                     lines = str(query_page).strip().splitlines()
                     for line in lines:
-                        clean_line =line.strip()
+                        clean_line = line.strip()
                         if clean_line:
                             f.write(f'{clean_line}\n')
                     f.write('\n')
