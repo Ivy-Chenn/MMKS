@@ -428,7 +428,7 @@
 
 ---
 
-## **Bumper Bar** - Front Bumper Bar Continuous Noise
+## **Bumper - Front Bumper Continuous Noise
 
 **Error Code:**
 
@@ -450,7 +450,7 @@
 
 ---
 
-## **Bumper Bar** - Front Bumper Bar Port Damaged
+## **Bumper** - Front Bumper Port Damaged
 
 **Solution:**
 
@@ -466,7 +466,7 @@
 
 ---
 
-## **Bumper Bar** - Front Bumper Bar Connection Cable Broken
+## **Bumper - Front Bumper Connection Cable Broken
 
 **Solution:**
 
@@ -482,7 +482,7 @@
 
 ---
 
-## **Bumper Bar** - Front Bumper Bar Frequently Falls Off
+## **Bumper - Front Bumper Frequently Falls Off
 
 **Solution:**
 
@@ -499,7 +499,7 @@
 
 ---
 
-## **Bumper Bar** - Front Bumper Bar Indicator Light Off
+## **Bumper - Front Bumper Indicator Light Off
 
 **Solution:**
 
