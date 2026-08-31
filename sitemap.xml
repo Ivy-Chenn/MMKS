@@ -2,46 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://Ivy-Chenn.github.io/MMKS/</loc>
-         <lastmod>2026-08-17</lastmod>
+         <lastmod>2026-08-31</lastmod>
     </url>
     <url>
-         <loc>http://Ivy-Chenn.github.io/MMKS/battery--charging/</loc>
-         <lastmod>2026-08-17</lastmod>
+         <loc>http://Ivy-Chenn.github.io/MMKS/ITR/battery--charging/</loc>
+         <lastmod>2026-08-31</lastmod>
     </url>
     <url>
-         <loc>http://Ivy-Chenn.github.io/MMKS/firmware--app/</loc>
-         <lastmod>2026-08-17</lastmod>
+         <loc>http://Ivy-Chenn.github.io/MMKS/ITR/firmware--app/</loc>
+         <lastmod>2026-08-31</lastmod>
     </url>
     <url>
-         <loc>http://Ivy-Chenn.github.io/MMKS/hardware/</loc>
-         <lastmod>2026-08-17</lastmod>
+         <loc>http://Ivy-Chenn.github.io/MMKS/ITR/hardware/</loc>
+         <lastmod>2026-08-31</lastmod>
     </url>
     <url>
-         <loc>http://Ivy-Chenn.github.io/MMKS/mapping/</loc>
-         <lastmod>2026-08-17</lastmod>
+         <loc>http://Ivy-Chenn.github.io/MMKS/ITR/mapping/</loc>
+         <lastmod>2026-08-31</lastmod>
     </url>
     <url>
-         <loc>http://Ivy-Chenn.github.io/MMKS/navigation--motion-control/</loc>
-         <lastmod>2026-08-17</lastmod>
+         <loc>http://Ivy-Chenn.github.io/MMKS/ITR/navigation--motion-control/</loc>
+         <lastmod>2026-08-31</lastmod>
     </url>
     <url>
-         <loc>http://Ivy-Chenn.github.io/MMKS/obstacle-avoidance/</loc>
-         <lastmod>2026-08-17</lastmod>
+         <loc>http://Ivy-Chenn.github.io/MMKS/ITR/obstacle-avoidance/</loc>
+         <lastmod>2026-08-31</lastmod>
     </url>
     <url>
-         <loc>http://Ivy-Chenn.github.io/MMKS/positioning/</loc>
-         <lastmod>2026-08-17</lastmod>
+         <loc>http://Ivy-Chenn.github.io/MMKS/ITR/positioning/</loc>
+         <lastmod>2026-08-31</lastmod>
     </url>
     <url>
-         <loc>http://Ivy-Chenn.github.io/MMKS/quality-issue/</loc>
-         <lastmod>2026-08-17</lastmod>
+         <loc>http://Ivy-Chenn.github.io/MMKS/ITR/quality-issue/</loc>
+         <lastmod>2026-08-31</lastmod>
     </url>
     <url>
-         <loc>http://Ivy-Chenn.github.io/MMKS/test/</loc>
-         <lastmod>2026-08-17</lastmod>
+         <loc>http://Ivy-Chenn.github.io/MMKS/ITR/test/</loc>
+         <lastmod>2026-08-31</lastmod>
     </url>
     <url>
-         <loc>http://Ivy-Chenn.github.io/MMKS/wifi--bluetooth--4g/</loc>
-         <lastmod>2026-08-17</lastmod>
+         <loc>http://Ivy-Chenn.github.io/MMKS/ITR/wifi--bluetooth--4g/</loc>
+         <lastmod>2026-08-31</lastmod>
     </url>
 </urlset>
