@@ -4,7 +4,7 @@ import pandas as pd
 csv_file = 'Troubleshooting_troubleshooting_EN.csv'
 df = pd.read_csv(csv_file)
 
-output_dir = 'ITR'
+output_dir = 'DOCS/ITR'
 os.makedirs(output_dir, exist_ok=True) 
 
 df.columns = df.columns.str.strip()

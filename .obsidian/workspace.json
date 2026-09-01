@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ITR/quality-issue.md",
+                "file": "DOCS/PM/Appearance-and-Version.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "quality-issue"
+              "title": "Appearance-and-Version"
             }
           }
         ]

@@ -1,7 +1,7 @@
 site_name: MMKS Knowledge Base
 site_url: http://Ivy-Chenn.github.io/MMKS/
 
-docs_dir: ITR
+docs_dir: DOCS
 
 theme:
   name: material
@@ -12,6 +12,7 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
+    - navigation.indexes
 
 markdown_extensions:
   - admonition
@@ -21,12 +22,24 @@ markdown_extensions:
 
 nav:
   - Home: index.md 
-  - Battery & Charging: battery--charging.md
-  - Firmwave & App: firmware--app.md
-  - Hardware: hardware.md
-  - Mapping: mapping.md
-  - Navigation & Motion Control: navigation--motion-control.md
-  - Obstacle Avoidance: obstacle-avoidance.md
-  - Positioning: positioning.md
-  - Quality Issue: quality-issue.md
-  - WiFi & Bluebooth & 4G: wifi--bluetooth--4g.md
+  - Product Matrix & Setup:
+    - PM/index.md
+    - Appearance and Versions: PM/Appearance-and-Version.md
+    - Positioning Method: PM/Positioning-Methods.md
+    - Cutting Method: PM/Cutting-Method.md
+    - Battery Capacity and Efficiency: PM/Battery-Capacity-and-Efficiency.md
+    - Product Components: PM/ProductComponents.md
+    - Robot Installation Checklist: PM/Robot-Installation-Checklist.md
+    - How to select your robot: PM/HowToSelectYourRobot.md
+    - App Function: PM/app.md
+  - Troubleshooting:
+    - ITR/index.md
+    - Battery & Charging: ITR/battery--charging.md
+    - Firmwave & App: ITR/firmware--app.md
+    - Hardware: ITR/hardware.md
+    - Mapping: ITR/mapping.md
+    - Navigation & Motion Control: ITR/navigation--motion-control.md
+    - Obstacle Avoidance: ITR/obstacle-avoidance.md
+    - Positioning: ITR/positioning.md
+    - Quality Issue: ITR/quality-issue.md
+    - WiFi & Bluebooth & 4G: ITR/wifi--bluetooth--4g.md
