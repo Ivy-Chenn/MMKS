@@ -65,12 +65,12 @@ We have four different positioning methods: RTK, nRTK/iNavi, LiDAR, V\-Slam
 
 ### Comparison of four positioing methods
 
-|**Positioning Method**|**Advantages**|**Disadvantages**|
-|---|---|---|
-|**RTK**|**Network\-independent :** Local physical radio direct connection, no data consumption, extremely stable connection as long as there is no occlusion\.|Occlusion\-sensitive : Base station needs to be installed by the user, and work efficiency may be affected in occluded areas<br>|
-|**nRTK/iNavi**|**Distance and occlusion resistant : **Data transmitted via cloud, breaking through limitations of physical structures and transmission distance\. No need to install a private base station\.|Unstable WiFi/4G signals can also impact operational efficiency<br>|
-|**LiDAR**|**Signal blackhole solution : **Active light emission for ranging and point cloud generation, satellite\-independent, seamlessly takes over navigation under trees and in corridors\.|It is prone to recognition errors in large, featureless environments|
-|**Vision**|**Secondary backup line : **Captures environmental feature points to calculate displacement, enabling precise "blind navigation" without satellite signals\.|Its functionality may be restricted under pure white walls, textureless glass, or low\-light nighttime conditions<br>|
+| **Positioning Method** | **Advantages**                                                                                                                                                                                 | **Disadvantages**                                                                                                                |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **RTK**                | **Network\-independent :** Local physical radio direct connection, no data consumption, extremely stable connection as long as there is no occlusion\.                                         | Occlusion\-sensitive : Base station needs to be installed by the user, and work efficiency may be affected in occluded areas<br> |
+| **nRTK/iNavi**         | **Distance and occlusion resistant : **Data transmitted via cloud, breaking through limitations of physical structures and transmission distance\. No need to install a private base station\. | Unstable WiFi/4G signals can also impact operational efficiency<br>                                                              |
+| **LiDAR**              | **Signal blackhole solution : **Active light emission for ranging and point cloud generation, satellite\-independent, seamlessly takes over navigation under trees and in corridors\.          | It is prone to recognition errors in large, featureless environments                                                             |
+| **Vision**             | **Secondary backup line : **Captures environmental feature points to calculate displacement, enabling precise "blind navigation" without satellite signals\.                                   | Its functionality may be restricted under pure white walls, textureless glass, or low\-light nighttime conditions<br>            |
 
 
 

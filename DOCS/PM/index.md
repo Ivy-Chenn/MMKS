@@ -1,4 +1,4 @@
-# Welcome to MMKS Product Matrix & Setup Section
+# Welcome to MMKS Product Info & Setup Section
 
 This section is designed to help us quickly reference product differences, positioning architectures, and installation guidelines across all mower series.
 
@@ -18,9 +18,11 @@ Please select a specific functional module from the left sidebar to access detai
 
 **🔩Product Components**: Provided and replacement of product components etc.
 
+**❓How to select your robot**: Lawn size recommendations, product slelection decision etc.
+
 **📑Robot Installation Checklist**: Pre-installation site assessment etc.
 
-**💡How to select your robot**: Lawn size recommendations, product slelection decision etc.
-
 **📲App Function**: App feature compatiility, cutting path settings etc.
+
+**💡Led language**: Led language of robot, charging Station and adapter.
 

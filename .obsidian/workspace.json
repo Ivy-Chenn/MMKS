@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DOCS/PM/Appearance-and-Version.md",
+                "file": "DOCS/PM/Robot-Installation-Checklist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Appearance-and-Version"
+              "title": "Robot-Installation-Checklist"
             }
           }
         ]
@@ -182,7 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,6 +198,16 @@
   },
   "active": "9134261c2976e680",
   "lastOpenFiles": [
+    "DOCS/PM/ProductComponents.md",
+    "DOCS/PM/Positioning-Methods.md",
+    "DOCS/PM/Led.md",
+    "DOCS/PM/index.md",
+    "DOCS/PM/HowToSelectYourRobot.md",
+    "DOCS/PM/Cutting-Method.md",
+    "DOCS/PM/Appearance-and-Version.md",
+    "DOCS/PM/Battery-Capacity-and-Efficiency.md",
+    "DOCS/PM/app.md",
+    "DOCS/ITR/hardware.md",
     "ITR/wifi--bluetooth--4g.md",
     "ITR/quality-issue.md",
     "ITR/hardware.md",

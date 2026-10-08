@@ -22,16 +22,17 @@ markdown_extensions:
 
 nav:
   - Home: index.md 
-  - Product Matrix & Setup:
+  - Product Info & Setup:
     - PM/index.md
     - Appearance and Versions: PM/Appearance-and-Version.md
     - Positioning Method: PM/Positioning-Methods.md
     - Cutting Method: PM/Cutting-Method.md
     - Battery Capacity and Efficiency: PM/Battery-Capacity-and-Efficiency.md
     - Product Components: PM/ProductComponents.md
-    - Robot Installation Checklist: PM/Robot-Installation-Checklist.md
     - How to select your robot: PM/HowToSelectYourRobot.md
+    - Robot Installation Checklist: PM/Robot-Installation-Checklist.md
     - App Function: PM/app.md
+    - LED Language: PM/Led.md
   - Troubleshooting:
     - ITR/index.md
     - Battery & Charging: ITR/battery--charging.md

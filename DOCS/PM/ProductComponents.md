@@ -8,7 +8,7 @@
 ||Luba mini 2 LiDAR 1500|Vision/Lidar module<br>|✅|❌|Build\-in SIM card|✅|<img src="/MMKS/assets/products/image1.png" width="140">|❌|
 ||Luba mini 2 Vision 1000|Vision/Lidar module<br>|✅|❌|Build\-in SIM card|✅|<img src="/MMKS/assets/products/image1.png" width="140">|❌|
 ||Yuka mini 2 LiDAR 1000/800|X5|❌|/|4G module|✅|<img src="/MMKS/assets/products/image3.png" width="140">|❌|
-||Yuka mini 2 Vision 800/500|X5|❌|/|4G module \(option\)|✅|<img src="/MMKS/assets/products/image3.png" width="140">|❌|
+||Yuka mini 2 Vision 800/500|X5|❌|/|4G module \(800 default/500 option\)|✅|<img src="/MMKS/assets/products/image3.png" width="140">|❌|
 |2025|Luba 2x|Vision/Lidar module<br>|✅|✅|Build\-in SIM card|❌|<img src="/MMKS/assets/products/image2.png" width="140">|❌|
 ||Luba mini LiDAR 1500|Vision/Lidar module|✅|❌|Build\-in SIM card|✅|<img src="/MMKS/assets/products/image1.png" width="140">|❌|
 ||Luba mini 800/1500|Vision/Lidar module|✅|❌|Build\-in SIM card|✅|<img src="/MMKS/assets/products/image1.png" width="140">|❌|
