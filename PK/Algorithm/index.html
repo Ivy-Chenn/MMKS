@@ -1,0 +1,1232 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="http://Ivy-Chenn.github.io/MMKS/PK/Algorithm/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Algorithm Principle Knowledge - MMKS Knowledge Base</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#algorithm-principle-knowledge" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="MMKS Knowledge Base" class="md-header__button md-logo" aria-label="MMKS Knowledge Base" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MMKS Knowledge Base
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Algorithm Principle Knowledge
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="MMKS Knowledge Base" class="md-nav__button md-logo" aria-label="MMKS Knowledge Base" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    MMKS Knowledge Base
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../PM/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Info & Setup
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Product Info & Setup
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PM/Appearance-and-Version/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appearance and Versions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PM/Positioning-Methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Positioning Method
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PM/Cutting-Method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cutting Method
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PM/Battery-Capacity-and-Efficiency/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Battery Capacity and Efficiency
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PM/ProductComponents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Components
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PM/HowToSelectYourRobot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to select your robot
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PM/Robot-Installation-Checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Robot Installation Checklist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PM/app/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    App Function
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PM/Led/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LED Language
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../ITR/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Troubleshooting
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ITR/battery--charging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Battery & Charging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ITR/firmware--app/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Firmwave & App
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ITR/hardware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hardware
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ITR/mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ITR/navigation--motion-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Navigation & Motion Control
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ITR/obstacle-avoidance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Obstacle Avoidance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ITR/positioning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Positioning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ITR/quality-issue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quality Issue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ITR/wifi--bluetooth--4g/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WiFi & Bluebooth & 4G
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="algorithm-principle-knowledge">Algorithm Principle Knowledge</h1>
+<p>The robot algorithm system is responsible for converting the information acquired by sensors into motion decisions that the robot can execute, enabling the robot to autonomously complete positioning, environment understanding, path planning, obstacle avoidance, and automatic recharging. A typical autonomous movement process can be understood as follows: the robot first determines its own status through information such as GNSS/RTK, IMU, Camera, and wheel speed, and obtains its own position and environment map via Localization and SLAM; Navigation calculates the travel route based on the current position, target position and the map;Obstacle Avoidance dynamically adjusts the route based on real-time environmental information; when the task is completed or the battery level is low, the Docking system is responsible for guiding the robot to return and accurately dock at the charging station. Therefore, the algorithm modules can be divided into <strong>Localization, Mapping \&amp; SLAM, Navigation \&amp; Obstacle Avoidance, and Docking </strong>four main sections.
+(../assets/pk/a1.png)</p>
+<h1 id="product-algorithm-and-hardware-iteration">Product Algorithm and Hardware Iteration</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Soc</th>
+<th>MCU</th>
+<th>Sensor</th>
+<th>Perception</th>
+<th>Positioning (Primary + Secondary)</th>
+<th>regulatory control</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Luba1</td>
+<td>/</td>
+<td>MCU</td>
+<td>/</td>
+<td>sensor</td>
+<td>RTK</td>
+<td>Static</td>
+</tr>
+<tr>
+<td>Luba2/Yuka</td>
+<td>X3</td>
+<td>MCU</td>
+<td>Vision</td>
+<td>Vision</td>
+<td>RTK+Vision</td>
+<td></td>
+</tr>
+<tr>
+<td>Luba2x/Luba mini</td>
+<td>X3</td>
+<td>MCU</td>
+<td>Lidar</td>
+<td>Vision</td>
+<td>RTK+Vision/Lidar</td>
+<td></td>
+</tr>
+<tr>
+<td>Luba 3</td>
+<td>X5</td>
+<td>MCU</td>
+<td>Lidar+Vision</td>
+<td>Vision/Lidar</td>
+<td>Vision+RTK<br>Lidar+RTK</td>
+<td>Dynamic<br>(Dynamic Map Recognition + Map Correction)</td>
+</tr>
+</tbody>
+</table>
+<p>*The Tri-Fusion positioning priority of Luba3 is: Lidar &gt; RTK &gt; Vision</p>
+<h3 id="static-planning-and-control">Static Planning and Control</h3>
+<ul>
+<li>
+<p>Advantages: Fixed boundaries, relatively simple logic, and high consistency; the map viewed by users is consistent with the map used by the robot.</p>
+</li>
+<li>
+<p>Disadvantages: It has poor adaptability to positioning errors, positioning drift, and changes in the actual environment, and is prone to problems related to missing cutting or boundary control in boundaries/narrow passages and complex areas.</p>
+</li>
+</ul>
+<h3 id="dynamic-planning-and-control">Dynamic Planning and Control</h3>
+<ul>
+<li>
+<p>Advantages: It is mainly reflected in the dynamic map logic. To adapt to the positioning error of about 10 centimeters in vision, the boundary will be dynamically corrected during the operation, and reset to the user's initial map after the operation is completed, so as to avoid user misjudgment. It can improve the boundary coverage rate, operation continuity and adaptability in complex scenarios.</p>
+</li>
+<li>
+<p>Disadvantages: The planning and control logic is more complex, and the actual running trajectory may have a slight deviation from the user's initial map</p>
+</li>
+</ul>
+<h1 id="positioning">Positioning</h1>
+<h2 id="11-basic-principles-of-positioning">1.1 Basic Principles of Positioning</h2>
+<p>The core task of Localization is to continuously estimate the robot's <strong>Pose</strong>, which refers to "where the robot is" and "which direction it is facing". For ground mobile robots, this can be simply understood as <strong>X, Y Position + Heading</strong>. A robot does not "know" its own position directly; instead, it continuously calculates and updates its position state based on information provided by multiple sensors.</p>
+<p>Positioning information can be mainly divided into <strong>Absolute Position </strong>and <strong>Relative Motion</strong>. GNSS/RTK can provide the position of the robot relative to the global or working area coordinate system, so it belongs to absolute positioning information; while IMU, Wheel Odometry and visual motion information mainly tell the robot "how much it has moved from the previous position", which belongs to relative motion information.Actual robots usually use two types of information simultaneously: absolute positioning is responsible for the long-term position reference, while relative positioning is in charge of short-term continuous motion estimation.</p>
+<h2 id="12-gnss-and-rtk">1.2 GNSS and RTK</h2>
+<p>GNSS (Global Navigation Satellite System) calculates the position of a robot by receiving signals transmitted by multiple satellites. A robot needs to simultaneously acquire information from multiple satellites and estimate its own position based on the satellites' positions and signal transmission data. GPS, Galileo, BeiDou and GLONASS all fall under the category of GNSS systems.Conventional GNSS typically only provides meter-level positioning accuracy, so for robots that need to perform high-precision operations along virtual boundaries or planned paths, relying solely on ordinary GNSS is usually insufficient. To further improve positioning accuracy, RTK Correction Data can be introduced on the basis of GNSS.</p>
+<h3 id="121-rtk-local-reference-station">1.2.1 RTK — Local Reference Station</h3>
+<p>The core principle of RTK (Real-Time Kinematic) is to utilize a <strong>Reference Station with a known accurate position </strong>as a position reference. Both the reference station and the robot receive GNSS satellite signals simultaneously; since the reference station’s own position is known, it can calculate positioning errors based on the received satellite information and generate Correction Data. After receiving these correction data, the robot combines them with the satellite information it receives, thereby obtaining a more precise position result.</p>
+<p>The basic principle can be understood as follows:</p>
+<p><strong>GNSS Satellite Signal + Local Reference Station Correction → High-Precision Robot Position</strong></p>
+<p>In this approach, an RTK Reference Station usually needs to be installed near the robot's working area. The Reference Station itself requires good sky visibility to stably receive satellite signals, and a communication link for Correction Data from the Reference Station to the robot also needs to be established. Therefore, traditional RTK positioning relies simultaneously on <strong>the satellite signal at the robot end, the satellite signal at the base station end, and the correction data communication between the base station and the robot</strong>.</p>
+<p>When installing an RTK base station, the top priority is "co-view", which ensures that the rover and the base lock onto the same satellite.</p>
+<p>For example: 1. It is best to avoid having walls between the base station and the robots; 2. It is advisable not to install the base station in overly tall flower clusters. These measures can better ensure the elevation angle of the base station's coverage.</p>
+<p><strong>Network RTK (VRS, Virtual RTK Station): A</strong> virtual reference station near the user is generated via cloud-based multi-station networking. It requires the device to have a stable 4G network, and a network disconnection within 1 minute will not affect positioning accuracy.</p>
+<h3 id="122-netrtk-network-rtk">1.2.2 NetRTK — Network RTK</h3>
+<p>The basic positioning principle adopted by NetRTK (Network RTK) still falls into the category of RTK, but it differs in the source of Correction Data. Instead of requiring users to set up a local Reference Station in their garden, it utilizes the already deployed GNSS Reference Station Network to deliver RTK Correction Data to robots via network services.</p>
+<p>The basic principle can be understood as follows:</p>
+<p><strong>GNSS Satellite Signal + Network RTK Correction → High-Precision Robot Position</strong></p>
+<p>The robot first acquires satellite information via GNSS, and meanwhile obtains the Correction Data provided by the NetRTK service through network connections such as <strong>4G / Wi-Fi / Internet</strong>, then combines the two sets of information to calculate a high-precision position.</p>
+<p>Therefore, the core difference between RTK and NetRTK is not that "one uses satellites while the other uses networks". <strong>Both require the robot to directly receive GNSS satellite signals, and the difference mainly lies in the source and transmission mode of RTK Correction Data.</strong> The Correction Data of Local RTK mainly comes from nearby local Reference Stations, while the Correction Data of NetRTK is sourced from a remote Reference Station Network and transmitted to the robot via the Internet.</p>
+<p>It can be simply understood as:</p>
+<p><strong>Local RTK:</strong>
+Satellite → Robot + Local Reference Station → Correction → Robot</p>
+<p><strong>NetRTK:</strong>
+Satellite → Robot + Reference Station Network → Internet → Correction → Robot</p>
+<p>One of the advantages of NetRTK is that it reduces the need for users to install and maintain local RTK Reference Stations on their own, but it also increases reliance on network connectivity and NetRTK Service Availability.Therefore, when NetRTK fails to work properly, in addition to checking GNSS Satellite Reception, it is also necessary to consider whether the robot can connect to the Internet normally, whether Correction Data can be obtained normally, and whether the relevant services are available.</p>
+<h3 id="123-rtk-position-status">1.2.3 RTK Position Status</h3>
+<p>Whether the Correction Data comes from Local RTK or NetRTK, the robot ultimately needs to calculate its own position based on GNSS information and the Correction Data. RTK positioning typically has different states, such as <strong>Single / Float / Fixed</strong>.</p>
+<p><strong>Single </strong>means that the robot mainly relies on ordinary GNSS information for positioning, and a valid high-precision RTK solution has not usually been obtained at this time. <strong>Float </strong>means that the system has obtained RTK Correction Data and started high-precision calculation, but there is still certain uncertainty in the positioning result. <strong>Fixed </strong>means that the system has obtained a stable high-precision RTK solution, which is usually the most ideal state for high-precision path control.</p>
+<p>Therefore, <strong>"Correction Data connected" does not equate to "RTK has been Fixed". </strong>A robot requires both valid Correction Data and sufficiently good GNSS Satellite Reception to obtain a stable high-precision position.</p>
+<h3 id="124-environmental-influence">1.2.4 Environmental Influence</h3>
+<p>Neither Local RTK nor NetRTK can address all GNSS environmental issues. Buildings, high walls, eaves and dense trees may block the satellite signals received by robots; walls, glass, metal structures and other objects may also cause signal reflection, resulting in Multipath effect, which degrades positioning quality.</p>
+<p>Therefore, even if the NetRTK network is properly connected or the Local RTK Reference Station is functioning normally, if the robot itself is located in a severely occluded area, there may still be <strong>cases where Fixed switches to Float, positioning accuracy degrades, or high-precision position cannot be obtained temporarily</strong>.</p>
+<p>From the perspective of Dealer Troubleshooting, the RTK positioning conditions can be simply understood as three parts:</p>
+<p><strong>GNSS Signal Quality + Correction Data Availability + Communication Quality → RTK Position Quality</strong></p>
+<p>For Local RTK, attention shall be paid to Robot GNSS, Reference Station GNSS and Correction Communication simultaneously; for NetRTK, focus shall be placed on Robot GNSS, Internet Connection and Network Correction Service.This can help identify whether the problem stems from <strong>the satellite environment, the Correction Data link, or network/communication conditions</strong>.</p>
+<h2 id="13-imu-wheel-odometry">1.3 IMU \&amp; Wheel Odometry</h2>
+<p>RTK can provide an accurate position reference, but it cannot independently describe the instantaneous motion changes of a robot, so the robot also requires IMU and Wheel Odometry to provide high-frequency motion information.</p>
+<p>An IMU typically perceives the linear and rotational motions of a robot via an accelerometer and a gyroscope. For instance, when a robot starts to turn left, the gyroscope can rapidly detect changes in angular velocity; when the robot traverses a slope or tilts, the IMU can also detect changes in its attitude.</p>
+<p>Wheel Odometry leverages the Encoder information of motors or wheels to estimate the moving distance of the robot based on the rotation amount of the wheels. For a differential-drive robot, if the travel distances of the left and right wheels are identical, the robot will basically move in a straight line; if the travel distances of the left and right wheels differ, the robot will turn.</p>
+<p>However, wheel odometry has a critical limitation: <strong>Wheel Rotation ≠ Always Actual Movement</strong>. If the robot slips on wet grass, muddy terrain, or a slope, the wheels may have rotated by a certain distance, but the actual distance the robot travels will be shorter. As a result, the error of wheel odometry will gradually accumulate over time.</p>
+<h2 id="14-sensor-fusion-multi-sensor-fusion">1.4 Sensor Fusion Multi-sensor Fusion</h2>
+<p>As different sensors each have their own limitations, robots typically combine multiple information sources through Sensor Fusion. For example, RTK can provide a long-term and accurate position reference, but may be subject to occlusion in a short period; IMU features a fast update rate, but will generate drift after long-term use; Wheel Odometry can stably describe the normal driving process, but is affected by skidding; Camera can use environmental features to assist in judging motion and position, but is influenced by lighting and lens conditions.</p>
+<p>Therefore, the system continuously compares the information from different sensors and estimates the most reliable Robot Pose based on the current information quality. Its basic logic can be understood as follows:</p>
+<p><strong>GNSS/RTK + IMU + Wheel Odometry + Vision → Sensor Fusion → Robot Pose</strong></p>
+<p>This is also why a short-term drop in RTK signal does not necessarily mean that the robot immediately loses its positioning. The system can rely on other sensors to continue estimating motion, but if a reliable absolute position reference is missing for too long, the positioning error will usually gradually increase.</p>
+<h1 id="mapping-slam-mapping-and-simultaneous-localization">Mapping \&amp; SLAM Mapping and Simultaneous Localization</h1>
+<h2 id="21-basic-principles-of-mapping">2.1 Basic Principles of Mapping</h2>
+<p>Localization addresses the question of <strong>"Where am I? "</strong>, while Mapping addresses that of <strong>"What does the environment look like? "</strong>. Robots continuously observe their surroundings via cameras, LiDAR or other environmental sensors, and then, based on their own position, place this environmental information into the correct spatial locations to build a map.</p>
+<p>The map used internally by the robot is not necessarily identical to the map displayed to the user in the App. Depending on different functions, the system may simultaneously maintain the boundaries of the working area, obstacle information, navigable areas, restricted zones, and the internal map for Navigation.</p>
+<p>A common map representation is <strong>Grid Map</strong>. The system divides the environment into numerous small grids, each of which can be marked as Free, Occupied or Unknown, meaning "traversable", "obstacle-present" or "unconfirmed" respectively. The robot can then determine which areas are passable based on this information.</p>
+<p>Navigation also frequently utilizes <strong>Cost Map</strong>. Instead of simply dividing the space into "traversable" and "untraversable", it assigns different traversal costs to various regions. For instance, the location of an obstacle is impassable, while areas close to obstacles, though passable, carry higher risks and thus incur higher costs. Navigation can leverage this information to select a safer route.</p>
+<h2 id="22-basic-principles-of-slam">2.2 Basic Principles of SLAM</h2>
+<p>The full name of SLAM is <strong>Simultaneous Localization and Mapping</strong>, which refers to simultaneous localization and mapping. It addresses the problem of mutual dependence between localization and mapping: building an accurate map requires knowing the robot's position, while using the environment for localization in turn requires a map as a reference.</p>
+<p>The basic working process of SLAM can be simply understood as follows: as the robot moves, the camera or LiDAR continuously observes the surrounding environment; the system compares the environmental changes observed in two consecutive observations, and meanwhile combines motion information such as IMU and wheel odometry to estimate where the robot has moved from its previous position; then it adds the new environmental information to the map and keeps updating the robot's position.</p>
+<p>Therefore, it can be simply expressed as follows:</p>
+<p><strong>Robot Motion + Sensor Observation → Pose Estimation → Map Update</strong></p>
+<p>For example, when a robot sees a tree for the first time, it will record the position of the tree relative to the robot. When the robot continues to move and sees the tree again from another angle, it can further judge its own movement by comparing environmental features and correcting the positional relationship in the map.</p>
+<h2 id="23-visual-slam-lidar-slam">2.3 Visual SLAM \&amp; LiDAR SLAM</h2>
+<p>Depending on the main environmental sensors used, SLAM can take different forms.</p>
+<p><strong>Visual SLAM </strong>primarily uses cameras to determine a robot's motion by comparing environmental features across consecutive images. For instance, when the position of the same stationary object shifts in successive frames, the system can leverage this change to estimate the motion of both the camera and the robot.</p>
+<p><strong>LiDAR SLAM </strong>leverages laser ranging to acquire the distance and geometric contour of the surrounding environment, and compares the scan results obtained by the robot at different positions. If identical walls, trees or other structures exist in the two scans, the system can estimate how the robot has moved based on these geometric relationships.</p>
+<p>The two solutions have their respective characteristics: Camera can obtain rich visual and semantic information, but it is susceptible to the influence of lighting, stains and changes in environmental appearance; LiDAR can directly acquire distance and geometric information, and is generally insensitive to lighting changes, yet it may also be affected by the environmental structure, occlusion and sensor operating conditions.</p>
+<p>There are also different positioning methods when combined with RTK:</p>
+<h3 id="rtkvisionrtklidar">RTK+Vision/RTK+Lidar</h3>
+<p>It relies on the VIO visual-inertial odometry, and the error can be as low as only 1%.</p>
+<p>VIO: By fusing data from cameras and inertial measurement units (IMUs), it calculates the continuous displacement and attitude changes of a robot over short periods in real time</p>
+<p>SLAM: It refers to the technology of constructing a map of the surrounding environment while determining the robot's current position on the map based on sensor data.</p>
+<p>Lidar is mainly used for extending the lifespan of the system, and it can generally cover a distance of around 60 meters.</p>
+<h3 id="visionrtk">Vision+RTK</h3>
+<p><strong>Visual-only localization: </strong>it will lead to the problem that the robot cannot work at night (around sunset), and since visual localization requires a large number of stored memory points, the storable map area will be relatively smaller accordingly.</p>
+<p>When paired with RTK, it can expand the working area, support nighttime operations, and reduce memory pressure.</p>
+<p>In scenarios where visual positioning fails (such as in forests and open areas), RTK can function as a repositioning solution.</p>
+<p>(When a robot is in an open environment, visual localization only provides a single viewing angle, so the robot rotates to supplement the field of view.)</p>
+<h3 id="lidarrtk">Lidar+RTK</h3>
+<p>If the robot simply relies on LiDAR for positioning, it will easily encounter problems such as getting stuck, being unable to move, and being unable to re-localize.</p>
+<p>Due to the forward-tilted installation, the radar does not achieve full 360-degree coverage, which will also trigger a rotation action.</p>
+<h2 id="24-drift-loop-closure">2.4 Drift \&amp; Loop Closure</h2>
+<p>An important concept in SLAM is <strong>Drift</strong>. Every time a robot moves, there is a very small error in its position estimation. If the robot continues to operate, these small errors may gradually accumulate, resulting in a deviation between the position the robot perceives and its actual position.</p>
+<p>To reduce such cumulative errors, SLAM can leverage <strong>Loop Closure</strong>. For example, after a robot travels around a garden and returns to a location it has passed by earlier, if the system recognizes that "this is a place we have been to before", it can use this known correspondence to correct the previously accumulated errors in position and map.</p>
+<p>Therefore, SLAM does not simply and continuously add new environmental information to the map; instead, it is an ongoing <strong>observation → localization → mapping → reconfirmation → correction </strong>process.</p>
+<h1 id="navigation-obstacle-avoidance">Navigation \&amp; Obstacle Avoidance</h1>
+<h2 id="31-basic-principles-of-navigation">3.1 Basic Principles of Navigation</h2>
+<p>When a robot knows its own position and has a map, it needs to decide <strong>"how to get from the current position to the target position"</strong>, and Navigation is responsible for completing this process.</p>
+<p>Navigation typically requires several basic inputs: <strong>Current Pose, Target Position, Map, and Real-Time Obstacle Information</strong>. The system calculates a traversable path based on these inputs, and further converts the path into steering and movement commands that the robot can actually execute.</p>
+<p>Therefore, it can be simply understood as follows:</p>
+<p><strong>Current Position + Target + Map → Path Planning → Motion Command</strong></p>
+<p>For robotic lawn mowers, Navigation is not only used to travel from point A to point B, but also covers the movement from the charging station to the working area, transitions between different Zones, and the return trip once the task is completed.</p>
+<h2 id="32-global-planning-local-planning">3.2 Global Planning \&amp; Local Planning</h2>
+<p>Navigation can generally be divided into two layers: <strong>Global Planning and Local Planning</strong>.</p>
+<p>The Global Planner calculates the general direction from the current position to the target position based on the overall map. For example, when a robot needs to move from the front yard to the backyard, the Global Planner will determine the overall route according to boundaries, restricted areas and known obstacles.</p>
+<p>The Local Planner is responsible for the actual movement of the robot in its current vicinity. Even if the Global Path has been determined, people, pets or temporary objects may still suddenly appear in the real environment, so the robot needs to continuously adjust its short-distance movement according to real-time perception results.</p>
+<p>It can be simply understood as:</p>
+<p><strong>Global Planner: What's the overall direction we should take?</strong></p>
+<p><strong>Local Planner: How exactly to navigate these few meters right ahead.</strong></p>
+<p>The combined effect of the two enables the robot to not only operate in accordance with the overall task, but also adapt to real-time environmental changes.</p>
+<h2 id="33-coverage-planning">3.3 Coverage Planning</h2>
+<p>For robotic lawn mowers, another extremely important concept is <strong>Coverage Path Planning</strong>. While the goal of standard navigation is to move from point A to point B, the objective of coverage planning is to <strong>cover the entire working area as completely and efficiently as possible</strong>.</p>
+<p>For example, the common Zigzag Pattern is essentially a type of coverage strategy. The algorithm needs to comprehensively take into account factors such as the shape of the working area, the width of the robot, the path spacing, the boundaries, and the turning space to generate the operation route.</p>
+<p>Therefore, the question "why didn't the mowing robot strictly follow the sequence 1→2→3 to mow the lawn" does not necessarily indicate a path error. The system may readjust the execution order based on turning radius, remaining unmown area, path efficiency or real-time environment, and as long as the final goal of Coverage is met, such adjustment may still be a normal planning behavior.</p>
+<h2 id="34-obstacle-detection-obstacle-avoidance">3.4 Obstacle Detection \&amp; Obstacle Avoidance</h2>
+<p>Obstacle Detection and Obstacle Avoidance are two related yet distinct concepts. <strong>Obstacle Detection </strong>addresses the question of "whether there is an object ahead and where it is", while <strong>Obstacle Avoidance </strong>deals with "what the robot should do after detecting such an object".</p>
+<p>Cameras, LiDAR, ultrasonic sensors, ToF sensors, bumpers and other devices can all provide obstacle information. After the system obtains the position and distance of obstacles, it needs to make decisions by combining the robot's speed, direction, available space and original path.</p>
+<p>Therefore:</p>
+<p><strong>Sensor → Obstacle Detection → Environment Understanding → Avoidance Decision → Motion Adjustment</strong></p>
+<p>Instead of performing the same action whenever any object is detected, the robot may choose to decelerate, stop, detour or re-plan its path depending on the specific situation.</p>
+<h2 id="35-static-dynamic-obstacles">3.5 Static \&amp; Dynamic Obstacles</h2>
+<p>Obstacles can also be categorized into <strong>Static Obstacles and Dynamic Obstacles</strong>. The positions of trees, walls and fixed flower beds generally remain unchanged for a long time, so they can be regarded as part of the map; while people, pets or temporarily placed items may move at any time, thus their processing mainly relies on real-time environment perception.</p>
+<p>This is also why robots typically require both <strong>Map + Real-Time Perception</strong>: the map tells the robot "what is usually here", while real-time perception tells it "what is actually here right now".</p>
+<p>When the robot detects a temporary obstacle, the Local Planner can temporarily modify the current path; after the obstacle disappears, the robot can resume the original task without permanently modifying the entire base map.</p>
+<h1 id="docking-recharge-docking">Docking Recharge \&amp; Docking</h1>
+<h2 id="41-basic-principles-of-docking">4.1 Basic Principles of Docking</h2>
+<p>The goal of Docking (recharging docking) is to enable the robot to autonomously return to the charging pile and complete the final precise docking when it finishes work or needs to be charged. Different from ordinary Navigation, returning to the pile not only requires the robot to "arrive near the charging pile", but also requires the robot to enter the charging pile with sufficiently accurate position and orientation. Therefore, the entire process of returning to the pile can be divided into two main stages: <strong>Recahrging (recharging) and Docking (docking to the pile)</strong>.</p>
+<p>The overall logic can be simply expressed as follows:</p>
+<p><strong>Localization \&amp; Navigation → Recharging → Within 5 m of Charging Station → Infrared Guidance → Fine Alignment → Docking</strong></p>
+<p>Different information is adopted in the two stages to accomplish tasks with different precisions: the positioning and navigation system is first responsible for bringing the robot to the vicinity of the charging pile, and then the infrared guidance takes charge of the precise docking in the final stage.</p>
+<h2 id="42-recharging">4.2 Recharging</h2>
+<p>When a robot needs to be charged, it first enters the <strong>Recharging </strong>process. The system uses the current <strong>Localization information, Map and Charging Station Position </strong>to plan the route back to the charging pile.</p>
+<p>Essentially, this phase still falls under Navigation:</p>
+<p><strong>Robot Position + Charging Station Position → Path Planning → Navigation → Approach Charging Station</strong></p>
+<p>At this point, the system mainly addresses the following questions:<strong>"Where am I? ", "Where is the charging pile? ", and "How should I get back? "</strong></p>
+<p>The robot does not need to directly detect the charging contacts throughout the entire return process; instead, it first relies on Localization and Navigation to return to the vicinity of the Charging Station.</p>
+<p>In the current product logic, when the robot enters a range approximately <strong>5 m </strong>from the Charging Station, it can further enter the close-range Docking Guidance phase via <strong>Infrared Guidance</strong>.</p>
+<p>Therefore, if the robot is completely unable to return to the vicinity of the Charging Station, priority should be given to <strong>Localization, Map, Charging Station Position and Navigation</strong>, rather than initially diagnosing it as an Infrared Guidance or Charging Hardware issue.</p>
+<h2 id="43-docking">4.3 Docking</h2>
+<p>After the robot has returned to the vicinity of the Charging Station, the system needs to further complete <strong>Docking</strong>.</p>
+<p>The problems addressed in this phase have shifted away from:<strong>"Where is the Charging Station located? "</strong></p>
+<p>Transformed into:<strong>"At what position and orientation should I enter the Charging Station? "</strong></p>
+<p>When the robot enters a range of approximately <strong>5 m</strong>, it can further identify the direction of the <strong>Infrared Guidance </strong>to further recognize the direction of the Charging Station, and adjust its own movement so that the robot can correctly enter the charging pile.</p>
+<p>It can be simply understood as: <strong>Localization \&amp; Navigation → Bring Robot Near the Station</strong></p>
+<p>随后：<strong>Infrared Guidance → Approach \&amp; Alignment → Docking</strong></p>
+<p>Therefore, Localization / Navigation mainly addresses the return problem in a relatively large range, while Infrared Guidance mainly solves the short-range guidance issue after approaching the Charging Station.</p>
+<h2 id="44-charging">4.4 Charging</h2>
+<p><strong>After Docking is completed, the robot still needs to establish a valid Charging Connection before it can truly enter the Charging state.</strong></p>
+<p>Therefore: <strong>Docked ≠ Charging</strong></p>
+<p>The fact that the robot has physically entered the Charging Station does not necessarily mean that charging has been successfully completed.</p>
+<p>The normal process can be simply understood as follows:</p>
+<p><strong>Docking → Charging Contact Established → Charging Detected → Charging Starts</strong></p>
+<p><strong>This phase involves the physical contact and electrical connection between the robot and the Charging Station. The robot can only enter the normal Charging State after the charging contacts are properly connected and the system detects valid charging conditions.</strong></p>
+<p>Therefore, if the robot can return normally and complete the docking to the charging pile, but ultimately fails to start charging, then Localization, Navigation, and Infrared Guidance have most likely completed their respective tasks. At this point, the scope of the problem should be further shifted to:</p>
+<p><strong>Charging Contact / Charging Station / Power Supply / Charging Detection / Charging Circuit</strong></p>
+<p>and other charging-related processes.</p>
+<h2 id="45-obstacle-avoidance-logic-for-docking-area">4.5 Obstacle Avoidance Logic for Docking Area</h2>
+<p>After the robot approaches the charging pile, <strong>Obstacle Avoidance is disabled by default</strong>. This is a key difference between the charging docking process and standard Navigation.</p>
+<p>During normal operation, the robot needs to identify obstacles via its perception system and then stop or detour accordingly. However, the actual installation environment around the charging pile may be rather special; for example, users may add shelter structures similar to "dog houses" or other protective facilities outside the charging pile. If the robot still operates following the obstacle avoidance logic for ordinary working areas when near the charging pile, these structures may be recognized as obstacles, which will consequently prevent the robot from entering or leaving the charging pile properly.</p>
+<p>Therefore, disabling the conventional obstacle avoidance function near the charging pile is to ensure that the robot can complete the actions of leaving and returning to the charging pile in accordance with the established Docking Logic, without having the obstacle avoidance triggered repeatedly by the fixed structures around the charging pile.</p>
+<p>This also means that <strong>the Docking Area follows different motion and safety logics from regular work areas</strong>. When installing the charging pile, it is still necessary to ensure that there is space suitable for the robot to enter and exit near the charging pile in accordance with the product requirements.</p>
+<h1 id="algorithm-system-summary-relationships-between-the-four-modules">Algorithm System Summary - Relationships Between the Four Modules</h1>
+<p>Localization, Mapping \&amp; SLAM, Navigation \&amp; Obstacle Avoidance, and Docking are not four mutually independent functions; instead, they share information on localization, maps and environmental perception to jointly form the closed loop of autonomous operation for robots.</p>
+<p><strong>Localization </strong>serves as the foundation of the entire system, which is responsible for continuously determining the robot's position and motion status. Depending on the specific product, the robot can integrate various types of information including RTK / NetRTK, Vision, LiDAR, IMU, and Wheel Odometry to perform localization. As products iterate, the localization method has gradually evolved from being dominated by a single RTK to multi-sensor fusion, enabling the robot to utilize different localization information according to varying environmental conditions to maintain continuous and stable position estimation.</p>
+<p><strong>Mapping \&amp; SLAM </strong>further builds the robot's spatial understanding of the surrounding environment based on localization. The robot observes the environment using perceptual information such as Vision and LiDAR, and constructs or updates a map in combination with its own position; meanwhile, visual or geometric features in the environment can in turn assist the robot in localization and Re-localization. Therefore, Localization and SLAM do not have a completely unidirectional relationship, but rather provide mutual information and corrections for each other.</p>
+<p>After obtaining <strong>Robot Pose + Map + Real-Time Perception</strong>, <strong>Navigation \&amp; Obstacle Avoidance </strong>determines how the robot will move next. Navigation performs path and coverage planning based on the current position, target position and map, while Obstacle Avoidance uses real-time perception information to handle temporarily emerging obstacles.With the development of product algorithms, the planning and control method can also evolve from <strong>Static Planning </strong>that mainly relies on fixed maps, to <strong>Dynamic Planning </strong>that integrates real-time positioning and environment perception information, so as to adjust the internal dynamic map and local boundaries during operation, and improve the coverage rate and operation continuity in complex environments.</p>
+<p>When the robot completes its task or needs to be charged, the system initiates the <strong>recharging process</strong>. First, via <strong>Recharging</strong>, the system continues to leverage Localization, Map and Navigation to guide the robot from its current position back to the vicinity of the Charging Station.When the robot enters the area approximately <strong>5 meters </strong>from the Charging Station, the system further proceeds to the <strong>Docking </strong>phase, and completes short-range orientation judgment, position adjustment and final docking via <strong>Infrared Guidance</strong>. Near the Charging Station, the robot adopts dedicated Docking Logic and disables conventional obstacle avoidance by default, so as to prevent the Charging Station and its surrounding fixed structures from blocking the robot's normal undocking or docking process.</p>
+<p>After successful docking, the robot further needs to establish a valid charging connection and enter the <strong>Charging </strong>status. Therefore, <strong>docking and charging are two distinct concepts</strong>: docking addresses whether the robot can correctly access the charging station, while charging addresses whether the robot can establish a valid physical and electrical connection and start charging after being positioned on the charging station.</p>
+<p>Therefore, from the perspective of the information flow of the entire autonomous robot operation, the relationship among the four main algorithm modules can be summarized as follows:</p>
+<p><strong>Sensors → Localization / SLAM → Robot Pose + Map → Navigation \&amp; Obstacle Avoidance → Motion → Sensor Feedback</strong></p>
+<p>When the robot needs to return for charging, it will further enter:</p>
+<p><strong>Localization \&amp; Navigation → Recharging → Near Charging Station (\~5 m) → Infrared Guidance → Docking → Charging Connection → Charging</strong></p>
+<p>It should be noted that this is not a strictly unidirectional process, but a closed loop of continuous feedback and correction. For example, environment perception can help SLAM and Localization update the position, the new localization result will affect Navigation, and the motion generated by Navigation will in turn bring new Sensor Data, thereby updating the localization and map again. During the recharging process, the position and status of the robot will also change continuously, which will affect the subsequent Recharging and Docking behaviors.</p>
+<p>Understanding such <strong>upstream and downstream dependencies </strong>is particularly important, because the anomalies ultimately exhibited by a robot do not necessarily stem from the malfunctioning function itself. For instance, path deviation may arise from positioning errors, abnormal detours may originate from environment perception or planning and control logic, while issues related to automatic charging can be further divided into three stages:</p>
+<p><strong>Failure to return to the vicinity of the Charging Station → Recharging / Localization / Navigation</strong></p>
+<p><strong>Returned to the vicinity but unable to dock → Docking / Infrared Guidance</strong></p>
+<p><strong>Successfully connected to the charging pile but unable to start charging → Charging Connection / Charging System</strong></p>
+<p>Therefore, when troubleshooting issues, you can follow the steps below:</p>
+<p><strong>Sensor Input → Localization / Map → Planning → Recharging → Docking → Charging</strong></p>
+<p>Gradually determine which functional phase the abnormality occurs in, so as to avoid classifying all problems of "failure to recharge normally" as Docking Failure.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "search.suggest", "search.highlight", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
