@@ -1042,7 +1042,7 @@
 
 <h1 id="algorithm-principle-knowledge">Algorithm Principle Knowledge</h1>
 <p>The robot algorithm system is responsible for converting the information acquired by sensors into motion decisions that the robot can execute, enabling the robot to autonomously complete positioning, environment understanding, path planning, obstacle avoidance, and automatic recharging. A typical autonomous movement process can be understood as follows: the robot first determines its own status through information such as GNSS/RTK, IMU, Camera, and wheel speed, and obtains its own position and environment map via Localization and SLAM; Navigation calculates the travel route based on the current position, target position and the map;Obstacle Avoidance dynamically adjusts the route based on real-time environmental information; when the task is completed or the battery level is low, the Docking system is responsible for guiding the robot to return and accurately dock at the charging station. Therefore, the algorithm modules can be divided into <strong>Localization, Mapping \&amp; SLAM, Navigation \&amp; Obstacle Avoidance, and Docking </strong>four main sections.
-(../assets/pk/a1.png)</p>
+<img alt="" src="../../assets/pk/a1.png" /></p>
 <h1 id="product-algorithm-and-hardware-iteration">Product Algorithm and Hardware Iteration</h1>
 <table>
 <thead>
